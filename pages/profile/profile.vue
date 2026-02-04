@@ -6,12 +6,16 @@
 		<view class="content" :style="{ paddingTop: navBarHeight + 'px' }">
 			<!-- 用户信息区 (渐变背景) -->
 			<view class="user-section">
-				<view class="user-header" @tap="navigateToLogin">
+				<view class="user-header" @tap="handleUserClick">
 					<view class="avatar-box">
-						<uni-icons type="person-filled" size="32" color="#999"></uni-icons>
+						<image v-if="isLogin && userInfo.avatar_url" :src="userInfo.avatar_url" class="avatar-img"></image>
+						<uni-icons v-else type="person-filled" size="32" color="#999"></uni-icons>
 					</view>
 					<view class="user-info">
-						<text class="login-btn">登录/注册</text>
+						<text v-if="!isLogin" class="login-btn">登录/注册</text>
+						<block v-else>
+							<text class="user-name">{{ userInfo.nickname || '微信用户' }}</text>
+						</block>
 					</view>
 				</view>
 
@@ -122,21 +126,52 @@
 					{ label: "等级标准", icon: "star-filled", color: "#a855f7" },
 					{ label: "收货地址", icon: "location-filled", color: "#ec4899" },
 					{ label: "投诉建议", icon: "help-filled", color: "#6366f1" }
-				]
+				],
+				isLogin: false,
+				userInfo: {}
 			};
+		},
+		onShow() {
+			this.checkLoginStatus();
 		},
 		onLoad() {
 			const systemInfo = uni.getSystemInfoSync();
 			this.navBarHeight = systemInfo.statusBarHeight + 44;
 		},
 		methods: {
+			checkLoginStatus() {
+				const token = uni.getStorageSync('token');
+				const userInfo = uni.getStorageSync('userInfo');
+				if (token && userInfo) {
+					this.isLogin = true;
+					this.userInfo = userInfo;
+				} else {
+					this.isLogin = false;
+					this.userInfo = {};
+				}
+			},
 			handleContact() {
 				uni.showToast({ title: '连接客服中...', icon: 'none' });
 			},
-			navigateToLogin() {
-				uni.navigateTo({
-					url: '/pages/login/login'
-				});
+			handleUserClick() {
+				if (!this.isLogin) {
+					uni.navigateTo({
+						url: '/pages/login/login'
+					});
+				} else {
+					// 已登录可以跳转到个人资料编辑页（后续开发）
+					uni.showActionSheet({
+						itemList: ['退出登录'],
+						success: (res) => {
+							if (res.tapIndex === 0) {
+								uni.removeStorageSync('token');
+								uni.removeStorageSync('userInfo');
+								this.checkLoginStatus();
+								uni.showToast({ title: '已退出登录', icon: 'none' });
+							}
+						}
+					});
+				}
 			}
 		}
 	}
@@ -166,12 +201,36 @@
 					align-items: center;
 					justify-content: center;
 					margin-right: 30rpx;
+					overflow: hidden;
+
+					.avatar-img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				.user-info {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
 				}
 
 				.login-btn {
 					font-size: 32rpx;
 					font-weight: 500;
 					color: #333;
+				}
+
+				.user-name {
+					font-size: 36rpx;
+					font-weight: 700;
+					color: #1a1a1a;
+					margin-bottom: 8rpx;
+				}
+
+				.user-title {
+					font-size: 24rpx;
+					color: #717182;
 				}
 			}
 

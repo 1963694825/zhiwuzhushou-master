@@ -6,3 +6,6 @@ dist/
 dev/
 *.log
 .DS_Store
+.env
+server/node_modules/
+server/.env

@@ -8,7 +8,7 @@
 			<!-- Logo和标题区域 -->
 			<view class="header-section">
 				<view class="logo-box">
-					<uni-icons type="flower" size="40" color="#FFFFFF"></uni-icons>
+					<image src="/static/1.png" mode="aspectFit" class="logo-img"></image>
 				</view>
 				<text class="title">植物百科</text>
 				<text class="subtitle">探索大自然的奥秘</text>
@@ -17,9 +17,16 @@
 			<!-- 搜索区 (如果导航栏没有搜索，或者作为页面的主要入口) -->
 			<!-- 根据 Figma 源码及通常小程序逻辑，首页中间也有个搜索入口 -->
 			<view class="search-section">
-				<view class="search-bar" @tap="navigateToSearch">
+				<view class="search-bar">
 					<uni-icons type="search" size="20" color="#717182"></uni-icons>
-					<text class="placeholder">搜索植物名称，例如：兰花</text>
+					<input 
+						type="text" 
+						v-model="searchKeyword" 
+						placeholder="搜索植物名称，例如：兰花" 
+						class="search-input"
+						confirm-type="search"
+						@confirm="onSearch"
+					/>
 					<view class="camera-btn" @tap.stop="handleCamera">
 						<uni-icons type="camera-filled" size="20" color="#030213"></uni-icons>
 					</view>
@@ -94,7 +101,8 @@
 						image: "https://images.unsplash.com/photo-1763784436630-629fd9a4e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdWNjdWxlbnQlMjBjYWN0dXMlMjBwb3R0ZWQlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
 						badge: "推荐"
 					}
-				]
+				],
+				searchKeyword: ''
 			};
 		},
 		onLoad() {
@@ -111,9 +119,11 @@
 			// #endif
 		},
 		methods: {
-			navigateToSearch() {
+			onSearch() {
+				if (!this.searchKeyword.trim()) return;
+				console.log('搜索中:', this.searchKeyword);
 				uni.navigateTo({
-					url: '/pages/search/search'
+					url: `/pages/search/search?keyword=${this.searchKeyword}`
 				});
 			},
 			handleCamera() {
@@ -163,17 +173,21 @@
 			padding: 60rpx 0 40rpx;
 
 			.logo-box {
-				width: 160rpx;
-				height: 160rpx;
-				background: $green-gradient;
-				border-radius: 40rpx;
+				width: 320rpx; // 宽度加倍
+				height: 120rpx; // 高度降低，形成长方形
+				background: transparent; // 去掉背景
+				border: 2rpx solid #e5e7eb; // 添加细边框
+				border-radius: 16rpx; // 调小圆角
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				box-shadow: 0 10rpx 20rpx rgba(22, 163, 74, 0.2);
 				margin-bottom: 30rpx;
-			}
+				overflow: hidden;
 
+				.logo-img {
+					width: 90%;
+					height: 90%;
+			}
 			.title {
 				font-size: 42rpx;
 				font-weight: 600;
@@ -200,10 +214,10 @@
 				padding: 0 30rpx;
 				box-shadow: 0 4rpx 10rpx rgba(0,0,0,0.02);
 
-				.placeholder {
+				.search-input {
 					flex: 1;
 					font-size: 28rpx;
-					color: $text-color-placeholder;
+					color: #333;
 					margin-left: 20rpx;
 				}
 

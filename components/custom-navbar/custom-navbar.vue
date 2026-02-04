@@ -2,13 +2,19 @@
 	<view class="navbar-container" :style="{ height: navBarHeight + 'px', backgroundColor: bgColor }">
 		<view class="status-bar" :style="{ height: statusBarHeight + 'px' }"></view>
 		<view class="nav-content" :style="{ height: contentHeight + 'px' }">
+			<!-- 左侧返回区域 -->
 			<view class="left-slot" v-if="showBack" @tap="goBack">
 				<uni-icons type="left" size="24" :color="iconColor"></uni-icons>
 			</view>
-			<view class="center-content" :class="{ 'has-left': showBack }">
-				<slot>
-					<text class="title" :style="{ color: titleColor }">{{ title }}</text>
-				</slot>
+			
+			<!-- 中间插槽区域 (Flex 伸缩，用于搜索框等) -->
+			<view class="center-slot">
+				<slot></slot>
+			</view>
+
+			<!-- 标题层 (绝对定位，物理居中) -->
+			<view v-if="title" class="title-container">
+				<text class="title-text" :style="{ color: titleColor }">{{ title }}</text>
 			</view>
 		</view>
 	</view>
@@ -88,28 +94,40 @@
 			width: 100%;
 			display: flex;
 			align-items: center;
-			padding: 0 30rpx;
+			padding: 0; // 移除全局 padding，改为在 slot 里控制，确保 title 定位基准是全屏
 			position: relative;
 			
 			.left-slot {
+				width: 100rpx; // 给个固定或最小宽度
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				margin-right: 20rpx;
+				position: relative;
+				z-index: 10;
 			}
 			
-			.center-content {
+			.center-slot {
 				flex: 1;
 				display: flex;
 				align-items: center;
+				height: 100%;
+				padding: 0 30rpx; // 将 padding 移动到这里，确保搜索框不会贴边
+				position: relative;
+				z-index: 5;
+			}
+
+			.title-container {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				pointer-events: none;
+				z-index: 1;
 				
-				&.has-left {
-					// 如果有返回按钮，标题可能需要偏移或居中
-				}
-				
-				.title {
+				.title-text {
 					font-size: 34rpx;
 					font-weight: 500;
+					white-space: nowrap;
 				}
 			}
 		}

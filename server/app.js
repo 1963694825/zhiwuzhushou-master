@@ -65,7 +65,36 @@ app.post('/api/login', async (req, res) => {
     }
 });
 
-// 启动服务
-app.listen(PORT, () => {
+// 更新用户信息接口（头像和昵称）
+app.post('/api/user/update', async (req, res) => {
+    const { nickname, avatar_url } = req.body;
+    const token = req.headers.authorization?.split(' ')[1];
+
+    if (!token) {
+        return res.json({ code: 401, msg: '未登录' });
+    }
+
+    try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        const userId = decoded.userId;
+
+        await db.query(
+            'UPDATE users SET nickname = ?, avatar_url = ? WHERE id = ?',
+            [nickname, avatar_url, userId]
+        );
+
+        res.json({
+            code: 200,
+            msg: '更新成功',
+            data: { nickname, avatar_url }
+        });
+    } catch (err) {
+        console.error('Update Profile Error:', err);
+        res.json({ code: 500, msg: '服务器错误' });
+    }
+});
+
+// 启动服务，显式绑定 0.0.0.0 以确保 IPv4 兼容性
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`服务已启动，监听端口: ${PORT}`);
 });
