@@ -102,7 +102,8 @@
 						badge: "推荐"
 					}
 				],
-				searchKeyword: ''
+				searchKeyword: '',
+				baseUrl: 'http://192.168.110.204:9000'
 			};
 		},
 		onLoad() {
@@ -127,10 +128,62 @@
 				});
 			},
 			handleCamera() {
-				uni.showToast({ title: '相机功能开发中', icon: 'none' });
+				console.log('触发了搜索栏相机图标点击');
+				this.selectImage();
 			},
 			handleAction(item) {
-				console.log('点击了', item.label);
+				console.log('触发了快捷菜单点击:', item.label);
+				if (item.label === '花草识别') {
+					this.selectImage();
+				} else {
+					uni.showToast({ title: `${item.label}功能开发中`, icon: 'none' });
+				}
+			},
+			selectImage() {
+				uni.chooseImage({
+					count: 1,
+					sizeType: ['compressed'],
+					sourceType: ['album', 'camera'],
+					success: (res) => {
+						const tempFilePaths = res.tempFilePaths;
+						this.uploadAndIdentify(tempFilePaths[0]);
+					}
+				});
+			},
+
+			uploadAndIdentify(filePath) {
+				uni.showLoading({ title: 'AI 识别中...', mask: true });
+				
+				uni.uploadFile({
+					url: this.baseUrl + '/api/identify/plant',
+					filePath: filePath,
+					name: 'image',
+					success: (uploadRes) => {
+						uni.hideLoading();
+						try {
+							const data = JSON.parse(uploadRes.data);
+							if (data.code === 200) {
+								// 跳转到结果页，传递识别数据
+								uni.navigateTo({
+									url: '/pages/identify/result?data=' + encodeURIComponent(JSON.stringify(data.data)) + '&image=' + encodeURIComponent(filePath)
+								});
+							} else {
+								uni.showToast({ title: data.message || '识别失败', icon: 'none' });
+							}
+						} catch (e) {
+							console.error('解析响应失败:', e);
+							uni.showToast({ title: '服务器响应异常', icon: 'none' });
+						}
+					},
+					fail: (err) => {
+						uni.hideLoading();
+						console.error('上传失败详情:', err);
+						uni.showToast({ 
+							title: '请检查网络连接', 
+							icon: 'none'
+						});
+					}
+				});
 			}
 		}
 	}
@@ -140,26 +193,6 @@
 	.home-page {
 		min-height: 100vh;
 		background-color: #ffffff;
-
-		.navbar-search {
-			flex: 1;
-			height: 64rpx;
-			background-color: #f3f3f5;
-			border-radius: 32rpx;
-			display: flex;
-			align-items: center;
-			padding: 0 20rpx;
-			margin-right: 200rpx; // 避开胶囊
-
-			.placeholder {
-				font-size: 24rpx;
-				color: #999;
-				margin-left: 10rpx;
-				overflow: hidden;
-				white-space: nowrap;
-				text-overflow: ellipsis;
-			}
-		}
 
 		.content {
 			display: flex;
@@ -173,11 +206,11 @@
 			padding: 60rpx 0 40rpx;
 
 			.logo-box {
-				width: 320rpx; // 宽度加倍
-				height: 120rpx; // 高度降低，形成长方形
-				background: transparent; // 去掉背景
-				border: 2rpx solid #e5e7eb; // 添加细边框
-				border-radius: 16rpx; // 调小圆角
+				width: 320rpx;
+				height: 120rpx;
+				background: transparent;
+				border: 2rpx solid #e5e7eb;
+				border-radius: 16rpx;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -187,7 +220,9 @@
 				.logo-img {
 					width: 90%;
 					height: 90%;
+				}
 			}
+
 			.title {
 				font-size: 42rpx;
 				font-weight: 600;

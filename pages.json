@@ -36,6 +36,13 @@
 				"navigationStyle": "custom",
 				"navigationBarTextStyle": "black"
 			}
+		},
+		{
+			"path": "pages/identify/result",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "识别结果"
+			}
 		}
 	],
 	"globalStyle": {
