@@ -124,7 +124,7 @@
 				if (!this.searchKeyword.trim()) return;
 				console.log('搜索中:', this.searchKeyword);
 				uni.navigateTo({
-					url: `/pages/search/search?keyword=${this.searchKeyword}`
+					url: `/pages/search/search?q=${this.searchKeyword}`
 				});
 			},
 			handleCamera() {

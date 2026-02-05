@@ -308,6 +308,91 @@ app.post('/api/identify/plant', upload.single('image'), async (req, res) => {
     }
 });
 
+// Trefle 植物搜索接口 (代理转发)
+app.get('/api/plants/search', async (req, res) => {
+    const query = req.query.q;
+    const token = process.env.TREFLE_API_TOKEN;
+
+    if (!query) {
+        return res.status(400).json({ code: 400, message: '缺少搜索关键词' });
+    }
+
+    if (!token || token === '你的TREFLE_TOKEN') {
+        // 如果未配置 Token，返回演示数据
+        console.log('未配置 Trefle Token，返回本地演示搜索结果');
+        const mockResults = [
+            {
+                common_name: "Mock " + query + " (演示)",
+                scientific_name: "Mock Scientific Name",
+                image_url: "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=800&q=80",
+                family: "Mock Family"
+            },
+            {
+                common_name: "Wild " + query,
+                scientific_name: "Wildus Plantae",
+                image_url: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80",
+                family: "Wild Family"
+            }
+        ];
+        return res.json({
+            code: 200,
+            message: '演示数据(主要Token未配置)',
+            data: mockResults
+        });
+    }
+
+    const logMsg = `\n[${new Date().toISOString()}] Search: ${query}, Token: ${token ? token.substring(0, 4) : 'Null'}\n`;
+    fs.appendFileSync('debug.log', logMsg);
+
+    console.log(`正在搜索 Trefle: ${query}`);
+    console.log(`Token Prefix: ${token ? token.substring(0, 4) + '****' : 'None'}`);
+
+    const options = {
+        hostname: 'trefle.io',
+        path: `/api/v1/plants/search?token=${token}&q=${encodeURIComponent(query)}`,
+        method: 'GET',
+        family: 4
+    };
+
+    const externalReq = https.request(options, (externalRes) => {
+        let data = '';
+        externalRes.on('data', (chunk) => data += chunk);
+        externalRes.on('end', () => {
+            console.log(`Trefle Status: ${externalRes.statusCode}`);
+            try {
+                const json = JSON.parse(data);
+
+                // [DEBUG] 如果状态码不对或有 error 字段，打印详细日志
+                if (externalRes.statusCode !== 200 || json.error) {
+                    console.error('Trefle API Error Response:', data);
+                    return res.status(externalRes.statusCode).json({
+                        code: externalRes.statusCode,
+                        message: json.message || 'Trefle API Error',
+                        error: json
+                    });
+                }
+
+                console.log(`Trefle 搜索成功，找到 ${json.data ? json.data.length : 0} 条结果`);
+                res.json({
+                    code: 200,
+                    data: json.data || []
+                });
+            } catch (e) {
+                console.error('Trefle 响应解析失败:', e);
+                console.error('原始响应数据:', data);
+                res.status(500).json({ code: 500, message: '第三方数据异常' });
+            }
+        });
+    });
+
+    externalReq.on('error', (e) => {
+        console.error('Trefle 请求失败:', e);
+        res.status(500).json({ code: 500, message: '搜索服务暂时不可用' });
+    });
+
+    externalReq.end();
+});
+
 // 启动服务，显式绑定 0.0.0.0 以确保 IPv4 兼容性
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`服务已启动，监听端口: ${PORT}`);

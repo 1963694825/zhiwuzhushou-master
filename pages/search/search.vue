@@ -42,55 +42,71 @@
 				query: '',
 				category: '搜索结果',
 				varieties: [],
-				plantData: {
-					"兰花": [
-						{
-							name: "蝴蝶兰",
-							latinName: "Phalaenopsis",
-							image: "https://images.unsplash.com/photo-1694903734775-d7fb295f4e00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmNoaWQlMjBmbG93ZXIlMjBpbmRvb3IlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-							description: "花形优美，色彩艳丽，是最受欢迎的兰花品种之一"
-						},
-						{
-							name: "鬼兰",
-							latinName: "Dendrophylax lindenii",
-							image: "https://images.unsplash.com/photo-1694903734775-d7fb295f4e00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmNoaWQlMjBmbG93ZXIlMjBpbmRvb3IlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-							description: "珍稀濒危品种，花朵洁白神秘"
-						}
-					],
-					"多肉": [
-						{
-							name: "景天",
-							latinName: "Sedum",
-							image: "https://images.unsplash.com/photo-1763784436630-629fd9a4e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdWNjdWxlbnQlMjBjYWN0dXMlMjBwb3R0ZWQlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-							description: "叶片肥厚，易于养护"
-						}
-					]
-				}
+				isLoading: false,
+				baseUrl: 'http://localhost:9000'
 			};
 		},
 		onLoad(options) {
-			this.query = options.q || '兰花';
-			this.initSearch();
-			
+			this.query = options.q || '';
+			// 获取导航栏高度
 			const systemInfo = uni.getSystemInfoSync();
+			// #ifdef MP-WEIXIN
+			const menuButtonInfo = uni.getMenuButtonBoundingClientRect();
+			this.navBarHeight = systemInfo.statusBarHeight + (menuButtonInfo.top - systemInfo.statusBarHeight) * 2 + menuButtonInfo.height;
+			// #endif
+			// #ifndef MP-WEIXIN
 			this.navBarHeight = systemInfo.statusBarHeight + 44;
+			// #endif
+
+			if (this.query) {
+				this.initSearch();
+			}
 		},
 		methods: {
 			initSearch() {
-				// 模拟搜索逻辑
-				let matched = false;
-				for (let key in this.plantData) {
-					if (key.includes(this.query) || this.query.includes(key)) {
-						this.category = key;
-						this.varieties = this.plantData[key];
-						matched = true;
-						break;
+				this.isLoading = true;
+				this.varieties = [];
+				
+				const url = `${this.baseUrl}/api/plants/search`;
+				console.log('发起搜索请求 URL:', url);
+				console.log('搜索关键词:', this.query);
+
+				uni.showLoading({ title: '搜索中...', mask: true });
+
+				uni.request({
+					url: url,
+					method: 'GET',
+					data: {
+						q: this.query
+					},
+					success: (res) => {
+						uni.hideLoading();
+						
+						if (res.data.code === 200) {
+							// 映射 Trefle 数据格式
+							this.varieties = res.data.data.map(item => ({
+								name: item.common_name || item.scientific_name,
+								latinName: item.scientific_name,
+								image: item.image_url || '/static/plant-placeholder.png', // 需要一个占位图
+								description: `Family: ${item.family || 'Unknown'}`
+							}));
+							
+							if (this.varieties.length === 0) {
+								uni.showToast({ title: '未找到相关植物', icon: 'none' });
+							}
+						} else {
+							uni.showToast({ title: res.data.message || '搜索服务异常', icon: 'none' });
+						}
+					},
+					fail: (err) => {
+						uni.hideLoading();
+						console.error('搜索请求失败详情:', err);
+						uni.showToast({ title: '网络连接失败，请检查网络', icon: 'none' });
+					},
+					complete: () => {
+						this.isLoading = false;
 					}
-				}
-				if (!matched) {
-					this.category = "推荐品种";
-					this.varieties = this.plantData["兰花"];
-				}
+				});
 			}
 		}
 	}
