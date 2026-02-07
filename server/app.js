@@ -579,6 +579,84 @@ app.get('/api/plants/detail/:slug', async (req, res) => {
     }
 });
 
+// --- 知识页面筛选菜单 API (核心逻辑) ---
+
+// 1. 获取一级大类
+app.get('/api/knowledge/primaries', async (req, res) => {
+    try {
+        const [rows] = await pool.execute('SELECT * FROM knowledge_primary_categories ORDER BY sort_order');
+        res.json({ code: 200, data: rows });
+    } catch (error) {
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
+// 2. 获取二级细分
+app.get('/api/knowledge/secondaries/:primary_id', async (req, res) => {
+    const { primary_id } = req.params;
+    try {
+        const [rows] = await pool.execute(
+            'SELECT * FROM knowledge_secondary_categories WHERE primary_id = ? ORDER BY sort_order',
+            [primary_id]
+        );
+        res.json({ code: 200, data: rows });
+    } catch (error) {
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
+// 3. 获取品种列表 (侧边栏动态加载)
+app.get('/api/knowledge/species', async (req, res) => {
+    const { primary_id, secondary_id } = req.query;
+
+    try {
+        let query = '';
+        let params = [];
+
+        if (primary_id) {
+            query = `
+                SELECT DISTINCT sp.* FROM knowledge_species sp
+                JOIN knowledge_species_category_mapping m ON sp.id = m.species_id
+                WHERE m.primary_id = ?
+            `;
+            params = [primary_id];
+
+            if (secondary_id) {
+                query += ' AND m.secondary_id = ?';
+                params.push(secondary_id);
+            }
+        } else {
+            // 如果没传分类 ID，默认拉取所有品种
+            query = 'SELECT * FROM knowledge_species';
+        }
+
+        query += ' ORDER BY sort_order';
+
+        const [rows] = await pool.execute(query, params);
+        res.json({ code: 200, data: rows });
+    } catch (error) {
+        console.error('获取品种列表失败:', error);
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
+// 4. 获取选定品种的科普文章
+app.get('/api/knowledge/articles/:species_id', async (req, res) => {
+    const { species_id } = req.params;
+    try {
+        const [rows] = await pool.execute(
+            `SELECT a.* FROM knowledge_articles a
+             JOIN knowledge_article_species_mapping m ON a.id = m.article_id
+             WHERE m.species_id = ?
+             ORDER BY a.publish_time DESC`,
+            [species_id]
+        );
+        res.json({ code: 200, data: rows });
+    } catch (error) {
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
 // 启动服务，显式绑定 0.0.0.0 以确保 IPv4 兼容性
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`服务已启动，监听端口: ${PORT}`);

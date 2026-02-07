@@ -14,34 +14,90 @@
 			<!-- 为吸顶的导航栏预留占位高度 -->
 			<view :style="{ height: navHeaderHeight + 'px' }"></view>
 			
-			<!-- 分类标签栏 (解决红线缺失部分) -->
+			<!-- 分类标签栏 -->
 			<view class="knowledge-tabs-bar">
 				<scroll-view scroll-x class="tabs-scroll-layer" :show-scrollbar="false">
-					<view class="tab-item-chip active">全部知识</view>
-					<view class="tab-item-chip">热门推荐</view>
-					<view class="tab-item-chip">最新发布</view>
-					<view class="tab-arrow-container">
-						<uni-icons type="bottom" size="14" color="#666"></uni-icons>
+					<view class="tab-item-chip" :class="{ active: !selectedPrimary }" @tap="resetToDefault">全部知识</view>
+					<view class="tab-item-chip active" v-if="selectedPrimary">
+						{{ selectedPrimary.name }}{{ selectedSecondary ? ' · ' + selectedSecondary.name : '' }}
 					</view>
 				</scroll-view>
+				<!-- 右置筛选箭头入口 -->
+				<view class="filter-trigger-icon" @tap="toggleFilterPanel">
+					<uni-icons :type="isFilterPanelOpen ? 'arrowup' : 'tune'" size="20" :color="isFilterPanelOpen ? '#16a34a' : '#64748b'"></uni-icons>
+				</view>
+			</view>
+
+			<!-- 展开式筛选面板 -->
+			<view class="filter-expand-panel" v-if="isFilterPanelOpen">
+				<view class="filter-row">
+					<text class="filter-label">一级分类</text>
+					<view class="filter-selector" @tap="openSelectionOverlay('primary')">
+						<text class="selector-text">{{ selectedPrimary ? selectedPrimary.name : '请选择门类' }}</text>
+						<uni-icons type="bottom" size="12" color="#94a3b8"></uni-icons>
+					</view>
+				</view>
+				<view class="filter-row">
+					<text class="filter-label">二级分类</text>
+					<view class="filter-selector" :class="{ disabled: !selectedPrimary }" @tap="openSelectionOverlay('secondary')">
+						<text class="selector-text">{{ selectedSecondary ? selectedSecondary.name : '全部品种' }}</text>
+						<uni-icons type="bottom" size="12" color="#94a3b8"></uni-icons>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<!-- 独立选择浮层 (用于弹出具体选项列表) -->
+		<view class="category-selector-overlay" v-if="showCategoryOverlay" @tap="showCategoryOverlay = false">
+			<view class="overlay-content-card" @tap.stop>
+				<view class="overlay-header">选择{{ overlayViewMode === 'primary' ? '一级大类' : '二级品种' }}</view>
+				
+				<!-- 一级列表 -->
+				<view class="selection-grid" v-if="overlayViewMode === 'primary'">
+					<view 
+						class="grid-item" 
+						v-for="item in primaries" 
+						:key="item.id"
+						:class="{ active: selectedPrimary && selectedPrimary.id === item.id }"
+						@tap="handlePrimarySelect(item)"
+					>
+						<text class="item-label">{{ item.name }}</text>
+					</view>
+				</view>
+
+				<!-- 二级列表 -->
+				<view class="selection-list" v-if="overlayViewMode === 'secondary'">
+					<view class="list-item" :class="{ active: !selectedSecondary }" @tap="confirmSecondarySelect(null)">
+						<text>全部品种</text>
+					</view>
+					<view 
+						class="list-item" 
+						v-for="sub in secondaries" 
+						:key="sub.id"
+						:class="{ active: selectedSecondary && selectedSecondary.id === sub.id }"
+						@tap="confirmSecondarySelect(sub)"
+					>
+						<text>{{ sub.name }}</text>
+					</view>
+				</view>
 			</view>
 		</view>
 
 		<!-- 填充固定头部的空间 -->
-		<view :style="{ height: (navHeaderHeight + 45) + 'px' }"></view>
+		<view :style="{ height: (navHeaderHeight + 45 + (isFilterPanelOpen ? 160 : 0)) + 'px' }"></view>
 
 		<!-- 分栏滑动核心区域 -->
 		<view class="split-scroll-body" :style="{ height: bodyContentHeight }">
-			<!-- 左侧纵向分类 -->
+			<!-- 左侧侧边栏 (动态联动) -->
 			<scroll-view scroll-y class="side-linear-menu">
 				<view 
 					class="menu-node" 
-					v-for="(item, index) in sideCategories" 
+					v-for="(item, index) in sideItems" 
 					:key="index"
-					:class="{ node_active: currentActiveNode === item }"
-					@tap="currentActiveNode = item"
+					:class="{ node_active: activeSideIndex === index }"
+					@tap="handleSideTap(index)"
 				>
-					<text class="node-label">{{ item }}</text>
+					<text class="node-label">{{ isSpeciesMode ? item.name : item }}</text>
 				</view>
 				<view class="safe-bottom-padding"></view>
 			</scroll-view>
@@ -49,6 +105,12 @@
 			<!-- 右侧科普图文列表 -->
 			<scroll-view scroll-y class="main-article-scroller">
 				<view class="article-render-list">
+					<!-- 无数据提示 -->
+					<view class="empty-state" v-if="knowledgeArticles.length === 0">
+						<uni-icons type="info" size="40" color="#cbd5e1"></uni-icons>
+						<text class="empty-text">该分类下暂无知识文章</text>
+					</view>
+					
 					<view class="article-unit-card" v-for="(item, index) in knowledgeArticles" :key="index">
 						<image :src="item.image" mode="aspectFill" class="article-unit-image"></image>
 						<view class="article-unit-details">
@@ -82,66 +144,186 @@
 		data() {
 			return {
 				navHeaderHeight: 88,
-				currentActiveNode: '养护技巧',
-				sideCategories: [
-					"养护技巧", "病虫防治", "品种介绍", "季节管理", 
-					"土壤肥料", "繁殖方法", "修剪造型", "常见问题"
-				],
-				knowledgeArticles: [
-					{
-						id: 1,
-						title: "兰花养护完全指南",
-						tag: "养护技巧",
-						summary: "从选购到日常养护，让你的兰花健康成长",
-						image: "https://images.unsplash.com/photo-1694903734775-d7fb295f4e00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmNoaWQlMjBmbG93ZXIlMjBpbmRvb3IlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-						views: "2.3k",
-						date: "2天前"
-					},
-					{
-						id: 2,
-						title: "多肉植物浇水的黄金法则",
-						tag: "养护技巧",
-						summary: "掌握浇水技巧，避免多肉烂根",
-						image: "https://images.unsplash.com/photo-1763784436630-629fd9a4e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdWNjdWxlbnQlMjBjYWN0dXMlMjBwb3R0ZWQlMjBwbGFudHxlbnwxfHx8fDE3NzAwMDQ4MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-						views: "5.1k",
-						date: "3天前"
-					},
-					{
-						id: 3,
-						title: "春季室内植物施肥指南",
-						tag: "土壤肥料",
-						summary: "春天到了，给植物补充营养正当时",
-						image: "https://images.unsplash.com/photo-1651807193045-1b366e7f347f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwbGFudCUyMGZlcnRpbGl6ZXIlMjBwb3R8ZW58MXx8fHwxNzcwMDA0ODE1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-						views: "1.8k",
-						date: "5天前"
-					},
-					{
-						id: 4,
-						title: "室内植物常见病虫害识别",
-						tag: "病虫防治",
-						summary: "及时发现问题，让植物远离病虫害",
-						image: "https://images.unsplash.com/photo-1759422714268-0805b53525b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBwbGFudCUyMGNhcmUlMjBndWlkZXxlbnwxfHx8fDE3NzAwMDQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-						views: "3.2k",
-						date: "1周前"
-					}
-				]
+				// 分类数据
+				primaries: [],
+				secondaries: [],
+				selectedPrimary: null, 
+				selectedSecondary: null, 
+				
+				// 侧边栏数据
+				isSpeciesMode: false, 
+				sideItems: [], 
+				activeSideIndex: 0, 
+				
+				// 默认侧边栏分类
+				defaultSideCategories: ["养护技巧", "病虫防治", "品种介绍", "季节管理", "土壤肥料", "繁殖方法", "修剪造型", "常见问题"],
+				
+				// 文章列表
+				knowledgeArticles: [],
+				
+				// UI 状态
+				showCategoryOverlay: false,
+				isFilterPanelOpen: false,
+				overlayViewMode: 'primary' // 'primary' or 'secondary'
 			};
 		},
 		computed: {
 			bodyContentHeight() {
-				return `calc(100vh - ${this.navHeaderHeight}px - 45px - 100rpx - env(safe-area-inset-bottom))`;
+				const extraHeader = this.isFilterPanelOpen ? 160 : 0;
+				return `calc(100vh - ${this.navHeaderHeight}px - 45px - ${extraHeader}px - 100rpx - env(safe-area-inset-bottom))`;
 			}
 		},
 		onLoad() {
-			const infoRes = uni.getSystemInfoSync();
-			const statusTop = infoRes.statusBarHeight;
-			// #ifdef MP-WEIXIN
-			const menuBtn = uni.getMenuButtonBoundingClientRect();
-			this.navHeaderHeight = statusTop + (menuBtn.top - statusTop) * 2 + menuBtn.height;
-			// #endif
-			// #ifndef MP-WEIXIN
-			this.navHeaderHeight = statusTop + 44;
-			// #endif
+			this.calculateNavHeight();
+			this.initPageData();
+		},
+		methods: {
+			calculateNavHeight() {
+				const infoRes = uni.getSystemInfoSync();
+				const statusTop = infoRes.statusBarHeight;
+				// #ifdef MP-WEIXIN
+				const menuBtn = uni.getMenuButtonBoundingClientRect();
+				this.navHeaderHeight = statusTop + (menuBtn.top - statusTop) * 2 + menuBtn.height;
+				// #endif
+				// #ifndef MP-WEIXIN
+				this.navHeaderHeight = statusTop + 44;
+				// #endif
+			},
+			
+			async initPageData() {
+				// 获取一级分类列表（供筛选面板使用）
+				await this.fetchPrimaries();
+				
+				// 默认进入“品种模式”，加载数据库中所有植物（蓝莓、树莓等）
+				this.isSpeciesMode = true;
+				await this.fetchSpecies(); 
+			},
+
+			async fetchPrimaries() {
+				try {
+					const res = await uni.request({
+						url: 'http://localhost:3000/api/knowledge/primaries'
+					});
+					if (res.data.code === 200) {
+						this.primaries = res.data.data;
+					}
+				} catch (e) {
+					console.error('Fetch primaries fail:', e);
+				}
+			},
+
+			toggleFilterPanel() {
+				this.isFilterPanelOpen = !this.isFilterPanelOpen;
+			},
+
+			openSelectionOverlay(mode) {
+				if (mode === 'secondary' && !this.selectedPrimary) {
+					uni.showToast({ title: '请先选择一级分类', icon: 'none' });
+					return;
+				}
+				this.overlayViewMode = mode;
+				this.showCategoryOverlay = true;
+			},
+
+			async handlePrimarySelect(item) {
+				this.selectedPrimary = item;
+				this.selectedSecondary = null;
+				this.showCategoryOverlay = false;
+				
+				// 预加载二级
+				await this.fetchSecondaries(item.id);
+				
+				// 立即刷新侧边栏
+				await this.applyFilters();
+			},
+
+			async fetchSecondaries(primaryId) {
+				try {
+					const res = await uni.request({
+						url: `http://localhost:3000/api/knowledge/secondaries/${primaryId}`
+					});
+					if (res.data.code === 200) {
+						this.secondaries = res.data.data;
+					}
+				} catch (e) {
+					console.error('Fetch secondaries fail:', e);
+				}
+			},
+
+			async confirmSecondarySelect(sub) {
+				this.selectedSecondary = sub;
+				this.showCategoryOverlay = false;
+				await this.applyFilters();
+			},
+
+			async applyFilters() {
+				this.isSpeciesMode = true;
+				await this.fetchSpecies(this.selectedPrimary.id, this.selectedSecondary ? this.selectedSecondary.id : null);
+			},
+
+			async fetchSpecies(primaryId = null, secondaryId = null) {
+				try {
+					let url = 'http://localhost:3000/api/knowledge/species';
+					const params = [];
+					if (primaryId) params.push(`primary_id=${primaryId}`);
+					if (secondaryId) params.push(`secondary_id=${secondaryId}`);
+					if (params.length > 0) url += '?' + params.join('&');
+					
+					const res = await uni.request({ url });
+					if (res.data.code === 200) {
+						this.sideItems = res.data.data;
+						this.activeSideIndex = 0;
+						if (this.sideItems.length > 0) {
+							this.fetchArticlesBySpecies(this.sideItems[0].id);
+						} else {
+							this.knowledgeArticles = [];
+						}
+					}
+				} catch (e) {
+					console.error('Fetch species fail:', e);
+				}
+			},
+
+			async fetchArticlesBySpecies(speciesId) {
+				if (!speciesId) return;
+				try {
+					const res = await uni.request({
+						url: `http://localhost:3000/api/knowledge/articles/${speciesId}`
+					});
+					if (res.data.code === 200) {
+						this.knowledgeArticles = res.data.data.map(item => ({
+							id: item.id,
+							title: item.title,
+							tag: item.knowledge_type || '科普',
+							summary: item.summary || '暂无摘要',
+							image: item.cover_image || 'https://images.unsplash.com/photo-1512428559083-a40ea9013f0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+							views: '1.2k',
+							date: '刚刚'
+						}));
+					}
+				} catch (e) {
+					console.error('Fetch articles fail:', e);
+				}
+			},
+
+			handleSideTap(index) {
+				this.activeSideIndex = index;
+				if (this.isSpeciesMode) {
+					const species = this.sideItems[index];
+					this.fetchArticlesBySpecies(species.id);
+				}
+			},
+
+			resetToDefault() {
+				this.isFilterPanelOpen = false;
+				this.isSpeciesMode = true; // 依然保持品种模式
+				this.selectedPrimary = null;
+				this.selectedSecondary = null;
+				this.activeSideIndex = 0;
+				this.showCategoryOverlay = false;
+				// 恢复展示全品种
+				this.fetchSpecies();
+			}
 		}
 	}
 </script>
@@ -184,21 +366,6 @@
 						color: #333;
 					}
 				}
-
-				.nav-grid-toggle {
-					padding: 0 20rpx;
-					.grid-pixel-mesh {
-						display: grid;
-						grid-template-columns: repeat(2, 1fr);
-						gap: 4rpx;
-						.pixel {
-							width: 14rpx;
-							height: 14rpx;
-							background-color: #cbd5e1;
-							border-radius: 4rpx;
-						}
-					}
-				}
 			}
 
 			.knowledge-tabs-bar {
@@ -207,9 +374,13 @@
 				display: flex;
 				align-items: center;
 				border-bottom: 1rpx solid #f1f5f9;
+				position: relative;
 
 				.tabs-scroll-layer {
+					flex: 1;
 					white-space: nowrap;
+					margin-right: 20rpx;
+					
 					.tab-item-chip {
 						display: inline-block;
 						padding: 8rpx 32rpx;
@@ -225,9 +396,133 @@
 							border: 1rpx solid #dcfce7;
 						}
 					}
-					.tab-arrow-container {
-						display: inline-block;
-						padding-left: 10rpx;
+				}
+
+				.filter-trigger-icon {
+					width: 80rpx;
+					height: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border-left: 1rpx solid #f1f5f9;
+				}
+			}
+
+			.filter-expand-panel {
+				background-color: #ffffff;
+				padding: 24rpx 30rpx;
+				border-bottom: 1rpx solid #f1f5f9;
+				box-shadow: 0 10rpx 20rpx rgba(0,0,0,0.02);
+
+				.filter-row {
+					display: flex;
+					align-items: center;
+					margin-bottom: 20rpx;
+					&:last-child { margin-bottom: 0; }
+
+					.filter-label {
+						width: 140rpx;
+						font-size: 26rpx;
+						color: #64748b;
+						font-weight: 500;
+					}
+
+					.filter-selector {
+						flex: 1;
+						height: 72rpx;
+						background-color: #f8fafc;
+						border: 2rpx solid #e2e8f0;
+						border-radius: 12rpx;
+						padding: 0 24rpx;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						.selector-text {
+							font-size: 26rpx;
+							color: #1e293b;
+							width: 0;
+							flex: 1;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+						}
+
+						&.disabled {
+							opacity: 0.5;
+							background-color: #f1f5f9;
+						}
+					}
+				}
+			}
+		}
+
+		.category-selector-overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: rgba(0,0,0,0.4);
+			z-index: 1002;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			.overlay-content-card {
+				background-color: #ffffff;
+				margin: 0 60rpx;
+				border-radius: 32rpx;
+				padding: 40rpx 30rpx;
+				box-shadow: 0 20rpx 40rpx rgba(0,0,0,0.1);
+
+				.overlay-header {
+					font-size: 30rpx;
+					font-weight: 700;
+					color: #1e293b;
+					margin-bottom: 40rpx;
+					text-align: center;
+				}
+
+				.selection-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 20rpx;
+
+					.grid-item {
+						height: 80rpx;
+						background-color: #f8fafc;
+						border-radius: 16rpx;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border: 2rpx solid transparent;
+
+						.item-label { font-size: 24rpx; color: #64748b; }
+
+						&.active {
+							background-color: #f0fdf4;
+							border-color: #16a34a;
+							.item-label { color: #16a34a; font-weight: 600; }
+						}
+					}
+				}
+
+				.selection-list {
+					max-height: 50vh;
+					overflow-y: auto;
+					.list-item {
+						padding: 30rpx 0;
+						border-bottom: 1rpx solid #f1f5f9;
+						text-align: center;
+						font-size: 28rpx;
+						color: #334155;
+
+						&.active {
+							color: #16a34a;
+							font-weight: 600;
+						}
+						&:last-child { border-bottom: none; }
 					}
 				}
 			}
@@ -279,6 +574,14 @@
 				padding: 24rpx;
 
 				.article-render-list {
+					.empty-state {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						padding-top: 100rpx;
+						.empty-text { font-size: 26rpx; color: #94a3b8; margin-top: 20rpx; }
+					}
+
 					.article-unit-card {
 						background-color: #ffffff;
 						border-radius: 24rpx;
@@ -324,6 +627,7 @@
 								display: -webkit-box;
 								-webkit-box-orient: vertical;
 								-webkit-line-clamp: 2;
+								line-clamp: 2;
 								overflow: hidden;
 							}
 
