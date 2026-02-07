@@ -9,7 +9,7 @@ const fs = require('fs');
 const https = require('https');
 const querystring = require('querystring');
 const mysql = require('mysql2/promise');
-require('dotenv').config();
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 
 // [FIX] 解决 "Client network socket disconnected" 错误
 // 允许 Node.js 接受自签名或代理软件拦截的 HTTPS 证书
@@ -18,6 +18,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const app = express();
 app.use(cors());
 app.use(express.json());
+
 
 // 创建 MySQL 连接池
 const pool = mysql.createPool({
@@ -640,7 +641,25 @@ app.get('/api/knowledge/species', async (req, res) => {
     }
 });
 
-// 4. 获取选定品种的科普文章
+// 4. 搜索品种 (根据名称模糊匹配)
+app.get('/api/knowledge/search', async (req, res) => {
+    const { keyword } = req.query;
+
+    if (!keyword) {
+        return res.status(400).json({ code: 400, message: '缺少keyword参数' });
+    }
+
+    try {
+        const query = 'SELECT * FROM knowledge_species WHERE name LIKE ? ORDER BY sort_order';
+        const [rows] = await pool.execute(query, [`%${keyword}%`]);
+        res.json({ code: 200, data: rows });
+    } catch (error) {
+        console.error('搜索品种失败:', error);
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
+// 5. 获取选定品种的科普文章 (按品种列表)
 app.get('/api/knowledge/articles/:species_id', async (req, res) => {
     const { species_id } = req.params;
     try {
@@ -652,6 +671,23 @@ app.get('/api/knowledge/articles/:species_id', async (req, res) => {
             [species_id]
         );
         res.json({ code: 200, data: rows });
+    } catch (error) {
+        res.status(500).json({ code: 500, message: error.message });
+    }
+});
+
+// 6. 获取单篇文章详情 (按文章 ID)
+app.get('/api/knowledge/article/:id', async (req, res) => {
+    const { id } = req.params;
+    try {
+        const [rows] = await pool.execute(
+            'SELECT * FROM knowledge_articles WHERE id = ?',
+            [id]
+        );
+        if (rows.length === 0) {
+            return res.status(404).json({ code: 404, message: '文章未找到' });
+        }
+        res.json({ code: 200, data: rows[0] });
     } catch (error) {
         res.status(500).json({ code: 500, message: error.message });
     }

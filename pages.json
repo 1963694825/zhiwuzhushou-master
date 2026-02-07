@@ -59,6 +59,13 @@
 			}
 		},
 		{
+			"path": "pages/article-detail/article-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
 			"path": "pages/checkin/checkin",
 			"style": {
 				"navigationStyle": "custom",

@@ -6,7 +6,7 @@
 				<view class="nav-search-container">
 					<view class="nav-search-box">
 						<uni-icons type="search" size="16" color="#999"></uni-icons>
-						<input type="text" placeholder="搜索种植知识" class="nav-input-inner" />
+						<input type="text" placeholder="搜索品种名称" class="nav-input-inner" v-model="searchKeyword" @confirm="handleSearch" confirm-type="search" />
 					</view>
 				</view>
 			</custom-navbar>
@@ -111,7 +111,7 @@
 						<text class="empty-text">该分类下暂无知识文章</text>
 					</view>
 					
-					<view class="article-unit-card" v-for="(item, index) in knowledgeArticles" :key="index">
+					<view class="article-unit-card" v-for="(item, index) in knowledgeArticles" :key="index" @tap="goToArticleDetail(item)">
 						<image :src="item.image" mode="aspectFill" class="article-unit-image"></image>
 						<view class="article-unit-details">
 							<view class="article-meta-top">
@@ -164,7 +164,9 @@
 				// UI 状态
 				showCategoryOverlay: false,
 				isFilterPanelOpen: false,
-				overlayViewMode: 'primary' // 'primary' or 'secondary'
+				overlayViewMode: 'primary', // 'primary' or 'secondary'
+				searchKeyword: '',
+				baseUrl: 'http://192.168.110.203:9000'
 			};
 		},
 		computed: {
@@ -199,10 +201,41 @@
 				await this.fetchSpecies(); 
 			},
 
+			async handleSearch() {
+				if (!this.searchKeyword.trim()) {
+					this.resetToDefault();
+					return;
+				}
+				
+				try {
+					const res = await uni.request({
+						url: `${this.baseUrl}/api/knowledge/search`,
+						data: { keyword: this.searchKeyword }
+					});
+					
+					if (res.data.code === 200) {
+						this.sideItems = res.data.data;
+						this.activeSideIndex = 0;
+						this.isSpeciesMode = true;
+						this.selectedPrimary = null;
+						this.selectedSecondary = null;
+						
+						// 默认加载第一个结果的文章
+						if (this.sideItems.length > 0) {
+							this.fetchArticlesBySpecies(this.sideItems[0].id);
+						} else {
+							this.knowledgeArticles = [];
+						}
+					}
+				} catch (e) {
+					console.error('搜索失败:', e);
+				}
+			},
+
 			async fetchPrimaries() {
 				try {
 					const res = await uni.request({
-						url: 'http://localhost:3000/api/knowledge/primaries'
+						url: `${this.baseUrl}/api/knowledge/primaries`
 					});
 					if (res.data.code === 200) {
 						this.primaries = res.data.data;
@@ -240,7 +273,7 @@
 			async fetchSecondaries(primaryId) {
 				try {
 					const res = await uni.request({
-						url: `http://localhost:3000/api/knowledge/secondaries/${primaryId}`
+						url: `${this.baseUrl}/api/knowledge/secondaries/${primaryId}`
 					});
 					if (res.data.code === 200) {
 						this.secondaries = res.data.data;
@@ -263,7 +296,7 @@
 
 			async fetchSpecies(primaryId = null, secondaryId = null) {
 				try {
-					let url = 'http://localhost:3000/api/knowledge/species';
+					let url = `${this.baseUrl}/api/knowledge/species`;
 					const params = [];
 					if (primaryId) params.push(`primary_id=${primaryId}`);
 					if (secondaryId) params.push(`secondary_id=${secondaryId}`);
@@ -288,7 +321,7 @@
 				if (!speciesId) return;
 				try {
 					const res = await uni.request({
-						url: `http://localhost:3000/api/knowledge/articles/${speciesId}`
+						url: `${this.baseUrl}/api/knowledge/articles/${speciesId}`
 					});
 					if (res.data.code === 200) {
 						this.knowledgeArticles = res.data.data.map(item => ({
@@ -296,7 +329,7 @@
 							title: item.title,
 							tag: item.knowledge_type || '科普',
 							summary: item.summary || '暂无摘要',
-							image: item.cover_image || 'https://images.unsplash.com/photo-1512428559083-a40ea9013f0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+							image: item.image_url || 'https://images.unsplash.com/photo-1512428559083-a40ea9013f0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
 							views: '1.2k',
 							date: '刚刚'
 						}));
@@ -314,15 +347,22 @@
 				}
 			},
 
-			resetToDefault() {
+			async resetToDefault() {
 				this.isFilterPanelOpen = false;
-				this.isSpeciesMode = true; // 依然保持品种模式
 				this.selectedPrimary = null;
 				this.selectedSecondary = null;
+				this.searchKeyword = '';
+				this.isSpeciesMode = true;
 				this.activeSideIndex = 0;
 				this.showCategoryOverlay = false;
-				// 恢复展示全品种
-				this.fetchSpecies();
+				await this.fetchSpecies(); 
+			},
+
+			goToArticleDetail(article) {
+				console.log('查看文章详情:', article.title);
+				uni.navigateTo({
+					url: `/pages/article-detail/article-detail?id=${article.id}`
+				});
 			}
 		}
 	}

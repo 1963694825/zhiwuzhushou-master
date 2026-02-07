@@ -5,7 +5,7 @@ const config = {
     // 开发环境配置
     development: {
         // 方式1: 使用localhost(需要在微信开发者工具中开启"不校验合法域名")
-        baseUrl: 'http://localhost:9000',
+        baseUrl: 'http://192.168.110.203:9000',
 
         // 方式2: 使用本机IP(真机调试时使用)
         // baseUrl: 'http://192.168.110.203:9000',
