@@ -49,7 +49,7 @@
 			<!-- 右侧商品区域 -->
 			<scroll-view scroll-y class="right-product-scroller">
 				<view class="products-stack">
-					<view class="product-entry-card" v-for="(item, index) in productDataList" :key="index">
+					<view class="product-entry-card" v-for="(item, index) in productDataList" :key="index" @tap="goToProductDetail(item)">
 						<image :src="item.image" mode="aspectFill" class="card-thumb-image"></image>
 						<view class="card-detail-info">
 							<view class="info-top-layout">
@@ -64,7 +64,7 @@
 									<text class="price-currency-unit">¥</text>
 									<text class="price-value-text">{{ item.price.toFixed(2) }}</text>
 								</view>
-								<view class="cart-btn-round">
+								<view class="cart-btn-round" @tap.stop="addToCart(item)">
 									<uni-icons type="cart-filled" size="18" color="#FFFFFF"></uni-icons>
 								</view>
 							</view>
@@ -142,6 +142,22 @@
 			// #ifndef MP-WEIXIN
 			this.navBarHeight = statusH + 44;
 			// #endif
+		},
+		methods: {
+			goToProductDetail(product) {
+				console.log('跳转到商品详情:', product.name);
+				uni.navigateTo({
+					url: `/pages/product-detail/product-detail?id=${product.id}&product=${encodeURIComponent(JSON.stringify(product))}`
+				});
+			},
+			
+			addToCart(product) {
+				console.log('加入购物车:', product.name);
+				uni.showToast({
+					title: '已加入购物车',
+					icon: 'success'
+				});
+			}
 		}
 	}
 </script>

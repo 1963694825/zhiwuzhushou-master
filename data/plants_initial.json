@@ -1,0 +1,202 @@
+[
+    {
+        "chinese_name": "玫瑰",
+        "scientific_name": "Rosa rugosa",
+        "english_name": "Rose",
+        "family": "蔷薇科",
+        "genus": "蔷薇属",
+        "description": "玫瑰是蔷薇科蔷薇属植物，落叶灌木，枝干多刺，花朵芳香，常见颜色有红、粉、白、黄等。原产中国，现世界各地广泛栽培。",
+        "flowering_period": "5-9月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Rose_Orangeade.jpg/300px-Rose_Orangeade.jpg"
+    },
+    {
+        "chinese_name": "牡丹",
+        "scientific_name": "Paeonia suffruticosa",
+        "english_name": "Peony",
+        "family": "芍药科",
+        "genus": "芍药属",
+        "description": "牡丹是芍药科芍药属植物，落叶灌木，花大色艳，被誉为'花中之王'。原产中国，栽培历史悠久。",
+        "flowering_period": "4-5月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Paeonia_suffruticosa_1.jpg/300px-Paeonia_suffruticosa_1.jpg"
+    },
+    {
+        "chinese_name": "菊花",
+        "scientific_name": "Chrysanthemum morifolium",
+        "english_name": "Chrysanthemum",
+        "family": "菊科",
+        "genus": "菊属",
+        "description": "菊花是菊科菊属多年生草本植物，花色丰富，品种繁多，是中国十大名花之一。",
+        "flowering_period": "9-11月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chrysanthemum_November_2007_Osaka_Japan.jpg/300px-Chrysanthemum_November_2007_Osaka_Japan.jpg"
+    },
+    {
+        "chinese_name": "荷花",
+        "scientific_name": "Nelumbo nucifera",
+        "english_name": "Lotus",
+        "family": "莲科",
+        "genus": "莲属",
+        "description": "荷花是莲科莲属水生植物，花大美丽，清香远溢，出淤泥而不染，是中国传统名花。",
+        "flowering_period": "6-9月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nelumbo_nucifera_open_flower_-_botanic_garden_adelaide2.jpg/300px-Nelumbo_nucifera_open_flower_-_botanic_garden_adelaide2.jpg"
+    },
+    {
+        "chinese_name": "梅花",
+        "scientific_name": "Prunus mume",
+        "english_name": "Plum Blossom",
+        "family": "蔷薇科",
+        "genus": "李属",
+        "description": "梅花是蔷薇科李属落叶乔木，早春开花，花色有白、粉、红等，香气浓郁，是中国十大名花之首。",
+        "flowering_period": "2-3月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Plum_blossoms.jpg/300px-Plum_blossoms.jpg"
+    },
+    {
+        "chinese_name": "兰花",
+        "scientific_name": "Cymbidium spp.",
+        "english_name": "Orchid",
+        "family": "兰科",
+        "genus": "兰属",
+        "description": "兰花是兰科植物的统称，花姿优美，香气清幽，被誉为'花中君子'，是中国传统名花。",
+        "flowering_period": "全年（因品种而异）",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cymbidium_Clarisse_Austin.jpg/300px-Cymbidium_Clarisse_Austin.jpg"
+    },
+    {
+        "chinese_name": "茉莉花",
+        "scientific_name": "Jasminum sambac",
+        "english_name": "Jasmine",
+        "family": "木犀科",
+        "genus": "素馨属",
+        "description": "茉莉花是木犀科素馨属植物，花白色，香气浓郁，常用于制作花茶和香料。",
+        "flowering_period": "5-10月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jasminum_sambac.jpg/300px-Jasminum_sambac.jpg"
+    },
+    {
+        "chinese_name": "桂花",
+        "scientific_name": "Osmanthus fragrans",
+        "english_name": "Sweet Osmanthus",
+        "family": "木犀科",
+        "genus": "木犀属",
+        "description": "桂花是木犀科木犀属常绿灌木或小乔木，花小而香，常用于制作桂花糕、桂花酒等。",
+        "flowering_period": "9-10月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Osmanthus_fragrans_flowers.jpg/300px-Osmanthus_fragrans_flowers.jpg"
+    },
+    {
+        "chinese_name": "月季",
+        "scientific_name": "Rosa chinensis",
+        "english_name": "Chinese Rose",
+        "family": "蔷薇科",
+        "genus": "蔷薇属",
+        "description": "月季是蔷薇科蔷薇属植物，四季开花，花色丰富，是世界著名的观赏花卉。",
+        "flowering_period": "全年",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rosa_chinensis_cultivar.jpg/300px-Rosa_chinensis_cultivar.jpg"
+    },
+    {
+        "chinese_name": "杜鹃",
+        "scientific_name": "Rhododendron simsii",
+        "english_name": "Azalea",
+        "family": "杜鹃花科",
+        "genus": "杜鹃属",
+        "description": "杜鹃是杜鹃花科杜鹃属植物，花色艳丽，品种繁多，是中国十大名花之一。",
+        "flowering_period": "3-5月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rhododendron_simsii1.jpg/300px-Rhododendron_simsii1.jpg"
+    },
+    {
+        "chinese_name": "水仙",
+        "scientific_name": "Narcissus tazetta",
+        "english_name": "Narcissus",
+        "family": "石蒜科",
+        "genus": "水仙属",
+        "description": "水仙是石蒜科水仙属植物，花白色或黄色，香气清雅，是中国传统名花。",
+        "flowering_period": "1-3月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Narcissus_tazetta_cultivar_1.jpg/300px-Narcissus_tazetta_cultivar_1.jpg"
+    },
+    {
+        "chinese_name": "百合",
+        "scientific_name": "Lilium brownii",
+        "english_name": "Lily",
+        "family": "百合科",
+        "genus": "百合属",
+        "description": "百合是百合科百合属植物，花大美丽，香气浓郁，既可观赏又可食用。",
+        "flowering_period": "6-7月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lilium_brownii_var._viridulum_Baker.jpg/300px-Lilium_brownii_var._viridulum_Baker.jpg"
+    },
+    {
+        "chinese_name": "郁金香",
+        "scientific_name": "Tulipa gesneriana",
+        "english_name": "Tulip",
+        "family": "百合科",
+        "genus": "郁金香属",
+        "description": "郁金香是百合科郁金香属植物，花色丰富，花型优美，是世界著名的球根花卉。",
+        "flowering_period": "3-5月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tulipa_gesneriana_cultivar_1.jpg/300px-Tulipa_gesneriana_cultivar_1.jpg"
+    },
+    {
+        "chinese_name": "向日葵",
+        "scientific_name": "Helianthus annuus",
+        "english_name": "Sunflower",
+        "family": "菊科",
+        "genus": "向日葵属",
+        "description": "向日葵是菊科向日葵属一年生草本植物，花大色黄，向阳而生，种子可食用。",
+        "flowering_period": "7-9月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/300px-Sunflower_sky_backdrop.jpg"
+    },
+    {
+        "chinese_name": "康乃馨",
+        "scientific_name": "Dianthus caryophyllus",
+        "english_name": "Carnation",
+        "family": "石竹科",
+        "genus": "石竹属",
+        "description": "康乃馨是石竹科石竹属植物，花色丰富，常用作母亲节礼物，象征母爱。",
+        "flowering_period": "4-9月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Dianthus_caryophyllus_cultivar_1.jpg/300px-Dianthus_caryophyllus_cultivar_1.jpg"
+    },
+    {
+        "chinese_name": "茶花",
+        "scientific_name": "Camellia japonica",
+        "english_name": "Camellia",
+        "family": "山茶科",
+        "genus": "山茶属",
+        "description": "茶花是山茶科山茶属常绿灌木或小乔木，花大色艳，是中国传统名花。",
+        "flowering_period": "1-4月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Camellia_japonica_cultivar_1.jpg/300px-Camellia_japonica_cultivar_1.jpg"
+    },
+    {
+        "chinese_name": "芍药",
+        "scientific_name": "Paeonia lactiflora",
+        "english_name": "Chinese Peony",
+        "family": "芍药科",
+        "genus": "芍药属",
+        "description": "芍药是芍药科芍药属多年生草本植物，花大色艳，与牡丹齐名。",
+        "flowering_period": "5-6月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Paeonia_lactiflora_cultivar_1.jpg/300px-Paeonia_lactiflora_cultivar_1.jpg"
+    },
+    {
+        "chinese_name": "海棠",
+        "scientific_name": "Malus spectabilis",
+        "english_name": "Chinese Flowering Crabapple",
+        "family": "蔷薇科",
+        "genus": "苹果属",
+        "description": "海棠是蔷薇科苹果属植物，花色粉红，花姿优美，是中国传统名花。",
+        "flowering_period": "4-5月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Malus_spectabilis_flowers.jpg/300px-Malus_spectabilis_flowers.jpg"
+    },
+    {
+        "chinese_name": "紫罗兰",
+        "scientific_name": "Matthiola incana",
+        "english_name": "Stock",
+        "family": "十字花科",
+        "genus": "紫罗兰属",
+        "description": "紫罗兰是十字花科紫罗兰属植物，花色有紫、白、粉等，香气浓郁。",
+        "flowering_period": "4-5月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Matthiola_incana_cultivar.jpg/300px-Matthiola_incana_cultivar.jpg"
+    },
+    {
+        "chinese_name": "风信子",
+        "scientific_name": "Hyacinthus orientalis",
+        "english_name": "Hyacinth",
+        "family": "百合科",
+        "genus": "风信子属",
+        "description": "风信子是百合科风信子属植物，花色丰富，香气浓郁，是著名的球根花卉。",
+        "flowering_period": "3-4月",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hyacinthus_orientalis_cultivar.jpg/300px-Hyacinthus_orientalis_cultivar.jpg"
+    }
+]

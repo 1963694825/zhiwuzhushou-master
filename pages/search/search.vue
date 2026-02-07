@@ -22,14 +22,21 @@
 						</view>
 						<text class="latin-name">{{ item.latinName }}</text>
 						<text class="desc">{{ item.description }}</text>
-						<view class="detail-btn">查看详情</view>
+						<view class="detail-btn" @tap="goToDetail(item)">查看详情</view>
 					</view>
 				</view>
 			</view>
 
-			<view class="footer-tip">
+			<!-- 加载更多按钮 -->
+			<view class="load-more" v-if="varieties.length > 0">
+				<button class="load-more-btn" @tap="loadMore" v-if="hasMore && !isLoading">加载更多</button>
+				<text class="loading-text" v-if="isLoading">加载中...</text>
+			</view>
+
+			<view class="footer-tip" v-if="!hasMore && varieties.length > 0">
 				<text>已经到底了～</text>
 			</view>
+
 		</view>
 	</view>
 </template>
@@ -43,7 +50,9 @@
 				category: '搜索结果',
 				varieties: [],
 				isLoading: false,
-				baseUrl: 'http://localhost:9000'
+				baseUrl: 'http://localhost:9000',
+				currentPage: 1,
+				hasMore: true
 			};
 		},
 		onLoad(options) {
@@ -63,9 +72,14 @@
 			}
 		},
 		methods: {
-			initSearch() {
+			initSearch(loadMore = false) {
+				if (!loadMore) {
+					this.currentPage = 1;
+					this.varieties = [];
+					this.hasMore = true;
+				}
+				
 				this.isLoading = true;
-				this.varieties = [];
 				
 				const url = `${this.baseUrl}/api/plants/search`;
 				console.log('发起搜索请求 URL:', url);
@@ -77,19 +91,30 @@
 					url: url,
 					method: 'GET',
 					data: {
-						q: this.query
+						q: this.query,
+						page: this.currentPage
 					},
 					success: (res) => {
 						uni.hideLoading();
 						
 						if (res.data.code === 200) {
 							// 映射 Trefle 数据格式
-							this.varieties = res.data.data.map(item => ({
-								name: item.common_name || item.scientific_name,
+							const newItems = res.data.data.map(item => ({
+								name: item.common_name_zh || item.common_name || item.scientific_name,
 								latinName: item.scientific_name,
-								image: item.image_url || '/static/plant-placeholder.png', // 需要一个占位图
-								description: `Family: ${item.family || 'Unknown'}`
+								image: item.image_url || '/static/plant-placeholder.png',
+								description: `Family: ${item.family || 'Unknown'}`,
+								slug: item.slug
 							}));
+							
+							if (loadMore) {
+								this.varieties = [...this.varieties, ...newItems];
+							} else {
+								this.varieties = newItems;
+							}
+							
+							// 判断是否还有更多数据
+							this.hasMore = newItems.length >= 1000;
 							
 							if (this.varieties.length === 0) {
 								uni.showToast({ title: '未找到相关植物', icon: 'none' });
@@ -107,6 +132,35 @@
 						this.isLoading = false;
 					}
 				});
+			},
+			goToDetail(item) {
+				console.log('点击查看详情，item:', item);
+				console.log('slug:', item.slug);
+				
+				if (!item.slug) {
+					console.error('缺少 slug 信息');
+					uni.showToast({ title: '缺少植物信息', icon: 'none' });
+					return;
+				}
+				
+				const url = `/pages/plant-detail/plant-detail?slug=${item.slug}`;
+				console.log('准备跳转到:', url);
+				
+				uni.navigateTo({
+					url: url,
+					success: () => {
+						console.log('跳转成功');
+					},
+					fail: (err) => {
+						console.error('跳转失败:', err);
+						uni.showToast({ title: '跳转失败: ' + err.errMsg, icon: 'none' });
+					}
+				});
+			},
+			loadMore() {
+				if (this.isLoading || !this.hasMore) return;
+				this.currentPage++;
+				this.initSearch(true);
 			}
 		}
 	}

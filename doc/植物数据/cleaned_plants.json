@@ -1,0 +1,5598 @@
+[
+  {
+    "chinese_name": "洋桔梗",
+    "scientific_name": "Eustoma grandiflorum",
+    "english_name": "Lisianthus",
+    "alias": [
+      "草原龙胆",
+      "土耳其桔梗",
+      "丽钵花"
+    ],
+    "family": "龙胆科",
+    "genus": "洋桔梗属",
+    "description": "洋桔梗为龙胆科洋桔梗属多年生草本植物，株高可达0.8米，花型似桔梗且更精致，花色丰富，是世界著名切花，也可盆栽观赏，花姿优雅兼具清新感。",
+    "history": "洋桔梗原产于美国南部及墨西哥北部，20世纪70年代开始商业化栽培，80年代传入中国，现各地广泛种植为切花及盆栽品种。",
+    "morphology": "叶片对生，卵形至披针形，全缘，灰绿色，肉质；花顶生聚伞花序，花色白、粉、紫、蓝等，花径5-8厘米，花瓣5-6片，有单瓣重瓣；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，喜光，忌高温高湿，耐寒性弱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国各地，美国南部，墨西哥，欧洲、日本，澳洲",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/24/912/792"
+  },
+  {
+    "chinese_name": "绣球花",
+    "scientific_name": "Hydrangea macrophylla",
+    "english_name": "Bigleaf Hydrangea",
+    "alias": [
+      "八仙花",
+      "紫阳花",
+      "粉团花"
+    ],
+    "family": "虎耳草科",
+    "genus": "绣球属",
+    "description": "绣球花为虎耳草科绣球属落叶灌木，株高可达1-2米，花球硕大，花色可随土壤酸碱度变化，是著名庭院及盆栽花卉，也是重要的切花品种。",
+    "history": "绣球花原产于中国长江流域及日本，栽培历史超1000年，宋代已有记载，18世纪传入欧洲，现全球温带地区广泛栽培。",
+    "morphology": "叶片对生，阔卵形至椭圆形，边缘有粗锯齿，深绿色，纸质；花聚伞花序呈球形，不孕花大而美丽，花色粉、蓝、白、紫等，花径10-20厘米；蒴果卵形，褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国长江流域及以南，日本，欧洲、北美洲，澳洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/25/912/792"
+  },
+  {
+    "chinese_name": "铃兰",
+    "scientific_name": "Convallaria majalis",
+    "english_name": "Lily of the Valley",
+    "alias": [
+      "君影草",
+      "草玉铃",
+      "香水花"
+    ],
+    "family": "百合科",
+    "genus": "铃兰属",
+    "description": "铃兰为百合科铃兰属多年生草本植物，株高可达0.3米，花形似铃，香气浓郁，是著名观赏花卉，象征幸福归来，全株有毒，可提取香精。",
+    "history": "铃兰原产于欧洲、亚洲温带地区，20世纪初传入中国，现各地庭院及盆栽少量栽培，为名贵切花配花。",
+    "morphology": "叶片基生，2枚，椭圆形或披针形，全缘，深绿色，革质；花葶从叶丛抽出，总状花序下垂，白色钟形小花，花径0.5-1厘米，花瓣6片；浆果球形，红色，成熟期7-8月。",
+    "habitat": "喜凉爽湿润，耐阴，耐寒性强，忌高温干旱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国东北、华北，欧洲、亚洲温带，北美洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/26/912/792"
+  },
+  {
+    "chinese_name": "虞美人",
+    "scientific_name": "Papaver rhoeas",
+    "english_name": "Corn Poppy",
+    "alias": [
+      "丽春花",
+      "赛牡丹",
+      "满园春"
+    ],
+    "family": "罂粟科",
+    "genus": "罂粟属",
+    "description": "虞美人为罂粟科罂粟属一年生草本植物，株高可达0.6米，花姿轻盈艳丽，是著名庭院、花坛花卉，花可入药，与罂粟为不同品种，无制毒价值。",
+    "history": "虞美人原产于欧洲、亚洲温带，南北朝时期传入中国，栽培历史超1500年，现各地广泛栽培为观赏花卉。",
+    "morphology": "叶片互生，羽状深裂，披针形，边缘有锯齿，绿色，纸质，被糙毛；花单生茎顶，花色红、粉、白、黄等，花径5-8厘米，花瓣4片，薄如蝉翼；蒴果球形，褐色，成熟期6-7月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，欧洲、亚洲温带，北美洲",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/27/912/792"
+  },
+  {
+    "chinese_name": "鸢尾花",
+    "scientific_name": "Iris tectorum",
+    "english_name": "Roof Iris",
+    "alias": [
+      "蓝蝴蝶",
+      "紫蝴蝶",
+      "扁竹花"
+    ],
+    "family": "鸢尾科",
+    "genus": "鸢尾属",
+    "description": "鸢尾花为鸢尾科鸢尾属多年生草本植物，株高可达0.5米，花形似蝴蝶，花色淡雅，是著名庭院、花坛及水生观赏花卉，根茎可入药，象征光明与自由。",
+    "history": "鸢尾花原产于中国中部及日本，栽培历史超2000年，汉代已有记载，现全球温带地区广泛栽培，为法国国花。",
+    "morphology": "叶片基生，剑形，扁平，全缘，淡绿色，革质；花葶从叶丛抽出，花单生或数朵簇生，花色蓝、紫、白、黄等，花径6-10厘米，花被片6片；蒴果长椭圆形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较强，适宜疏松肥沃、排水良好的中性沙质土壤，部分品种可水生",
+    "distribution": "中国各地，日本，欧洲、北美洲，澳洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/28/912/792"
+  },
+  {
+    "chinese_name": "萱草",
+    "scientific_name": "Hemerocallis fulva",
+    "english_name": "Orange Daylily",
+    "alias": [
+      "忘忧草",
+      "金针花",
+      "宜男草"
+    ],
+    "family": "百合科",
+    "genus": "萱草属",
+    "description": "萱草为百合科萱草属多年生草本植物，株高可达1米，花大色艳，朝开暮谢，是著名庭院、花坛花卉，嫩花葶可食用（金针菜），根可入药，为中国母亲花。",
+    "history": "萱草原产于中国南部，栽培历史超3000年，周代已有记载，现全球温带地区广泛栽培，部分品种为食用专用。",
+    "morphology": "叶片基生，带状，扁平，全缘，深绿色，纸质；花葶粗壮，顶生圆锥花序，花色橙红、黄、粉等，花径8-12厘米，花被片6片，漏斗形；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性强，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，欧洲、亚洲温带，北美洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/29/912/792"
+  },
+  {
+    "chinese_name": "酢浆草",
+    "scientific_name": "Oxalis corniculata",
+    "english_name": "Creeping Woodsorrel",
+    "alias": [
+      "三叶草",
+      "酸浆草",
+      "酸酸草"
+    ],
+    "family": "酢浆草科",
+    "genus": "酢浆草属",
+    "description": "酢浆草为酢浆草科酢浆草属多年生草本植物，株高可达0.3米，匍匐生长，叶形小巧呈三小叶，花小而艳，是著名地被、盆栽花卉，全草可入药，味酸可食用。",
+    "history": "酢浆草原产于中国，广布于世界温带及热带地区，为野生驯化花卉，栽培历史悠久，现各地广泛种植为地被植物。",
+    "morphology": "叶片互生，三出复叶，小叶倒心形，全缘，绿色或紫红色，肉质；花单生或数朵簇生，花色黄、粉、红、紫等，花径1-2厘米，花瓣5片；蒴果圆柱形，褐色，成熟期5-7月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较弱，耐旱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，世界温带、热带地区",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/30/912/792"
+  },
+  {
+    "chinese_name": "风梨莲",
+    "scientific_name": "Guzmania lingulata",
+    "english_name": "Scarlet Star",
+    "alias": [
+      "星花凤梨",
+      "红杯凤梨",
+      "果子蔓"
+    ],
+    "family": "凤梨科",
+    "genus": "果子蔓属",
+    "description": "风梨莲为凤梨科果子蔓属多年生常绿草本植物，株高可达0.4米，叶色翠绿，苞片艳丽，是著名室内观花观叶花卉，花期长，为办公、家居常见盆栽。",
+    "history": "风梨莲原产于南美洲热带雨林，20世纪80年代传入中国，现各地广泛栽培为室内观赏花卉。",
+    "morphology": "叶片基生，带状，扁平，全缘，深绿色，革质，莲座状排列；花葶从叶丛抽出，穗状花序，苞片红色或粉色，小花白色，花径1-2厘米；蒴果球形，褐色，成熟期少见（室内极少结果）。",
+    "habitat": "喜高温高湿，耐阴，忌强光直射，耐寒性弱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地，南美洲热带雨林，东南亚，欧洲",
+    "flowering_period": "10月-次年3月",
+    "image_url": "https://picsum.photos/id/31/912/792"
+  },
+  {
+    "chinese_name": "红掌",
+    "scientific_name": "Anthurium andraeanum",
+    "english_name": "Flamingo Flower",
+    "alias": [
+      "花烛",
+      "安祖花",
+      "红鹅掌"
+    ],
+    "family": "天南星科",
+    "genus": "花烛属",
+    "description": "红掌为天南星科花烛属多年生常绿草本植物，株高可达0.6米，佛焰苞艳丽，肉穗花序独特，是著名室内切花及盆栽花卉，花期长，象征热情与鸿运。",
+    "history": "红掌原产于南美洲热带雨林，20世纪70年代传入中国，现各地广泛栽培为切花及室内盆栽品种。",
+    "morphology": "叶片互生，心形，全缘，深绿色，革质，有光泽；佛焰苞心形，红色、粉色或白色，花径10-15厘米，肉穗花序黄色；浆果球形，红色，成熟期少见。",
+    "habitat": "喜高温高湿，耐半阴，忌强光直射，耐寒性弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，南美洲热带雨林，东南亚，欧洲、日本",
+    "flowering_period": "全年（室内养护）",
+    "image_url": "https://picsum.photos/id/32/912/792"
+  },
+  {
+    "chinese_name": "白掌",
+    "scientific_name": "Spathiphyllum kochii",
+    "english_name": "Peace Lily",
+    "alias": [
+      "白鹤芋",
+      "一帆风顺",
+      "苞叶芋"
+    ],
+    "family": "天南星科",
+    "genus": "白鹤芋属",
+    "description": "白掌为天南星科白鹤芋属多年生常绿草本植物，株高可达0.5米，佛焰苞洁白，花姿优雅，是著名室内观赏花卉，具有较强空气净化能力，象征一帆风顺。",
+    "history": "白掌原产于哥伦比亚热带雨林，20世纪80年代传入中国，现各地广泛栽培为室内盆栽花卉。",
+    "morphology": "叶片基生，长椭圆形，全缘，深绿色，革质；佛焰苞披针形，白色，花径5-8厘米，肉穗花序黄绿色；浆果球形，黑色，成熟期少见。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，哥伦比亚，南美洲热带雨林，欧洲、澳洲",
+    "flowering_period": "5-8月（室内可全年开花）",
+    "image_url": "https://picsum.photos/id/33/912/792"
+  },
+  {
+    "chinese_name": "马蹄莲",
+    "scientific_name": "Zantedeschia aethiopica",
+    "english_name": "Calla Lily",
+    "alias": [
+      "慈姑花",
+      "水芋",
+      "观音莲"
+    ],
+    "family": "天南星科",
+    "genus": "马蹄莲属",
+    "description": "马蹄莲为天南星科马蹄莲属多年生草本植物，株高可达1米，佛焰苞似马蹄，花姿典雅，是著名切花及盆栽花卉，可水生，块茎有毒，可入药。",
+    "history": "马蹄莲原产于非洲南部，20世纪初传入中国，现各地广泛栽培为切花及庭院、盆栽花卉。",
+    "morphology": "叶片基生，心形或箭形，全缘，深绿色，革质；佛焰苞白色、粉色或黄色，呈马蹄形，花径10-15厘米，肉穗花序黄色；浆果球形，红色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性弱，适宜疏松肥沃、排水良好的腐殖土，可水生",
+    "distribution": "中国各地，非洲南部，欧洲、北美洲，澳洲",
+    "flowering_period": "11月-次年4月",
+    "image_url": "https://picsum.photos/id/34/912/792"
+  },
+  {
+    "chinese_name": "蟹爪兰",
+    "scientific_name": "Schlumbergera truncata",
+    "english_name": "Crab Cactus",
+    "alias": [
+      "圣诞仙人掌",
+      "蟹爪莲",
+      "锦上添花"
+    ],
+    "family": "仙人掌科",
+    "genus": "蟹爪兰属",
+    "description": "蟹爪兰为仙人掌科蟹爪兰属多年生常绿肉质植物，株高可达0.5米，茎节似蟹爪，花姿艳丽，是著名年宵花卉，可嫁接繁殖，花期恰逢圣诞、春节。",
+    "history": "蟹爪兰原产于巴西热带雨林，20世纪30年代传入中国，现各地广泛栽培为室内盆栽花卉。",
+    "morphology": "茎节扁平，肉质，长椭圆形，边缘有锯齿，绿色，相连成蟹爪状；花生于茎节顶端，花色红、粉、白、紫等，花径5-8厘米，花瓣多数，反卷；蒴果球形，红色，成熟期6-7月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地，巴西，南美洲热带雨林，欧洲、日本",
+    "flowering_period": "12月-次年2月",
+    "image_url": "https://picsum.photos/id/35/912/792"
+  },
+  {
+    "chinese_name": "仙人球",
+    "scientific_name": "Echinopsis tubiflora",
+    "english_name": "Easter Lily Cactus",
+    "alias": [
+      "草球",
+      "长盛球",
+      "刺球"
+    ],
+    "family": "仙人掌科",
+    "genus": "仙人球属",
+    "description": "仙人球为仙人掌科仙人球属多年生肉质植物，株高可达0.3米，球体圆润，刺色多样，花大色艳，是著名室内盆栽花卉，耐旱易养，象征坚强。",
+    "history": "仙人球原产于南美洲阿根廷，20世纪初传入中国，现各地广泛栽培为室内观赏花卉，为最常见的仙人掌品种。",
+    "morphology": "茎球形或椭圆形，肉质，绿色，具纵棱，棱上有刺座，刺针形；花生于球体顶端，花色白、粉、红、黄等，花径10-15厘米，花瓣多数；蒴果球形，红色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐强光，耐寒性弱，极耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，阿根廷，南美洲，欧洲、北美洲",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/36/912/792"
+  },
+  {
+    "chinese_name": "多肉玉露",
+    "scientific_name": "Haworthia cooperi",
+    "english_name": "Cooper's Haworthia",
+    "alias": [
+      "水晶玉露",
+      "草玉露",
+      "冰灯玉露"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "多肉玉露为阿福花科十二卷属多年生肉质植物，株高可达0.15米，叶形小巧，肉质透明似水晶，是著名多肉观赏花卉，品种繁多，为多肉爱好者经典品种。",
+    "history": "玉露原产于南非，20世纪90年代传入中国，现各地广泛栽培为多肉盆栽，经人工培育出多个名贵品种。",
+    "morphology": "叶片基生，莲座状排列，肉质，匙形或三角形，半透明，有白色纹路，边缘全缘；花葶从叶丛抽出，总状花序，小花白色，花径0.5-1厘米；蒴果球形，褐色，成熟期少见。",
+    "habitat": "喜温暖干燥，耐半阴，忌强光直射，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的颗粒沙质土壤",
+    "distribution": "中国各地，南非，非洲南部，欧洲、日本",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/37/912/792"
+  },
+  {
+    "chinese_name": "碰碰香",
+    "scientific_name": "Plectranthus amboinicus",
+    "english_name": "Cuban Oregano",
+    "alias": [
+      "一抹香",
+      "触留香",
+      "洋薄荷"
+    ],
+    "family": "唇形科",
+    "genus": "香茶菜属",
+    "description": "碰碰香为唇形科香茶菜属多年生常绿肉质草本植物，株高可达0.5米，触碰叶片会散发浓郁清香，是著名盆栽观赏花卉，嫩茎叶可食用、泡茶，全草可入药。",
+    "history": "碰碰香原产于非洲好望角，21世纪初传入中国，现各地广泛栽培为室内盆栽花卉，因趣味特性深受喜爱。",
+    "morphology": "叶片互生，卵圆形，全缘，绿色，肉质，被细毛；花顶生穗状花序，小花淡紫色，花径0.5-1厘米；蒴果四棱形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，非洲好望角，欧洲、北美洲，澳洲",
+    "flowering_period": "5-6月（室内极少开花）",
+    "image_url": "https://picsum.photos/id/38/912/792"
+  },
+  {
+    "chinese_name": "薄荷",
+    "scientific_name": "Mentha haplocalyx",
+    "english_name": "Peppermint",
+    "alias": [
+      "银丹草",
+      "夜息香",
+      "南薄荷"
+    ],
+    "family": "唇形科",
+    "genus": "薄荷属",
+    "description": "薄荷为唇形科薄荷属多年生草本植物，株高可达1米，全株具浓郁清凉香气，是著名药食同源花卉，可盆栽观赏，嫩茎叶可食用、泡茶，全草可入药。",
+    "history": "薄荷原产于中国，栽培历史超2000年，汉代已有药用记载，现全球温带地区广泛栽培，为重要经济作物。",
+    "morphology": "叶片对生，披针形，边缘有粗锯齿，绿色，纸质，具腺点；花顶生轮伞花序，小花淡紫色，花径0.3-0.5厘米；小坚果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性强，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，世界温带、亚热带地区",
+    "flowering_period": "7-9月",
+    "image_url": "https://picsum.photos/id/39/912/792"
+  },
+  {
+    "chinese_name": "薰衣草",
+    "scientific_name": "Lavandula angustifolia",
+    "english_name": "English Lavender",
+    "alias": [
+      "灵香草",
+      "香草",
+      "黄香草"
+    ],
+    "family": "唇形科",
+    "genus": "薰衣草属",
+    "description": "薰衣草为唇形科薰衣草属多年生半灌木，株高可达1米，花穗挺拔，具浓郁芳香，是著名观赏及芳香花卉，花可提取香精、制作花茶，象征浪漫，为普罗旺斯代表花卉。",
+    "history": "薰衣草原产于地中海沿岸，20世纪60年代传入中国，现新疆、云南等地广泛规模化栽培，各地庭院也有盆栽。",
+    "morphology": "叶片对生，线形，全缘，灰绿色，革质，被绒毛；花顶生穗状花序，花色紫、蓝、粉、白等，花径0.5-1厘米；小坚果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐强光，耐寒性较强，耐旱，忌积水，适宜疏松肥沃、排水良好的微碱性沙质土壤",
+    "distribution": "中国新疆、云南、江苏，地中海沿岸，欧洲、北美洲，澳洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/40/912/792"
+  },
+  {
+    "chinese_name": "迷迭香",
+    "scientific_name": "Rosmarinus officinalis",
+    "english_name": "Rosemary",
+    "alias": [
+      "海洋之露",
+      "迷迭草",
+      "艾菊"
+    ],
+    "family": "唇形科",
+    "genus": "迷迭香属",
+    "description": "迷迭香为唇形科迷迭香属多年生常绿灌木，株高可达2米，全株具浓郁芳香，是著名芳香及观赏花卉，嫩枝叶可做香料、泡茶，全草可入药，象征记忆与怀念。",
+    "history": "迷迭香原产于地中海沿岸，20世纪80年代传入中国，现各地广泛栽培为芳香盆栽及经济作物。",
+    "morphology": "叶片对生，线形，全缘，灰绿色，革质，被绒毛；花顶生总状花序，花色蓝、紫、白等，花径0.5-1厘米；小坚果球形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐强光，耐寒性较强，耐旱，忌积水，适宜疏松肥沃、排水良好的微碱性沙质土壤",
+    "distribution": "中国各地，地中海沿岸，欧洲、北美洲，澳洲",
+    "flowering_period": "11月-次年4月",
+    "image_url": "https://picsum.photos/id/41/912/792"
+  },
+  {
+    "chinese_name": "鼠尾草",
+    "scientific_name": "Salvia splendens",
+    "english_name": "Scarlet Sage",
+    "alias": [
+      "一串红",
+      "红唇花",
+      "洋苏草"
+    ],
+    "family": "唇形科",
+    "genus": "鼠尾草属",
+    "description": "鼠尾草为唇形科鼠尾草属一年生或多年生草本植物，株高可达1米，花穗艳丽，花期长，是著名庭院、花坛花卉，部分品种具芳香，可做香料，花可入药。",
+    "history": "鼠尾草原产于南美洲，20世纪初传入中国，现各地广泛栽培为花坛、花境主栽品种，一串红为其经典栽培品种。",
+    "morphology": "叶片对生，卵形，边缘有粗锯齿，绿色，纸质；花顶生穗状花序，花色红、粉、紫、白等，花径1-2厘米，花冠唇形；小坚果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较弱，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，南美洲，欧洲、北美洲，日本",
+    "flowering_period": "5-10月",
+    "image_url": "https://picsum.photos/id/42/912/792"
+  },
+  {
+    "chinese_name": "藿香蓟",
+    "scientific_name": "Ageratum conyzoides",
+    "english_name": "Tropic Ageratum",
+    "alias": [
+      "胜红蓟",
+      "咸虾花",
+      "臭垆草"
+    ],
+    "family": "菊科",
+    "genus": "藿香蓟属",
+    "description": "藿香蓟为菊科藿香蓟属一年生草本植物，株高可达0.6米，花球小巧繁密，是著名地被、花坛及切花配花，全草可入药，也可作为蜜源植物。",
+    "history": "藿香蓟原产于中美洲，20世纪初传入中国，现各地广泛栽培为地被植物，部分地区为野生归化品种。",
+    "morphology": "叶片对生，卵形，边缘有粗锯齿，绿色，纸质，被柔毛；花顶生头状花序，呈伞房状排列，花色蓝、紫、粉、白等，花径0.5-1厘米；瘦果圆柱形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性弱，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，中美洲，全球热带、亚热带地区",
+    "flowering_period": "4-11月",
+    "image_url": "https://picsum.photos/id/43/912/792"
+  },
+  {
+    "chinese_name": "麦秆菊",
+    "scientific_name": "Xerochrysum bracteatum",
+    "english_name": "Strawflower",
+    "alias": [
+      "蜡菊",
+      "贝细工",
+      "永生菊"
+    ],
+    "family": "菊科",
+    "genus": "蜡菊属",
+    "description": "麦秆菊为菊科蜡菊属一年生草本植物，株高可达1米，花瓣干膜质似蜡，花型艳丽，是著名干花及切花花卉，花干后颜色持久不褪，为永生花常用品种。",
+    "history": "麦秆菊原产于澳大利亚，20世纪初传入中国，现各地广泛栽培为切花及干花品种，庭院也有盆栽。",
+    "morphology": "叶片互生，披针形，边缘全缘，绿色，纸质；花顶生头状花序，花色黄、橙、红、粉等，花径3-5厘米，总苞片干膜质；瘦果圆柱形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐强光，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，澳大利亚，欧洲、北美洲，日本",
+    "flowering_period": "7-10月",
+    "image_url": "https://picsum.photos/id/44/912/792"
+  },
+  {
+    "chinese_name": "翠菊",
+    "scientific_name": "Callistephus chinensis",
+    "english_name": "China Aster",
+    "alias": [
+      "江西腊",
+      "七月菊",
+      "蓝菊"
+    ],
+    "family": "菊科",
+    "genus": "翠菊属",
+    "description": "翠菊为菊科翠菊属一年生或二年生草本植物，株高可达1米，花型丰富，花色艳丽，是著名庭院、花坛及切花花卉，为中国传统观赏花卉，品种繁多。",
+    "history": "翠菊原产于中国北部，栽培历史超1500年，唐代已有记载，18世纪传入欧洲，现全球温带地区广泛栽培。",
+    "morphology": "叶片互生，卵形，边缘有粗锯齿，绿色，纸质；花顶生头状花序，花色红、粉、白、蓝、紫等，花径3-8厘米，有单瓣重瓣；瘦果长椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较弱，耐旱，忌积水，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国各地，欧洲、亚洲温带，北美洲",
+    "flowering_period": "7-10月",
+    "image_url": "https://picsum.photos/id/45/912/792"
+  },
+  {
+    "chinese_name": "矢车菊",
+    "scientific_name": "Centaurea cyanus",
+    "english_name": "Cornflower",
+    "alias": [
+      "蓝芙蓉",
+      "翠兰",
+      "荔枝菊"
+    ],
+    "family": "菊科",
+    "genus": "矢车菊属",
+    "description": "矢车菊为菊科矢车菊属一年生或二年生草本植物，株高可达1米，花姿轻盈，花色淡雅，是著名庭院、花坛及切花花卉，为德国国花，象征幸福与忠诚。",
+    "history": "矢车菊原产于欧洲，20世纪初传入中国，现各地广泛栽培为庭院、花坛花卉，也可作为蜜源植物。",
+    "morphology": "叶片互生，披针形，羽状分裂，绿色，纸质，被白毛；花顶生头状花序，花色蓝、紫、粉、白等，花径3-5厘米；瘦果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较强，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，欧洲，亚洲温带，北美洲",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/46/912/792"
+  },
+  {
+    "chinese_name": "金鸡菊",
+    "scientific_name": "Coreopsis drummondii",
+    "english_name": "Drummond's Coreopsis",
+    "alias": [
+      "小波斯菊",
+      "金钱菊",
+      "孔雀菊"
+    ],
+    "family": "菊科",
+    "genus": "金鸡菊属",
+    "description": "金鸡菊为菊科金鸡菊属一年生或多年生草本植物，株高可达0.8米，花大色艳，花期长，是著名地被、花坛及庭院花卉，耐贫瘠易养，也可作为蜜源植物。",
+    "history": "金鸡菊原产于北美洲，20世纪30年代传入中国，现各地广泛栽培为地被植物，部分地区为野生归化品种。",
+    "morphology": "叶片互生，披针形，羽状分裂，绿色，纸质；花顶生头状花序，花色黄、橙、红等，花径3-5厘米；瘦果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较强，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，北美洲，欧洲、亚洲温带",
+    "flowering_period": "5-10月",
+    "image_url": "https://picsum.photos/id/47/912/792"
+  },
+  {
+    "chinese_name": "黑心菊",
+    "scientific_name": "Rudbeckia hirta",
+    "english_name": "Black-eyed Susan",
+    "alias": [
+      "黑心金光菊",
+      "黑眼菊",
+      "黄菊"
+    ],
+    "family": "菊科",
+    "genus": "金光菊属",
+    "description": "黑心菊为菊科金光菊属一年生或二年生草本植物，株高可达1米，花型独特，花心黑褐色，花色艳丽，是著名庭院、花坛及切花花卉，花期长，耐贫瘠易养。",
+    "history": "黑心菊原产于北美洲，20世纪80年代传入中国，现各地广泛栽培为庭院、花坛花卉。",
+    "morphology": "叶片互生，卵形，边缘有粗锯齿，绿色，纸质，被柔毛；花顶生头状花序，舌状花黄色，管状花黑褐色，花径5-8厘米；瘦果圆柱形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较强，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，北美洲，欧洲、澳洲",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/48/912/792"
+  },
+  {
+    "chinese_name": "松果菊",
+    "scientific_name": "Echinacea purpurea",
+    "english_name": "Purple Coneflower",
+    "alias": [
+      "紫锥花",
+      "紫松果菊",
+      "紫锥菊"
+    ],
+    "family": "菊科",
+    "genus": "松果菊属",
+    "description": "松果菊为菊科松果菊属多年生草本植物，株高可达1.5米，花型独特，花心似松果，花色艳丽，是著名观赏及药用花卉，花可入药，具有增强免疫力的功效。",
+    "history": "松果菊原产于北美洲，20世纪90年代传入中国，现各地广泛栽培为庭院花卉及药用经济作物。",
+    "morphology": "叶片互生，卵形，边缘有粗锯齿，绿色，纸质，被柔毛；花顶生头状花序，舌状花紫、粉、白等色，管状花黄色，花径8-12厘米；瘦果椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，北美洲，欧洲、日本，澳洲",
+    "flowering_period": "6-9月",
+    "image_url": "https://picsum.photos/id/49/912/792"
+  },
+  {
+    "chinese_name": "格桑花",
+    "scientific_name": "Cosmos sulphureus",
+    "english_name": "Sulfur Cosmos",
+    "alias": [
+      "硫华菊",
+      "黄秋英",
+      "波斯菊黄"
+    ],
+    "family": "菊科",
+    "genus": "秋英属",
+    "description": "格桑花（硫华菊）为菊科秋英属一年生草本植物，株高可达2米，花姿轻盈，花色鲜艳，是著名庭院、花海及边坡绿化花卉，耐贫瘠易养，为西藏地区代表花卉之一，象征幸福美好。",
+    "history": "格桑花原产于墨西哥，20世纪初传入中国，现各地广泛栽培为花海、庭院花卉，西藏地区规模化种植。",
+    "morphology": "叶片二回羽状深裂，线形，绿色，纸质；花顶生头状花序，花色黄、橙、红等，花径5-8厘米；瘦果黑紫色，长椭圆形，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥，全球温带、亚热带地区",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/50/912/792"
+  },
+  {
+    "chinese_name": "雏菊",
+    "scientific_name": "Bellis perennis",
+    "english_name": "Common Daisy",
+    "alias": [
+      "马头兰",
+      "延命菊",
+      "春菊"
+    ],
+    "family": "菊科",
+    "genus": "雏菊属",
+    "description": "雏菊为菊科雏菊属多年生草本植物，株高可达0.2米，花型小巧，花色淡雅，是著名地被、花坛及盆栽花卉，早春开花，象征纯洁与希望，为意大利国花。",
+    "history": "雏草原产于欧洲，20世纪初传入中国，现各地广泛栽培为早春花坛、地被花卉，也可盆栽观赏。",
+    "morphology": "叶片基生，匙形，边缘有波状齿，绿色，纸质；花葶从叶丛抽出，头状花序单生，花色白、粉、黄等，花径2-4厘米；瘦果倒卵形，褐色，成熟期5-6月。",
+    "habitat": "喜温暖凉爽，喜光，耐半阴，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，欧洲，亚洲温带，北美洲",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/51/912/792"
+  },
+  {
+    "chinese_name": "金盏菊",
+    "scientific_name": "Calendula officinalis",
+    "english_name": "Pot Marigold",
+    "alias": [
+      "金盏花",
+      "长生菊",
+      "醒酒花"
+    ],
+    "family": "菊科",
+    "genus": "金盏菊属",
+    "description": "金盏菊为菊科金盏菊属一年生或二年生草本植物，株高可达0.6米，花型圆润，花色金黄，是著名庭院、花坛及药用花卉，花可入药、制作花茶，也可提取色素。",
+    "history": "金盏菊原产于地中海沿岸，20世纪初传入中国，现各地广泛栽培为庭院、花坛花卉，也可作为经济作物。",
+    "morphology": "叶片互生，卵形，边缘有粗锯齿，绿色，纸质，被柔毛；花顶生头状花序，花色黄、橙等，花径3-6厘米；瘦果圆柱形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较强，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，地中海沿岸，欧洲、北美洲，澳洲",
+    "flowering_period": "4-9月",
+    "image_url": "https://picsum.photos/id/52/912/792"
+  },
+  {
+    "chinese_name": "万寿菊",
+    "scientific_name": "Tagetes erecta",
+    "english_name": "African Marigold",
+    "alias": [
+      "臭芙蓉",
+      "蜂窝菊",
+      "大万寿菊"
+    ],
+    "family": "菊科",
+    "genus": "万寿菊属",
+    "description": "万寿菊为菊科万寿菊属一年生草本植物，株高可达1.2米，花大色艳，花期长，是著名庭院、花坛及环保花卉，能吸收有害气体，花可提取香精、制作花茶，也可入药。",
+    "history": "万寿菊原产于墨西哥，16世纪传入欧洲，17世纪传入中国，现各地广泛栽培为庭院、花坛花卉，也可作为绿肥植物。",
+    "morphology": "叶片互生，羽状深裂，披针形，边缘有锯齿，绿色，纸质，具特殊气味；花顶生头状花序，花色黄、橙等，花径5-10厘米；瘦果线形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥，全球温带、热带地区",
+    "flowering_period": "7-10月",
+    "image_url": "https://picsum.photos/id/53/912/792"
+  },
+  {
+    "chinese_name": "孔雀草",
+    "scientific_name": "Tagetes patula",
+    "english_name": "French Marigold",
+    "alias": [
+      "小万寿菊",
+      "红黄草",
+      "西番菊"
+    ],
+    "family": "菊科",
+    "genus": "万寿菊属",
+    "description": "孔雀草为菊科万寿菊属一年生草本植物，株高可达0.6米，花型小巧，花色艳丽，花期长，是著名庭院、花坛及地被花卉，耐贫瘠易养，为花坛边缘常见品种。",
+    "history": "孔雀草原产于墨西哥，20世纪初传入中国，现各地广泛栽培为庭院、花坛花卉，与万寿菊为同属近缘品种。",
+    "morphology": "叶片互生，羽状深裂，披针形，边缘有锯齿，绿色，纸质，具特殊气味；花顶生头状花序，花色黄、橙红相间，花径3-5厘米；瘦果线形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥，全球温带、热带地区",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/54/912/792"
+  },
+  {
+    "chinese_name": "长春花",
+    "scientific_name": "Catharanthus roseus",
+    "english_name": "Madagascar Periwinkle",
+    "alias": [
+      "日日春",
+      "四时春",
+      "雁来红"
+    ],
+    "family": "夹竹桃科",
+    "genus": "长春花属",
+    "description": "长春花为夹竹桃科长春花属多年生草本植物，株高可达0.8米，花型小巧，花期全年，是著名庭院、花坛及盆栽花卉，全株有毒，可入药，提取的生物碱具有抗癌功效。",
+    "history": "长春花原产于非洲马达加斯加，20世纪初传入中国，现各地广泛栽培为庭院、花坛花卉，也可作为药用经济作物。",
+    "morphology": "叶片对生，长椭圆形，全缘，深绿色，革质，有光泽；花单生或数朵簇生叶腋，花色粉、红、白、紫等，花径2-3厘米，花冠高脚碟形；蓇葖果双生，圆柱形，褐色，成熟期8-9月。",
+    "habitat": "喜高温高湿，喜光，耐半阴，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国各地，马达加斯加，非洲，东南亚，欧洲",
+    "flowering_period": "全年（温暖地区）",
+    "image_url": "https://picsum.photos/id/55/912/792"
+  },
+  {
+    "chinese_name": "夹竹桃",
+    "scientific_name": "Nerium oleander",
+    "english_name": "Oleander",
+    "alias": [
+      "柳叶桃",
+      "半年红",
+      "洋桃"
+    ],
+    "family": "夹竹桃科",
+    "genus": "夹竹桃属",
+    "description": "夹竹桃为夹竹桃科夹竹桃属常绿灌木或小乔木，株高可达5米，花大色艳，花期长，是著名庭院、行道及绿化花卉，抗污染能力强，全株剧毒，可入药（需炮制）。",
+    "history": "夹竹桃原产于印度、伊朗，汉代传入中国，栽培历史超2000年，现各地广泛栽培为绿化树种，南方为常绿，北方为盆栽。",
+    "morphology": "叶片对生或轮生，披针形，全缘，深绿色，革质，有光泽；花顶生聚伞花序，花色红、粉、白、黄等，花径3-5厘米，花冠漏斗形；蓇葖果双生，长椭圆形，褐色，成熟期10-11月。",
+    "habitat": "喜高温高湿，喜光，耐半阴，耐寒性弱，耐旱，耐贫瘠，对土壤要求不严，抗污染",
+    "distribution": "中国各地，印度、伊朗，东南亚，欧洲、北美洲",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/56/912/792"
+  },
+  {
+    "chinese_name": "络石藤",
+    "scientific_name": "Trachelospermum jasminoides",
+    "english_name": "Chinese Star Jasmine",
+    "alias": [
+      "万字茉莉",
+      "石龙藤",
+      "白花藤"
+    ],
+    "family": "夹竹桃科",
+    "genus": "络石属",
+    "description": "络石藤为夹竹桃科络石属常绿木质藤本，株长可达10米，叶色翠绿，花白芳香，是著名垂直绿化及庭院花卉，可攀援墙面、栏杆，全株可入药，茎皮可制绳。",
+    "history": "络石藤原产于中国，栽培历史超1500年，唐代已有记载，现各地广泛栽培为垂直绿化树种。",
+    "morphology": "叶片对生，卵形，全缘，深绿色，革质；花顶生聚伞花序，白色，星状，花径1-2厘米，具浓郁茉莉香气；蓇葖果双生，长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较强，耐旱，耐贫瘠，对土壤要求不严",
+    "distribution": "中国各地，日本、韩国，东南亚",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/57/912/792"
+  },
+  {
+    "chinese_name": "飘香藤",
+    "scientific_name": "Mandevilla sanderi",
+    "english_name": "Brazilian Jasmine",
+    "alias": [
+      "红皱藤",
+      "双腺藤",
+      "文藤"
+    ],
+    "family": "夹竹桃科",
+    "genus": "飘香藤属",
+    "description": "飘香藤为夹竹桃科飘香藤属常绿木质藤本，株长可达6米，花大色艳，具淡淡芳香，是著名垂直绿化及盆栽花卉，花姿优雅，花期长，为庭院、阳台常见品种。",
+    "history": "飘香藤原产于南美洲，21世纪初传入中国，现各地广泛栽培为盆栽及庭院藤本花卉。",
+    "morphology": "叶片对生，卵形，全缘，深绿色，革质，有光泽；花顶生或腋生，花色红、粉、白等，花径5-8厘米，花冠漏斗形；蓇葖果长椭圆形，褐色，成熟期少见（室内极少结果）。",
+    "habitat": "喜高温高湿，喜光，耐半阴，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国各地，南美洲，东南亚，欧洲、日本",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/58/912/792"
+  },
+  {
+    "chinese_name": "宝莲灯花",
+    "scientific_name": "Medinilla magnifica",
+    "english_name": "Rose Grape",
+    "alias": [
+      "美丁花",
+      "宝莲花",
+      "粉苞酸脚杆"
+    ],
+    "family": "野牡丹科",
+    "genus": "酸脚杆属",
+    "description": "宝莲灯花为野牡丹科酸脚杆属多年生常绿灌木，株高可达1.5米，花型似宝莲灯，苞片层叠艳丽，是名贵室内观赏花卉，花期长，观赏价值极高。",
+    "history": "宝莲灯花原产于菲律宾、马来西亚热带雨林，20世纪90年代传入中国，现各地高端花卉市场及植物园有栽培，为名贵盆栽品种。",
+    "morphology": "叶片对生，卵形至椭圆形，全缘，深绿色，革质有光泽；花顶生圆锥花序，苞片粉红色，小花淡紫色，花径约5厘米，花瓣4片；浆果球形，紫色，成熟期10-11月。",
+    "habitat": "喜高温高湿，耐半阴，忌强光直射，耐寒性极弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国华南、华东盆栽，菲律宾，马来西亚，东南亚热带雨林",
+    "flowering_period": "4-9月",
+    "image_url": "https://picsum.photos/id/70/912/792"
+  },
+  {
+    "chinese_name": "宝绿",
+    "scientific_name": "Glottiphyllum linguiforme",
+    "english_name": "Tongue Leaf",
+    "alias": [
+      "舌叶花",
+      "佛手掌",
+      "弯叶日中花"
+    ],
+    "family": "番杏科",
+    "genus": "舌叶花属",
+    "description": "宝绿为番杏科舌叶花属多年生肉质草本，株高可达0.2米，叶形似佛手，肉质肥厚，花大色艳，是常见多肉观赏花卉，耐旱易养，适合盆栽点缀。",
+    "history": "宝绿原产于非洲南部，20世纪80年代传入中国，现各地广泛栽培为多肉盆栽，是入门级多肉品种之一。",
+    "morphology": "叶片肉质，舌形，对生排列，浅绿色，肉质光滑；花单生叶腋，金黄色，花径5-6厘米，花瓣多数；蒴果肉质，成熟后开裂，种子细小，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，极耐旱，适宜疏松肥沃、排水良好的颗粒沙质土壤",
+    "distribution": "中国各地盆栽，非洲南部，澳洲部分地区",
+    "flowering_period": "9-10月",
+    "image_url": "https://picsum.photos/id/71/912/792"
+  },
+  {
+    "chinese_name": "报春花",
+    "scientific_name": "Primula malacoides",
+    "english_name": "Fairy Primrose",
+    "alias": [
+      "年景花",
+      "樱草",
+      "四季报春"
+    ],
+    "family": "报春花科",
+    "genus": "报春花属",
+    "description": "报春花为报春花科报春花属二年生草本，株高可达0.3米，花繁色艳，早春开花，是著名庭院、花坛及盆栽花卉，象征春天到来，品种繁多。",
+    "history": "报春花原产于中国云南、贵州，栽培历史超1000年，宋代已有记载，20世纪传入欧洲，现全球温带地区广泛栽培。",
+    "morphology": "叶片基生，卵形，边缘有锯齿，浅绿色，纸质被柔毛；花葶从叶丛抽出，伞形花序，花色红、粉、白、紫等，花径2-3厘米，花瓣5片；蒴果球形，褐色，成熟期5-6月。",
+    "habitat": "喜凉爽湿润，耐半阴，忌高温强光，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国西南、华东，欧洲，日本，澳洲",
+    "flowering_period": "2-5月",
+    "image_url": "https://picsum.photos/id/72/912/792"
+  },
+  {
+    "chinese_name": "碧光环",
+    "scientific_name": "Monilaria obconica",
+    "english_name": "Bunny Succulent",
+    "alias": [
+      "小兔子碧光环",
+      "棒叶花",
+      "玉兔"
+    ],
+    "family": "番杏科",
+    "genus": "碧光环属",
+    "description": "碧光环为番杏科碧光环属多年生肉质草本，株高可达0.15米，幼苗叶形似兔子耳朵，呆萌可爱，是网红多肉观赏花卉，成株形态独特，深受多肉爱好者喜爱。",
+    "history": "碧光环原产于非洲南部，21世纪初传入中国，现各地广泛栽培为多肉盆栽，是特色多肉品种。",
+    "morphology": "幼苗叶片肉质，棒形，对生呈兔耳状，浅绿色；成株叶片细长三角状，肉质，丛生；花单生，白色或淡黄色，花径2-3厘米，花瓣多数；蒴果小型，褐色，成熟期6-7月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，极耐旱，忌积水，适宜疏松肥沃的颗粒沙质土壤",
+    "distribution": "中国各地盆栽，非洲南部",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/73/912/792"
+  },
+  {
+    "chinese_name": "闭鞘姜",
+    "scientific_name": "Costus speciosus",
+    "english_name": "Crepe Ginger",
+    "alias": [
+      "水蕉花",
+      "广商陆",
+      "樟柳头"
+    ],
+    "family": "姜科",
+    "genus": "闭鞘姜属",
+    "description": "闭鞘姜为姜科闭鞘姜属多年生草本，株高可达2米，花型似火炬，苞片艳丽，是著名庭院、湿地绿化花卉，全株可入药，根茎具药用价值。",
+    "history": "闭鞘姜原产于中国华南及东南亚，为乡土野生植物，后人工驯化栽培，现中国南方各地及东南亚广泛种植。",
+    "morphology": "叶片互生，长椭圆形，全缘，深绿色，革质；花顶生穗状花序，苞片红色，小花白色，花径3-4厘米，花瓣3片；蒴果球形，红色，成熟期9-10月。",
+    "habitat": "喜高温高湿，喜光，耐半阴，耐寒性弱，适宜疏松肥沃、排水良好的微酸性土壤，耐水湿",
+    "distribution": "中国华南、西南，东南亚，南亚",
+    "flowering_period": "7-10月",
+    "image_url": "https://picsum.photos/id/74/912/792"
+  },
+  {
+    "chinese_name": "冰灯玉露",
+    "scientific_name": "Haworthia cooperi var. pilifera",
+    "english_name": "Ice Lamp Haworthia",
+    "alias": [
+      "极品玉露",
+      "冰魄玉露",
+      "水晶玉露"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "冰灯玉露为阿福花科十二卷属多年生肉质草本，株高可达0.1米，叶片透明似冰灯，纹路清晰，是名贵多肉观赏花卉，为玉露品种中的珍品。",
+    "history": "冰灯玉露为人工培育的玉露变种，原产于南非，21世纪初传入中国，现各地多肉市场广泛栽培，为高端多肉品种。",
+    "morphology": "叶片肉质，莲座状排列，三角状匙形，半透明，具白色纹路，叶尖有小刺；花葶从叶丛抽出，总状花序，小花白色，花径0.5厘米；蒴果球形，褐色，成熟期少见。",
+    "habitat": "喜温暖干燥，耐半阴，忌强光直射，耐寒性弱，耐旱，适宜疏松肥沃的颗粒腐殖土",
+    "distribution": "中国各地盆栽，南非",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/75/912/792"
+  },
+  {
+    "chinese_name": "补血草",
+    "scientific_name": "Limonium sinense",
+    "english_name": "Chinese Sea Lavender",
+    "alias": [
+      "勿忘我",
+      "星辰花",
+      "石苁蓉"
+    ],
+    "family": "白花丹科",
+    "genus": "补血草属",
+    "description": "补血草为白花丹科补血草属多年生草本，株高可达0.6米，花干后不凋落，花色持久，是著名干花、切花配花，全草可入药，具补血功效。",
+    "history": "补血草原产于中国沿海及内陆盐碱地，为乡土植物，20世纪80年代开始规模化栽培为切花品种，现各地广泛种植。",
+    "morphology": "叶片基生，披针形，全缘，灰绿色，纸质；花葶直立，顶生圆锥花序，花色蓝、紫、粉、白等，花径1-2厘米，花萼膜质为观赏部分；蒴果倒卵形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较强，耐盐碱，耐旱，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，日本，朝鲜，东南亚",
+    "flowering_period": "5-10月",
+    "image_url": "https://picsum.photos/id/76/912/792"
+  },
+  {
+    "chinese_name": "彩叶草",
+    "scientific_name": "Coleus scutellarioides",
+    "english_name": "Painted Nettle",
+    "alias": [
+      "五彩苏",
+      "老来少",
+      "洋紫苏"
+    ],
+    "family": "唇形科",
+    "genus": "鞘蕊花属",
+    "description": "彩叶草为唇形科鞘蕊花属多年生草本，株高可达0.8米，叶色五彩斑斓，斑纹丰富，是著名观叶花卉，为庭院、花坛、盆栽的优质彩叶品种，易养易繁殖。",
+    "history": "彩叶草原产于印度尼西亚，20世纪初传入中国，现各地广泛栽培为观叶植物，经人工培育出多个叶色品种。",
+    "morphology": "叶片对生，卵形，边缘有锯齿，叶色红、黄、绿、紫相间，纸质；花顶生穗状花序，小花淡紫色，花径0.5厘米，无观赏价值；小坚果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性弱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，印度尼西亚，东南亚，澳洲",
+    "flowering_period": "8-9月（花多剪除）",
+    "image_url": "https://picsum.photos/id/77/912/792"
+  },
+  {
+    "chinese_name": "彩叶芋",
+    "scientific_name": "Caladium bicolor",
+    "english_name": "Angel Wings",
+    "alias": [
+      "五彩芋",
+      "花叶芋",
+      "彩叶芋莲"
+    ],
+    "family": "天南星科",
+    "genus": "彩叶芋属",
+    "description": "彩叶芋为天南星科彩叶芋属多年生草本，株高可达0.5米，叶色艳丽，斑纹多样，是著名室内观叶花卉，叶形似盾，色彩丰富，适合盆栽点缀家居。",
+    "history": "彩叶芋原产于南美洲热带雨林，20世纪80年代传入中国，现各地广泛栽培为室内观叶盆栽，品种繁多。",
+    "morphology": "叶片基生，盾形，边缘全缘或波状，叶色红、粉、白、绿相间，纸质；佛焰苞花序，浅绿色，花小，无观赏价值；浆果球形，白色，成熟期少见。",
+    "habitat": "喜高温高湿，耐半阴，忌强光直射，耐寒性极弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽，南美洲热带雨林，东南亚",
+    "flowering_period": "6-7月（花多剪除）",
+    "image_url": "https://picsum.photos/id/78/912/792"
+  },
+  {
+    "chinese_name": "茶梅",
+    "scientific_name": "Camellia sasanqua",
+    "english_name": "Sasanqua Camellia",
+    "alias": [
+      "小茶梅",
+      "早茶梅",
+      "茶梅花"
+    ],
+    "family": "山茶科",
+    "genus": "山茶属",
+    "description": "茶梅为山茶科山茶属常绿灌木，株高可达3米，花型似梅，花色淡雅，花期长，是著名庭院、盆栽花卉，兼具茶花与梅花的风姿，抗逆性强，适合各地栽培。",
+    "history": "茶梅原产于中国长江流域及日本，栽培历史超1000年，宋代已有记载，现中国各地及日本、韩国广泛栽培。",
+    "morphology": "叶片互生，椭圆形，边缘有细锯齿，深绿色，革质，较山茶叶片小；花单生或簇生，花色白、粉、红等，花径3-5厘米，花瓣5-7片；蒴果球形，褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，耐寒性较强，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国长江流域及以南，日本，韩国",
+    "flowering_period": "10月-次年4月",
+    "image_url": "https://picsum.photos/id/79/912/792"
+  },
+  {
+    "chinese_name": "长春蔓",
+    "scientific_name": "Vinca major",
+    "english_name": "Bigleaf Periwinkle",
+    "alias": [
+      "蔓长春花",
+      "缠绕长春花",
+      "大花长春蔓"
+    ],
+    "family": "夹竹桃科",
+    "genus": "蔓长春花属",
+    "description": "长春蔓为夹竹桃科蔓长春花属常绿藤本，株长可达2米，匍匐生长，叶色翠绿，花小而艳，是著名地被、垂直绿化花卉，耐阴易养，适合林下、墙面绿化。",
+    "history": "长春蔓原产于欧洲地中海沿岸，20世纪30年代传入中国，现各地广泛栽培为地被植物，部分品种具花叶斑纹。",
+    "morphology": "叶片对生，卵形，全缘，深绿色，革质；花单生叶腋，蓝紫色，花径3-4厘米，花冠漏斗形；蓇葖果双生，圆柱形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，欧洲地中海沿岸，北非，西亚",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/80/912/792"
+  },
+  {
+    "chinese_name": "常春藤",
+    "scientific_name": "Hedera helix",
+    "english_name": "English Ivy",
+    "alias": [
+      "洋常春藤",
+      "长春藤",
+      "土鼓藤"
+    ],
+    "family": "五加科",
+    "genus": "常春藤属",
+    "description": "常春藤为五加科常春藤属常绿藤本，株长可达10米，攀援或匍匐生长，叶形多样，是著名地被、垂直绿化及室内观叶花卉，具较强空气净化能力，耐阴易养。",
+    "history": "常春藤原产于欧洲、亚洲温带，20世纪初传入中国，现各地广泛栽培为绿化及室内盆栽植物，品种繁多。",
+    "morphology": "叶片互生，卵形或掌状分裂，全缘或有锯齿，深绿色，革质，幼叶与老叶形态不同；花顶生伞形花序，小花淡黄色，花径0.5厘米；浆果球形，黑色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地，欧洲，亚洲温带，北美洲",
+    "flowering_period": "9-10月（室内极少开花）",
+    "image_url": "https://picsum.photos/id/81/912/792"
+  },
+  {
+    "chinese_name": "垂丝海棠",
+    "scientific_name": "Malus halliana",
+    "english_name": "Hall Crabapple",
+    "alias": [
+      "垂枝海棠",
+      "锦带花",
+      "垂丝海红"
+    ],
+    "family": "蔷薇科",
+    "genus": "苹果属",
+    "description": "垂丝海棠为蔷薇科苹果属落叶小乔木，株高可达5米，花柄细长下垂，花色粉红，是著名庭院观赏树种，为海棠品种中的珍品，春季开花繁密，极具观赏性。",
+    "history": "垂丝海棠原产于中国长江流域，栽培历史超1500年，唐代已有记载，现中国各地及日本、韩国广泛栽培。",
+    "morphology": "叶片互生，卵形，边缘有细锯齿，绿色，纸质；花3-5朵簇生，伞形花序，花粉红色，花径3-4厘米，花瓣5片，花柄细长下垂；果实近球形，红色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，忌积水，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国长江流域及以南，日本，韩国",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/82/912/792"
+  },
+  {
+    "chinese_name": "垂筒花",
+    "scientific_name": "Cyrtanthus mackenii",
+    "english_name": "Ifafa Lily",
+    "alias": [
+      "曲管花",
+      "南非垂筒花",
+      "红花垂筒"
+    ],
+    "family": "石蒜科",
+    "genus": "垂筒花属",
+    "description": "垂筒花为石蒜科垂筒花属多年生球根草本，株高可达0.3米，花型似筒，下垂生长，花色艳丽，具芳香，是著名球根观赏花卉，适合盆栽及庭院点缀，花期长。",
+    "history": "垂筒花原产于南非，21世纪初传入中国，现各地球根花卉市场广泛栽培，为特色球根品种。",
+    "morphology": "叶片基生，带状，扁平，全缘，浅绿色，肉质；花葶从叶丛抽出，伞形花序，花粉红、橙红、白色等，花筒下垂，花径3-4厘米，花瓣6片；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较弱，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽，南非",
+    "flowering_period": "5-10月",
+    "image_url": "https://picsum.photos/id/83/912/792"
+  },
+  {
+    "chinese_name": "春兰",
+    "scientific_name": "Cymbidium goeringii",
+    "english_name": "Goering's Cymbidium",
+    "alias": [
+      "草兰",
+      "山兰",
+      "朵朵香"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "春兰为兰科兰属多年生草本，株高可达0.3米，叶姿优雅，花香清幽，是中国传统名贵兰花，为兰科代表品种之一，品种繁多，极具观赏与收藏价值。",
+    "history": "春兰原产于中国长江流域及以南，栽培历史超2000年，春秋时期已有记载，现中国各地及日本、韩国广泛栽培，为兰花爱好者的经典品种。",
+    "morphology": "叶片基生，带状，扁平，全缘，深绿色，革质；花葶从叶丛抽出，单花或双花，花色绿、白、黄带紫斑，花径3-4厘米，花瓣6片；蒴果长椭圆形，褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较强，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国长江流域及以南，日本，韩国",
+    "flowering_period": "1-3月",
+    "image_url": "https://picsum.photos/id/84/912/792"
+  },
+  {
+    "chinese_name": "春羽",
+    "scientific_name": "Philodendron selloum",
+    "english_name": "Split-leaf Philodendron",
+    "alias": [
+      "羽裂喜林芋",
+      "春芋",
+      "裂叶蔓绿绒"
+    ],
+    "family": "天南星科",
+    "genus": "喜林芋属",
+    "description": "春羽为天南星科喜林芋属多年生常绿藤本，株高可达1.5米，叶形似羽，分裂奇特，是著名室内观叶花卉，叶大翠绿，适合客厅、办公室盆栽点缀，耐阴易养。",
+    "history": "春羽原产于南美洲热带雨林，20世纪80年代传入中国，现各地广泛栽培为室内观叶植物，是常见的大型观叶盆栽。",
+    "morphology": "叶片互生，掌状深裂，裂片披针形，全缘，深绿色，革质有光泽；佛焰苞花序，浅绿色，花小，无观赏价值；浆果球形，红色，成熟期少见。",
+    "habitat": "喜高温高湿，耐阴，忌强光直射，耐寒性弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽，南美洲热带雨林，东南亚",
+    "flowering_period": "5-6月（室内极少开花）",
+    "image_url": "https://picsum.photos/id/85/912/792"
+  },
+  {
+    "chinese_name": "翠云草",
+    "scientific_name": "Selaginella uncinata",
+    "english_name": "Peacock Spikemoss",
+    "alias": [
+      "蓝地柏",
+      "龙须草",
+      "绿绒草"
+    ],
+    "family": "卷柏科",
+    "genus": "卷柏属",
+    "description": "翠云草为卷柏科卷柏属多年生草本蕨类，株长可达1米，匍匐生长，叶色蓝绿，姿态优美，是著名观叶蕨类，适合盆栽、假山点缀及地被种植，耐阴湿。",
+    "history": "翠云草原产于中国长江流域及以南，为乡土蕨类植物，栽培历史悠久，现各地广泛栽培为观赏蕨类，也是传统中药材。",
+    "morphology": "茎纤细，匍匐，有分枝；叶小，鳞片状，排列成四列，蓝绿色，肉质；孢子囊穗顶生，四棱形，孢子褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较弱，喜疏松肥沃、排水良好的腐殖土，耐水湿",
+    "distribution": "中国长江流域及以南，日本，越南",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/86/912/792"
+  },
+  {
+    "chinese_name": "大花葱",
+    "scientific_name": "Allium giganteum",
+    "english_name": "Giant Onion",
+    "alias": [
+      "硕葱",
+      "巨葱",
+      "高葱"
+    ],
+    "family": "石蒜科",
+    "genus": "葱属",
+    "description": "大花葱为石蒜科葱属多年生球根草本，株高可达1.5米，花球硕大，花色艳丽，是著名球根观赏花卉，为庭院、花坛及切花的优质品种，花型独特极具观赏性。",
+    "history": "大花葱原产于亚洲中部，20世纪初传入欧洲，80年代传入中国，现各地广泛栽培为球根花卉，是高端切花品种之一。",
+    "morphology": "叶片基生，带状，扁平，全缘，浅绿色，肉质；花葶粗壮，顶生伞形花序呈球形，花粉紫色，花径15-20厘米，小花密集；蒴果球形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖凉爽，喜光，耐半阴，耐寒性较强，耐旱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，亚洲中部，欧洲，北美洲",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/87/912/792"
+  },
+  {
+    "chinese_name": "大花飞燕草",
+    "scientific_name": "Delphinium grandiflorum",
+    "english_name": "Large Flowered Larkspur",
+    "alias": [
+      "翠雀",
+      "飞燕草",
+      "鸽子花"
+    ],
+    "family": "毛茛科",
+    "genus": "翠雀属",
+    "description": "大花飞燕草为毛茛科翠雀属多年生草本，株高可达1米，花型似飞燕，花色淡雅，花穗挺拔，是著名庭院、花坛及切花花卉，品种繁多，全株有毒。",
+    "history": "大花飞燕草原产于中国北方及蒙古，栽培历史超1000年，唐代已有记载，20世纪传入欧洲，现全球温带地区广泛栽培。",
+    "morphology": "叶片互生，掌状分裂，裂片披针形，边缘有锯齿，绿色，纸质；花顶生总状花序，花色蓝、紫、粉、白等，花径3-4厘米，花瓣5片，上瓣有距；蓇葖果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，喜光，耐半阴，耐寒性较强，耐旱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国北方及西南，蒙古，欧洲，北美洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/88/912/792"
+  },
+  {
+    "chinese_name": "大花蕙兰",
+    "scientific_name": "Cymbidium hybridum",
+    "english_name": "Cymbidium Hybrid",
+    "alias": [
+      "喜姆比兰",
+      "虎头兰",
+      "洋兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "大花蕙兰为兰科兰属多年生草本，株高可达1米，花大色艳，花穗挺拔，是著名名贵兰花，为年宵花卉的主流品种，兼具观赏与装饰价值，品种繁多。",
+    "history": "大花蕙兰为人工杂交品种，原产于东南亚及中国西南，20世纪80年代传入中国市场，现各地广泛栽培为年宵花卉，是高端盆栽品种。",
+    "morphology": "叶片基生，带状，扁平，全缘，深绿色，革质；花葶从叶丛抽出，总状花序，花色红、粉、黄、白、绿等，花径8-15厘米，花瓣6片；蒴果长椭圆形，褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽，东南亚，中国西南",
+    "flowering_period": "10月-次年4月",
+    "image_url": "https://picsum.photos/id/89/912/792"
+  },
+  {
+    "chinese_name": "大花马齿苋",
+    "scientific_name": "Portulaca grandiflora",
+    "english_name": "Moss Rose",
+    "alias": [
+      "太阳花",
+      "松叶牡丹",
+      "半支莲"
+    ],
+    "family": "马齿苋科",
+    "genus": "马齿苋属",
+    "description": "大花马齿苋为马齿苋科马齿苋属一年生肉质草本，株高可达0.3米，花大色艳，见光开花，是著名庭院、花坛及盆栽花卉，耐旱耐贫瘠，易养易繁殖，品种繁多。",
+    "history": "大花马齿苋原产于巴西，20世纪初传入中国，现各地广泛栽培为观赏花卉，是常见的庭院点缀品种。",
+    "morphology": "叶片肉质，线形，对生或簇生，浅绿色，肉质光滑；花单生茎顶，花色红、粉、黄、白、紫等，花径3-5厘米，花瓣多数；蒴果球形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐强光，耐寒性弱，极耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，巴西，南美洲，东南亚",
+    "flowering_period": "6-10月（见光开花）",
+    "image_url": "https://picsum.photos/id/90/912/792"
+  },
+  {
+    "chinese_name": "大丽花",
+    "scientific_name": "Dahlia pinnata",
+    "english_name": "Garden Dahlia",
+    "alias": [
+      "大理花",
+      "天竺牡丹",
+      "西番莲"
+    ],
+    "family": "菊科",
+    "genus": "大丽花属",
+    "description": "大丽花为菊科大丽花属多年生球根草本，株高可达1.5米，花大色艳，花型丰富，是著名观赏花卉，为庭院、花坛及切花的优质品种，品种超万种，是墨西哥国花。",
+    "history": "大丽花原产于墨西哥，16世纪传入欧洲，20世纪初传入中国，现各地广泛栽培为球根花卉，是常见的庭院及切花品种。",
+    "morphology": "叶片互生，羽状复叶，小叶卵形，边缘有锯齿，绿色，纸质；花顶生头状花序，花色红、粉、黄、白、紫等，花径5-20厘米，有单瓣重瓣；瘦果长椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖凉爽，喜光，耐半阴，耐寒性较弱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥，欧洲，北美洲，澳洲",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/91/912/792"
+  },
+  {
+    "chinese_name": "大叶落地生根",
+    "scientific_name": "Kalanchoe daigremontiana",
+    "english_name": "Mother of Thousands",
+    "alias": [
+      "宽叶落地生根",
+      "不死鸟",
+      "蕾丝公主"
+    ],
+    "family": "景天科",
+    "genus": "伽蓝菜属",
+    "description": "大叶落地生根为景天科伽蓝菜属多年生肉质草本，株高可达1米，叶缘具不定芽，落地即可生根，是著名多肉观赏花卉，繁殖能力极强，耐旱易养，适合盆栽。",
+    "history": "大叶落地生根原产于非洲马达加斯加，20世纪60年代传入中国，现各地广泛栽培为多肉盆栽，是入门级多肉品种。",
+    "morphology": "叶片肉质，长椭圆形，边缘有锯齿，深绿色，肉质厚实，叶缘着生不定芽；花葶从叶丛抽出，顶生圆锥花序，花红色，花径2-3厘米，花冠钟形；蓇葖果长椭圆形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性弱，极耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽，非洲马达加斯加",
+    "flowering_period": "1-3月",
+    "image_url": "https://picsum.photos/id/92/912/792"
+  },
+  {
+    "chinese_name": "倒挂金钟",
+    "scientific_name": "Fuchsia hybrida",
+    "english_name": "Fuchsia",
+    "alias": [
+      "吊钟花",
+      "灯笼花",
+      "吊金钟"
+    ],
+    "family": "柳叶菜科",
+    "genus": "倒挂金钟属",
+    "description": "倒挂金钟为柳叶菜科倒挂金钟属多年生灌木，株高可达1米，花型似灯笼，下垂生长，花色艳丽，是著名盆栽观赏花卉，花姿独特，适合阳台、窗台盆栽点缀。",
+    "history": "倒挂金钟原产于南美洲，20世纪初传入中国，现各地广泛栽培为盆栽花卉，经人工培育出多个花型品种。",
+    "morphology": "叶片对生，卵形，边缘有锯齿，深绿色，纸质；花单生叶腋，下垂生长，花色红、粉、白、紫等，花径3-4厘米，花瓣4片，花萼筒状；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜凉爽湿润，耐半阴，忌高温强光，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽，南美洲，欧洲，日本",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/93/912/792"
+  },
+  {
+    "chinese_name": "吊竹梅",
+    "scientific_name": "Tradescantia zebrina",
+    "english_name": "Wandering Jew",
+    "alias": [
+      "吊竹兰",
+      "斑叶鸭跖草",
+      "紫竹梅"
+    ],
+    "family": "鸭跖草科",
+    "genus": "吊竹梅属",
+    "description": "吊竹梅为鸭跖草科吊竹梅属多年生草本，株长可达1米，匍匐或垂吊生长，叶色紫绿相间，是著名室内观叶花卉，耐阴易养，适合垂吊盆栽点缀家居。",
+    "history": "吊竹梅原产于墨西哥，20世纪30年代传入中国，现各地广泛栽培为室内观叶植物，是常见的垂吊盆栽品种。",
+    "morphology": "叶片对生，卵形，全缘，叶面色绿带紫，背面紫红色，纸质；花数朵簇生叶腋，淡紫色，花径1-2厘米，花瓣3片；蒴果球形，褐色，成熟期7-8月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较弱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽，墨西哥，中美洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/94/912/792"
+  },
+  {
+    "chinese_name": "兜兰",
+    "scientific_name": "Paphiopedilum purpuratum",
+    "english_name": "Lady's Slipper Orchid",
+    "alias": [
+      "拖鞋兰",
+      "仙履兰",
+      "兜拖鞋"
+    ],
+    "family": "兰科",
+    "genus": "兜兰属",
+    "description": "兜兰为兰科兜兰属多年生草本，株高可达0.3米，花型似拖鞋，花色淡雅，是著名名贵兰花，为兰科特色品种，具极高观赏与收藏价值，部分品种为国家保护植物。",
+    "history": "兜兰原产于中国华南及东南亚，栽培历史超500年，明代已有记载，现各地兰花市场及植物园有栽培，为高端兰花品种。",
+    "morphology": "叶片基生，带状，扁平，全缘，深绿色或带斑纹，革质；花葶从叶丛抽出，单花，花色白、粉、紫、绿带斑点，花径5-8厘米，唇瓣呈兜状；蒴果长椭圆形，褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国华南、西南，东南亚，南亚",
+    "flowering_period": "10月-次年4月",
+    "image_url": "https://picsum.photos/id/95/912/792"
+  },
+  {
+    "chinese_name": "豆瓣绿",
+    "scientific_name": "Peperomia obtusifolia",
+    "english_name": "Baby Rubber Plant",
+    "alias": [
+      "椒草",
+      "圆叶椒草",
+      "翡翠椒草"
+    ],
+    "family": "胡椒科",
+    "genus": "椒草属",
+    "description": "豆瓣绿为胡椒科椒草属多年生常绿草本，株高可达0.3米，叶色翠绿，肉质厚实，是著名室内观叶花卉，耐阴易养，适合办公桌、书桌盆栽点缀，具空气净化能力。",
+    "history": "豆瓣绿原产于南美洲，20世纪70年代传入中国，现各地广泛栽培为室内观叶盆栽，是常见的小型观叶品种。",
+    "morphology": "叶片互生，卵形，全缘，深绿色，肉质光滑；花穗细长，浅绿色，花小，无观赏价值；浆果球形，绿色，成熟期少见。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较弱，耐旱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地盆栽，南美洲，东南亚",
+    "flowering_period": "5-6月（花多剪除）",
+    "image_url": "https://picsum.photos/id/96/912/792"
+  },
+  {
+    "chinese_name": "独尾草",
+    "scientific_name": "Eremurus chinensis",
+    "english_name": "Chinese Eremurus",
+    "alias": [
+      "戈壁针茅",
+      "长尾草",
+      "独尾花"
+    ],
+    "family": "阿福花科",
+    "genus": "独尾草属",
+    "description": "独尾草为阿福花科独尾草属多年生草本，株高可达1.5米，花穗挺拔细长，花色淡雅，是著名庭院及切花花卉，为西北乡土植物，抗逆性强，适合北方栽培。",
+    "history": "独尾草原产于中国西北及蒙古，为乡土野生植物，后人工驯化栽培，现中国北方各地及蒙古广泛种植。",
+    "morphology": "叶片基生，带状，扁平，全缘，浅绿色，纸质；花葶粗壮，顶生总状花序，花白色或淡紫色，花径1-2厘米，花瓣6片；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较强，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国西北，蒙古，中亚",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/97/912/792"
+  },
+  {
+    "chinese_name": "矾根",
+    "scientific_name": "Heuchera micrantha",
+    "english_name": "Coral Bells",
+    "alias": [
+      "珊瑚铃",
+      "肾形草",
+      "彩叶矾根"
+    ],
+    "family": "虎耳草科",
+    "genus": "矾根属",
+    "description": "矾根为虎耳草科矾根属多年生草本，株高可达0.4米，叶色丰富，四季变色，是著名观叶花卉，为庭院、花坛及盆栽的优质彩叶品种，耐阴耐寒，适合各地栽培。",
+    "history": "矾根本产于北美洲，20世纪90年代传入中国，现各地广泛栽培为观叶植物，经人工培育出多个叶色品种。",
+    "morphology": "叶片基生，肾形，边缘有锯齿，叶色红、黄、绿、紫、黑等，纸质；花葶从叶丛抽出，顶生总状花序，小花白色或淡粉色，花径0.5厘米；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜凉爽湿润，耐阴，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，北美洲，欧洲",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/98/912/792"
+  },
+  {
+    "chinese_name": "番红花",
+    "scientific_name": "Crocus sativus",
+    "english_name": "Saffron Crocus",
+    "alias": [
+      "藏红花",
+      "西红花",
+      "红蓝花"
+    ],
+    "family": "鸢尾科",
+    "genus": "番红花属",
+    "description": "番红花为鸢尾科番红花属多年生球根草本，株高可达0.2米，花型淡雅，花柱红色具极高药用价值，是著名名贵球根花卉，也是重要的药用经济作物，花柱为藏红花。",
+    "history": "番红花原产于地中海沿岸，汉代传入中国，栽培历史超2000年，现中国西藏、青海、上海等地广泛栽培为药用及观赏品种。",
+    "morphology": "叶片基生，线形，扁平，全缘，浅绿色，肉质；花葶短，花单生，花色紫、白、粉等，花径3-4厘米，花瓣6片；花柱红色，细长；蒴果球形，褐色，成熟期6-7月。",
+    "habitat": "喜温暖凉爽，喜光，耐半阴，耐寒性较强，耐旱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽，地中海沿岸，伊朗，印度",
+    "flowering_period": "10-11月",
+    "image_url": "https://picsum.photos/id/99/912/792"
+  },
+  {
+    "chinese_name": "繁星花",
+    "scientific_name": "Pentas lanceolata",
+    "english_name": "Egyptian Star Flower",
+    "alias": [
+      "五星花",
+      "星形花",
+      "埃及众星"
+    ],
+    "family": "茜草科",
+    "genus": "五星花属",
+    "description": "繁星花为茜草科五星花属多年生草本，株高可达0.6米，花型似星，繁密丛生，花色艳丽，是著名庭院、花坛及盆栽花卉，花期长，耐晒易养，适合阳台种植。",
+    "history": "繁星花原产于非洲热带及阿拉伯半岛，21世纪初传入中国，现各地广泛栽培为观赏花卉，是常见的花坛及盆栽品种。",
+    "morphology": "叶片对生，披针形，全缘，深绿色，纸质；花顶生聚伞花序，花色红、粉、白、紫等，花径1-2厘米，花瓣5片呈星形；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜高温高湿，喜光，耐强光，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，非洲热带，阿拉伯半岛，东南亚",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/100/912/792"
+  },
+  {
+    "chinese_name": "菲白竹",
+    "scientific_name": "Sasa fortunei",
+    "english_name": "Dwarf White-stripe Bamboo",
+    "alias": [
+      "白条竹",
+      "菲白箬竹",
+      "花叶竹"
+    ],
+    "family": "禾本科",
+    "genus": "赤竹属",
+    "description": "菲白竹为禾本科赤竹属多年生常绿竹类，株高可达0.5米，竹秆纤细，叶色绿白相间，是著名观叶竹类，为庭院、盆栽及假山点缀的优质矮生竹品种，耐阴耐寒。",
+    "history": "菲白竹原产于中国长江流域及日本，栽培历史超500年，明代已有记载，现中国各地及日本广泛栽培为观赏竹类。",
+    "morphology": "竹秆纤细，绿色，节间短；叶片互生，披针形，全缘，叶面色绿带白色条纹，纸质；笋期4-5月，颖果长椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，耐阴，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国长江流域及以南，日本",
+    "flowering_period": "极少开花，靠分株繁殖",
+    "image_url": "https://picsum.photos/id/101/912/792"
+  },
+  {
+    "chinese_name": "绯花玉",
+    "scientific_name": "Gymnocalycium baldianum",
+    "english_name": "Baldianum Cactus",
+    "alias": [
+      "绯花玉仙人球",
+      "红花玉",
+      "多花玉"
+    ],
+    "family": "仙人掌科",
+    "genus": "裸萼球属",
+    "description": "绯花玉为仙人掌科裸萼球属多年生肉质草本，株高可达0.2米，球体圆润，花大色艳，开花繁多，是著名多肉观赏花卉，为入门级仙人球品种，耐旱易养，开花性好。",
+    "history": "绯花玉原产于阿根廷，20世纪90年代传入中国，现各地广泛栽培为多肉盆栽，是最常见的开花仙人球品种。",
+    "morphology": "茎球形，绿色，具纵棱，棱上有刺座，刺短而稀；花生于球体顶端，花色红、粉、白、黄等，花径5-6厘米，花瓣多数；蒴果球形，红色，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐寒性较弱，极耐旱，适宜疏松肥沃、排水良好的颗粒沙质土壤",
+    "distribution": "中国各地盆栽，阿根廷",
+    "flowering_period": "5-10月（多次开花）",
+    "image_url": "https://picsum.photos/id/102/912/792"
+  },
+  {
+    "chinese_name": "风车茉莉",
+    "scientific_name": "Trachelospermum jasminoides 'Variegatum'",
+    "english_name": "Variegated Star Jasmine",
+    "alias": [
+      "花叶络石藤",
+      "斑叶络石",
+      "彩叶风车茉莉"
+    ],
+    "family": "夹竹桃科",
+    "genus": "络石属",
+    "description": "风车茉莉为夹竹桃科络石属常绿藤本，株长可达8米，叶色绿白红相间，花似风车具茉莉香，是著名彩叶垂直绿化花卉，耐阴易养，适合墙面、栏杆攀援。",
+    "history": "风车茉莉为络石藤的花叶变种，原产于中国及日本，21世纪初开始规模化栽培，现各地广泛种植为绿化及盆栽品种。",
+    "morphology": "叶片对生，卵形，全缘，叶面色绿带白、红斑纹，革质；花顶生聚伞花序，白色，星状似风车，花径1-2厘米，具茉莉香气；蓇葖果双生，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，日本，韩国",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/103/912/792"
+  },
+  {
+    "chinese_name": "凤仙花",
+    "scientific_name": "Impatiens balsamina",
+    "english_name": "Garden Balsam",
+    "alias": [
+      "指甲花",
+      "急性子",
+      "金凤花"
+    ],
+    "family": "凤仙花科",
+    "genus": "凤仙花属",
+    "description": "凤仙花为凤仙花科凤仙花属一年生草本，株高可达1米，花大色艳，花瓣可染指甲，是著名庭院、花坛花卉，为中国传统乡土花卉，耐贫瘠易养，品种繁多。",
+    "history": "凤仙花原产于中国，栽培历史超3000年，周代已有记载，现全球温带、亚热带地区广泛栽培，是常见的庭院点缀品种。",
+    "morphology": "叶片互生，披针形，边缘有锯齿，绿色，纸质；花单生或簇生叶腋，花色红、粉、黄、白、紫等，花径3-4厘米，花瓣5片；蒴果纺锤形，褐色，成熟期8-9月（触之即裂）。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性弱，耐旱，耐贫瘠，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地，世界温带、亚热带地区",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/104/912/792"
+  },
+  {
+    "chinese_name": "红蝉花",
+    "scientific_name": "Mandevilla amabilis",
+    "english_name": "Brazilian Jasmine",
+    "alias": [
+      "飘香藤红蝉",
+      "软枝黄蝉近亲",
+      "红花文藤"
+    ],
+    "family": "夹竹桃科",
+    "genus": "飘香藤属",
+    "description": "红蝉花为夹竹桃科飘香藤属常绿藤本，株长可达5米，花大色艳呈喇叭状，花期长且花量繁密，是优质垂直绿化花卉，耐热耐晒，适合庭院攀援及盆栽观赏，具淡淡芳香。",
+    "history": "红蝉花原产于南美洲巴西，21世纪初引入中国，现华南、华东各地广泛栽培，为庭院藤本热门品种。",
+    "morphology": "叶片对生，卵形至长椭圆形，全缘，深绿色革质有光泽；花单生或簇生，花冠鲜红色，花径8-10厘米，花瓣5片合生成喇叭状；蓇葖果双生，长椭圆形，褐色，成熟期少见。",
+    "habitat": "喜高温高湿，喜光耐强光，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国华南、华东盆栽/地栽，南美洲巴西，东南亚，澳洲",
+    "flowering_period": "4-11月",
+    "image_url": "https://picsum.photos/id/110/912/792"
+  },
+  {
+    "chinese_name": "姬玉露",
+    "scientific_name": "Haworthia cooperi var. pilifera f. truncata",
+    "english_name": "Mini Ice Lamp Haworthia",
+    "alias": [
+      "迷你玉露",
+      "姬水晶",
+      "小型十二卷"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "姬玉露为阿福花科十二卷属多年生肉质草本，株高仅5-8厘米，是玉露的小型变种，叶片晶莹剔透具白色纹路，小巧精致，为网红多肉品种，适合迷你盆栽点缀桌面。",
+    "history": "姬玉露原产于南非，21世纪初传入中国，经多肉爱好者培育普及，现各地广泛栽培，是入门级小型多肉代表。",
+    "morphology": "叶片莲座状排列，肉质三角匙形，半透明窗面，具白色线状纹路，叶尖圆润；花葶细短，总状花序，小花白色，花径0.3-0.5厘米；蒴果球形，褐色，成熟期极少。",
+    "habitat": "喜温暖干燥，耐半阴忌强光直射，耐寒性弱，极耐旱，适宜疏松肥沃的颗粒腐殖土（泥炭+珍珠岩）",
+    "distribution": "中国各地盆栽，南非开普省",
+    "flowering_period": "4-5月（极少开花）",
+    "image_url": "https://picsum.photos/id/111/912/792"
+  },
+  {
+    "chinese_name": "鹿角蕨",
+    "scientific_name": "Platycerium bifurcatum",
+    "english_name": "Staghorn Fern",
+    "alias": [
+      "麋角蕨",
+      "鹿角羊齿",
+      "蝙蝠蕨"
+    ],
+    "family": "水龙骨科",
+    "genus": "鹿角蕨属",
+    "description": "鹿角蕨为水龙骨科鹿角蕨属多年生附生蕨类，株高可达40厘米，叶片分营养叶和孢子叶，孢子叶形似鹿角，是著名观叶蕨类，适合附木、附石栽培，为北欧风家居装饰热门品种。",
+    "history": "鹿角蕨原产于澳大利亚、马达加斯加，20世纪90年代传入中国，现各地植物园及花卉市场广泛栽培，为特色观叶植物。",
+    "morphology": "营养叶圆形纸质，贴附基质生长，深绿色；孢子叶丛生，分叉呈鹿角状，革质灰绿色；孢子囊群生于孢子叶背面，褐色，靠孢子繁殖，无花无果。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性弱，喜疏松透气的腐殖土（苔藓+树皮），附生生长",
+    "distribution": "中国各地盆栽，澳大利亚，马达加斯加，东南亚热带雨林",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/112/912/792"
+  },
+  {
+    "chinese_name": "蓝雪花",
+    "scientific_name": "Ceratostigma plumbaginoides",
+    "english_name": "Leadwort",
+    "alias": [
+      "蓝花丹",
+      "蓝花矶松",
+      "蓝雪丹"
+    ],
+    "family": "白花丹科",
+    "genus": "白花丹属",
+    "description": "蓝雪花为白花丹科白花丹属多年生直立灌木，株高可达1米，花呈淡蓝色繁密丛生，花期超长且耐热耐晒，是夏季庭院、阳台热门花卉，易养易繁殖，花量极大。",
+    "history": "蓝雪花原产于中国华南及东南亚，为乡土花卉，后人工驯化栽培，现全国各地广泛种植，是夏季观花主力品种。",
+    "morphology": "叶片对生，宽卵形至披针形，全缘，浅绿色纸质；花顶生聚伞花序，花冠淡蓝色，花径2-3厘米，花瓣5片；蒴果椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，东南亚，南亚",
+    "flowering_period": "5-10月（南方可全年开花）",
+    "image_url": "https://picsum.photos/id/113/912/792"
+  },
+  {
+    "chinese_name": "红雪花",
+    "scientific_name": "Ceratostigma willmottianum",
+    "english_name": "Chinese Leadwort",
+    "alias": [
+      "红花丹",
+      "紫金标",
+      "红纸扇"
+    ],
+    "family": "白花丹科",
+    "genus": "白花丹属",
+    "description": "红雪花为白花丹科白花丹属多年生藤状灌木，株长可达3米，花呈玫红色至深红色，与蓝雪花同属近亲，花期长且耐热，是优质藤本观花花卉，适合攀援及盆栽垂吊。",
+    "history": "红雪花原产于中国西南及缅甸，为乡土野生植物，21世纪初开始人工栽培，现各地花卉市场逐步普及。",
+    "morphology": "叶片对生，披针形，全缘，深绿色纸质，幼叶带红色；花顶生聚伞花序，花冠玫红色，花径2-2.5厘米，花瓣5片；蒴果长椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性比蓝雪花强，耐旱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国西南、华东盆栽，缅甸，中国四川、云南",
+    "flowering_period": "6-11月",
+    "image_url": "https://picsum.photos/id/114/912/792"
+  },
+  {
+    "chinese_name": "雪滴花",
+    "scientific_name": "Galanthus nivalis",
+    "english_name": "Snowdrop",
+    "alias": [
+      "雪铃花",
+      "雪花莲",
+      "待雪草"
+    ],
+    "family": "石蒜科",
+    "genus": "雪滴花属",
+    "description": "雪滴花为石蒜科雪滴花属多年生球根草本，株高可达20厘米，早春开花，花呈白色钟形下垂，形似滴落的雪花，是著名早春球根花卉，适合庭院地栽及盆栽，耐寒性极强。",
+    "history": "雪滴花原产于欧洲中部及南部，20世纪初传入中国，现北方各地广泛栽培，为早春观花特色品种。",
+    "morphology": "叶片基生，线形扁平，全缘，浅绿色肉质；花葶细短，单花顶生，花冠白色，花径1-2厘米，花瓣6片（外轮3片大，内轮3片小带绿斑）；蒴果球形，褐色，成熟期5-6月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性极强，耐旱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国北方各地盆栽/地栽，欧洲中部及南部",
+    "flowering_period": "2-3月（早春开花）",
+    "image_url": "https://picsum.photos/id/115/912/792"
+  },
+  {
+    "chinese_name": "雪片莲",
+    "scientific_name": "Leucojum vernum",
+    "english_name": "Spring Snowflake",
+    "alias": [
+      "雪滴花近亲",
+      "春雪片莲",
+      "铃花雪滴"
+    ],
+    "family": "石蒜科",
+    "genus": "雪片莲属",
+    "description": "雪片莲为石蒜科雪片莲属多年生球根草本，株高可达30厘米，与雪滴花形似但花型更大，花白色带绿色斑点，早春开花，是著名球根花卉，适合庭院花境及盆栽，耐寒性强。",
+    "history": "雪片莲原产于欧洲南部及西亚，20世纪80年代传入中国，现各地植物园及球根花卉爱好者广泛栽培。",
+    "morphology": "叶片基生，宽带形，全缘，深绿色肉质；花葶直立，伞形花序具2-3花，花冠白色钟形，花径2-3厘米，花瓣6片均带绿斑；蒴果椭圆形，褐色，成熟期6月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌高温积水，适宜疏松肥沃的腐殖土",
+    "distribution": "中国各地盆栽，欧洲南部，西亚",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/116/912/792"
+  },
+  {
+    "chinese_name": "朱顶红",
+    "scientific_name": "Hippeastrum rutilum",
+    "english_name": "Amaryllis",
+    "alias": [
+      "对红",
+      "百子莲",
+      "柱顶红"
+    ],
+    "family": "石蒜科",
+    "genus": "朱顶红属",
+    "description": "朱顶红为石蒜科朱顶红属多年生球根草本，株高可达60厘米，花大色艳呈喇叭状，花量多且花型丰富，是著名球根花卉，为年宵花卉热门品种，分本土品种和进口洋朱。",
+    "history": "朱顶红原产于南美洲巴西，19世纪传入中国，现各地广泛栽培，进口洋朱品种因花型更大更艳成为主流。",
+    "morphology": "叶片基生，宽带形，全缘，深绿色革质；花葶粗壮，伞形花序具2-6花，花冠红、粉、白、复色等，花径10-20厘米，花瓣6片；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地盆栽，南美洲巴西，南非，欧洲",
+    "flowering_period": "4-5月（秋植可冬季开花）",
+    "image_url": "https://picsum.photos/id/117/912/792"
+  },
+  {
+    "chinese_name": "百子莲",
+    "scientific_name": "Agapanthus africanus",
+    "english_name": "African Lily",
+    "alias": [
+      "紫君子兰",
+      "蓝花君子兰",
+      "非洲百合"
+    ],
+    "family": "石蒜科",
+    "genus": "百子莲属",
+    "description": "百子莲为石蒜科百子莲属多年生草本，株高可达50厘米，花呈蓝紫色或白色，花穗挺拔似伞，是著名庭院及切花花卉，花期夏季，耐热性强，适合花境搭配及盆栽观赏。",
+    "history": "百子莲原产于非洲南部，20世纪90年代传入中国，现华东、华南各地广泛栽培，为夏季观花特色品种。",
+    "morphology": "叶片基生，宽带形，全缘，深绿色革质，与君子兰形似；花葶直立，伞形花序具数十朵花，花冠蓝紫色或白色，花径3-4厘米，花瓣6片；蒴果球形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国华东、华南盆栽/地栽，非洲南部",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/118/912/792"
+  },
+  {
+    "chinese_name": "风雨兰",
+    "scientific_name": "Zephyranthes grandiflora",
+    "english_name": "Rain Lily",
+    "alias": [
+      "韭兰",
+      "葱兰",
+      "风雨花"
+    ],
+    "family": "石蒜科",
+    "genus": "葱莲属",
+    "description": "风雨兰为石蒜科葱莲属多年生球根草本，株高可达30厘米，叶片似韭似葱，雨后开花且花量暴增，花呈粉色或白色，是著名庭院地被花卉，耐贫瘠易养，适合片植及盆栽。",
+    "history": "风雨兰原产于南美洲，20世纪初传入中国，现全国各地广泛栽培，为最常见的庭院地被球根花卉。",
+    "morphology": "叶片基生，线形扁平，全缘，浅绿色肉质（韭兰叶宽，葱兰叶细）；花葶细短，单花顶生，花冠粉色或白色，花径5-8厘米，花瓣6片；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性中等，耐贫瘠耐旱，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，南美洲，东南亚",
+    "flowering_period": "6-9月（雨后盛花）",
+    "image_url": "https://picsum.photos/id/119/912/792"
+  },
+  {
+    "chinese_name": "花毛茛",
+    "scientific_name": "Ranunculus asiaticus",
+    "english_name": "Persian Buttercup",
+    "alias": [
+      "洋牡丹",
+      "波斯菊",
+      "芹菜花"
+    ],
+    "family": "毛茛科",
+    "genus": "毛茛属",
+    "description": "花毛茛为毛茛科毛茛属多年生球根草本，株高可达40厘米，花型似牡丹且花径更小，花色丰富花型饱满，是著名切花及盆栽花卉，为年宵花卉及春季花境热门品种。",
+    "history": "花毛茛原产于地中海沿岸、西亚，20世纪80年代传入中国，现各地广泛栽培，是春季切花主力品种之一。",
+    "morphology": "叶片基生，掌状分裂，似芹菜叶，绿色纸质；花葶直立，单花顶生，花冠红、粉、白、黄、复色等，花径6-10厘米，花瓣多层重瓣；瘦果椭圆形，褐色，成熟期6-7月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性中等，忌高温积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽，地中海沿岸，西亚，欧洲",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/120/912/792"
+  },
+  {
+    "chinese_name": "洋水仙",
+    "scientific_name": "Narcissus pseudonarcissus",
+    "english_name": "Daffodil",
+    "alias": [
+      "西洋水仙",
+      "黄水仙",
+      "喇叭水仙"
+    ],
+    "family": "石蒜科",
+    "genus": "水仙属",
+    "description": "洋水仙为石蒜科水仙属多年生球根草本，株高可达40厘米，花大色艳呈喇叭状，花色以黄、白为主，与中国水仙相比花型更大且无浓香，是著名早春球根花卉，适合庭院地栽及盆栽。",
+    "history": "洋水仙原产于欧洲中部及南部，20世纪初传入中国，现各地广泛栽培，为早春花境特色品种。",
+    "morphology": "叶片基生，宽带形，全缘，深绿色肉质；花葶直立，单花顶生（部分品种多花），花冠黄白相间，花径5-8厘米，花被片6片，副花冠喇叭状；蒴果球形，褐色，成熟期6月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌高温积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽，欧洲中部及南部，北非",
+    "flowering_period": "2-4月",
+    "image_url": "https://picsum.photos/id/121/912/792"
+  },
+  {
+    "chinese_name": "葡萄风信子",
+    "scientific_name": "Muscari botryoides",
+    "english_name": "Grape Hyacinth",
+    "alias": [
+      "蓝壶花",
+      "葡萄百合",
+      "蓝瓶花"
+    ],
+    "family": "天门冬科",
+    "genus": "风信子属",
+    "description": "葡萄风信子为天门冬科风信子属多年生球根草本，株高可达20厘米，花呈蓝紫色串状似葡萄，花量繁密，是著名早春球根花卉，适合庭院地栽、盆栽及切花配花，耐寒性极强。",
+    "history": "葡萄风信子原产于欧洲南部，20世纪80年代传入中国，现各地广泛栽培，为早春花境迷你球根代表。",
+    "morphology": "叶片基生，线形扁平，全缘，浅绿色肉质；花葶细短，穗状花序呈球形，小花蓝紫色坛状，花径0.5-1厘米，花瓣4片；蒴果球形，褐色，成熟期6月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性极强，耐旱，忌积水，适宜疏松肥沃的沙质土壤",
+    "distribution": "中国各地盆栽/地栽，欧洲南部",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/122/912/792"
+  },
+  {
+    "chinese_name": "洋风信子",
+    "scientific_name": "Hyacinthus orientalis",
+    "english_name": "Hyacinth",
+    "alias": [
+      "五色水仙",
+      "洋水仙风信子",
+      "五彩风信子"
+    ],
+    "family": "天门冬科",
+    "genus": "风信子属",
+    "description": "洋风信子为天门冬科风信子属多年生球根草本，株高可达30厘米，花呈串状直立，花色丰富且香气浓郁，是著名早春球根花卉，为年宵花卉热门品种，分水培和土培。",
+    "history": "洋风信子原产于地中海沿岸及小亚细亚，20世纪初传入中国，现各地广泛栽培，水培品种成为家居观赏主流。",
+    "morphology": "叶片基生，宽带形，全缘，深绿色肉质；花葶直立，穗状花序具数十朵花，花冠红、粉、白、蓝、紫等，花径1-2厘米，花瓣4片，具浓郁香气；蒴果球形，褐色，成熟期6-7月。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌高温积水，土培适宜疏松肥沃的沙质土壤，水培需清水即可",
+    "distribution": "中国各地盆栽，地中海沿岸，小亚细亚，欧洲",
+    "flowering_period": "2-4月",
+    "image_url": "https://picsum.photos/id/123/912/792"
+  },
+  {
+    "chinese_name": "铁线莲",
+    "scientific_name": "Clematis florida",
+    "english_name": "Clematis",
+    "alias": [
+      "铁线牡丹",
+      "番莲",
+      "金包银"
+    ],
+    "family": "毛茛科",
+    "genus": "铁线莲属",
+    "description": "铁线莲为毛茛科铁线莲属常绿或落叶藤本，株长可达6米，花大色艳花型丰富，有“藤本花卉皇后”之称，是优质垂直绿化花卉，适合攀援墙面、栏杆、拱门，品种超300种。",
+    "history": "铁线莲原产于中国及欧洲，栽培历史超1000年，20世纪90年代进口品种传入中国，现各地广泛栽培，为庭院藤本顶级品种。",
+    "morphology": "茎纤细似铁线，绿色；叶片对生，羽状复叶，小叶卵形，全缘或有锯齿，绿色纸质；花单生或簇生，花冠红、粉、白、紫、复色等，花径5-15厘米，花瓣6-8片；瘦果具宿存花柱，形似羽毛，成熟期9-10月。",
+    "habitat": "喜温暖凉爽，喜光耐半阴（根部遮阴），耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微碱性土壤",
+    "distribution": "中国各地盆栽/地栽，中国长江流域，欧洲，日本",
+    "flowering_period": "5-9月（不同品种花期不同）",
+    "image_url": "https://picsum.photos/id/124/912/792"
+  },
+  {
+    "chinese_name": "藤本月季",
+    "scientific_name": "Rosa hybrida Climbing Group",
+    "english_name": "Climbing Rose",
+    "alias": [
+      "爬藤月季",
+      "藤本玫瑰",
+      "攀援月季"
+    ],
+    "family": "蔷薇科",
+    "genus": "蔷薇属",
+    "description": "藤本月季为蔷薇科蔷薇属藤本灌木，株长可达10米，花型似月季且花量繁密，花期长，有“藤本花卉公主”之称，是优质垂直绿化花卉，适合攀援拱门、花墙、栏杆，品种繁多。",
+    "history": "藤本月季由月季与蔷薇杂交培育而成，原产于欧洲，20世纪80年代传入中国，现各地广泛栽培，为庭院藤本热门品种。",
+    "morphology": "茎具钩刺，藤状攀援；叶片互生，羽状复叶，小叶卵形，边缘有锯齿，深绿色革质；花单生或簇生，花冠红、粉、白、黄、复色等，花径5-10厘米，花瓣单瓣或重瓣，具香气；蔷薇果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽/地栽，欧洲，中国各地",
+    "flowering_period": "4-10月（多季开花）",
+    "image_url": "https://picsum.photos/id/125/912/792"
+  },
+  {
+    "chinese_name": "木香花",
+    "scientific_name": "Rosa banksiae",
+    "english_name": "Banksian Rose",
+    "alias": [
+      "木香藤",
+      "锦棚花",
+      "七里香"
+    ],
+    "family": "蔷薇科",
+    "genus": "蔷薇属",
+    "description": "木香花为蔷薇科蔷薇属常绿藤本，株长可达6米，花呈白色或黄色，繁密丛生且香气浓郁，是著名垂直绿化花卉，适合攀援花墙、拱门，抗逆性强，花量极大且花期早。",
+    "history": "木香花原产于中国长江流域，栽培历史超1500年，唐代已有记载，现各地广泛栽培，为传统庭院藤本花卉。",
+    "morphology": "茎具细刺，藤状攀援；叶片互生，羽状复叶，小叶卵形，边缘有锯齿，深绿色革质；花成簇开放，花冠白色或黄色，花径2-3厘米，花瓣5片，具浓郁香气；蔷薇果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/126/912/792"
+  },
+  {
+    "chinese_name": "黄木香",
+    "scientific_name": "Rosa banksiae f. lutea",
+    "english_name": "Yellow Banksian Rose",
+    "alias": [
+      "黄木香藤",
+      "黄花木香",
+      "黄锦棚花"
+    ],
+    "family": "蔷薇科",
+    "genus": "蔷薇属",
+    "description": "黄木香为木香花的黄色变种，蔷薇科蔷薇属常绿藤本，株长可达6米，花呈金黄色繁密丛生，香气浓郁且花量比白木香更大，是优质垂直绿化花卉，适合庭院攀援，为网红藤本品种。",
+    "history": "黄木香为中国本土培育变种，原产于中国长江流域，现各地广泛栽培，因花色艳丽成为庭院热门品种。",
+    "morphology": "茎具细刺，藤状攀援；叶片互生，羽状复叶，小叶卵形，边缘有锯齿，深绿色革质；花成簇开放，花冠金黄色，花径2-3厘米，花瓣5片，具浓郁香气；蔷薇果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地盆栽/地栽，中国长江流域",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/127/912/792"
+  },
+  {
+    "chinese_name": "三角枫",
+    "scientific_name": "Acer buergerianum",
+    "english_name": "Trident Maple",
+    "alias": [
+      "三角槭",
+      "丫枫",
+      "鸡枫"
+    ],
+    "family": "槭树科",
+    "genus": "槭属",
+    "description": "三角枫为槭树科槭属落叶乔木，株高可达20米，叶形呈三角状，秋季叶色变红或黄，是著名观叶乔木，适合庭院种植及盆景制作，抗逆性强，为乡土彩叶树种。",
+    "history": "三角枫原产于中国长江流域，为乡土树种，栽培历史悠久，现各地广泛栽培，是盆景制作的经典品种。",
+    "morphology": "树皮灰褐色，薄片状剥落；叶片互生，三角状卵形，边缘有锯齿，绿色纸质，秋季变红；花杂性，伞房花序，黄绿色，花径0.5厘米；翅果扁平，黄褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/128/912/792"
+  },
+  {
+    "chinese_name": "红枫",
+    "scientific_name": "Acer palmatum Thunb. f. atropurpureum",
+    "english_name": "Red Maple",
+    "alias": [
+      "红叶鸡爪槭",
+      "紫红鸡爪槭",
+      "日本红枫"
+    ],
+    "family": "槭树科",
+    "genus": "槭属",
+    "description": "红枫为槭树科槭属落叶小乔木，株高可达8米，叶形呈掌状分裂，全年叶色呈红色或紫红色，是著名彩叶乔木，适合庭院种植、盆景制作及花境搭配，为网红彩叶树种。",
+    "history": "红枫原产于日本，20世纪初传入中国，现各地广泛栽培，有日本红枫、中国红枫、美国红枫等品种。",
+    "morphology": "树皮灰褐色，光滑；叶片互生，掌状5-7裂，边缘有锯齿，紫红色纸质，秋季色更艳；花杂性，伞房花序，紫红色，花径0.5厘米；翅果扁平，紫红色，成熟期10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴（忌强光暴晒），耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽/地栽，日本，韩国，中国长江流域",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/129/912/792"
+  },
+  {
+    "chinese_name": "鸡爪槭",
+    "scientific_name": "Acer palmatum",
+    "english_name": "Japanese Maple",
+    "alias": [
+      "鸡爪枫",
+      "青枫",
+      "雅枫"
+    ],
+    "family": "槭树科",
+    "genus": "槭属",
+    "description": "鸡爪槭为槭树科槭属落叶小乔木，株高可达10米，叶形呈掌状5-7裂似鸡爪，秋季叶色变红或黄，是著名观叶乔木，为红枫的原种，适合庭院种植及盆景制作，抗逆性强。",
+    "history": "鸡爪槭原产于中国长江流域及日本，为乡土树种，栽培历史超1000年，现各地广泛栽培，是彩叶树种的经典品种。",
+    "morphology": "树皮灰褐色，光滑；叶片互生，掌状5-7裂，边缘有锯齿，绿色纸质，秋季变红；花杂性，伞房花序，黄绿色，花径0.5厘米；翅果扁平，黄褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，中国长江流域，日本，韩国",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/130/912/792"
+  },
+  {
+    "chinese_name": "羽毛枫",
+    "scientific_name": "Acer palmatum 'Dissectum'",
+    "english_name": "Laceleaf Japanese Maple",
+    "alias": [
+      "细叶鸡爪槭",
+      "裂叶鸡爪槭",
+      "丝锦枫"
+    ],
+    "family": "槭树科",
+    "genus": "槭属",
+    "description": "羽毛枫为鸡爪槭的变种，槭树科槭属落叶小乔木，株高可达5米，叶形呈掌状细裂似羽毛，叶色翠绿或紫红，是著名观叶乔木，适合庭院种植、盆景制作及花境搭配，造型优美。",
+    "history": "羽毛枫原产于中国长江流域及日本，为传统名贵观叶树种，现各地广泛栽培，有绿羽毛枫和红羽毛枫两个主流品种。",
+    "morphology": "树皮灰褐色，光滑；叶片互生，掌状细裂，裂片线形，边缘有锯齿，绿色或紫红色纸质；花杂性，伞房花序，黄绿色，花径0.5厘米；翅果扁平，黄褐色，成熟期10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地盆栽/地栽，中国长江流域，日本",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/131/912/792"
+  },
+  {
+    "chinese_name": "金边黄杨",
+    "scientific_name": "Euonymus japonicus 'Aureo-marginatus'",
+    "english_name": "Golden Edge Euonymus",
+    "alias": [
+      "金边冬青卫矛",
+      "金边大叶黄杨",
+      "黄纹黄杨"
+    ],
+    "family": "卫矛科",
+    "genus": "卫矛属",
+    "description": "金边黄杨为卫矛科卫矛属常绿灌木，株高可达3米，叶色翠绿边缘呈金黄色，是著名彩叶绿篱花卉，抗逆性强，耐修剪，适合庭院绿篱、色块搭配及盆栽，为园林绿化主流品种。",
+    "history": "金边黄杨为大叶黄杨的变种，原产于中国及日本，现全国各地广泛栽培，是园林绿化最常见的彩叶绿篱品种。",
+    "morphology": "叶片对生，卵形至长椭圆形，全缘，翠绿色纸质，边缘金黄色；花聚伞花序，黄绿色，花径0.5厘米，无观赏价值；蒴果球形，粉红色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性强，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，中国长江流域，日本",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/132/912/792"
+  },
+  {
+    "chinese_name": "金森女贞",
+    "scientific_name": "Ligustrum japonicum 'Howardii'",
+    "english_name": "Howard Privet",
+    "alias": [
+      "金叶女贞金森",
+      "日本女贞金森",
+      "彩叶女贞"
+    ],
+    "family": "木犀科",
+    "genus": "女贞属",
+    "description": "金森女贞为木犀科女贞属常绿灌木，株高可达2米，叶色呈金黄色且四季不褪，耐热性强，是著名彩叶绿篱花卉，耐修剪，适合庭院绿篱、色块搭配，为南方园林绿化热门品种。",
+    "history": "金森女贞原产于日本，21世纪初传入中国，现华南、华东各地广泛栽培，是南方彩叶绿篱的主力品种。",
+    "morphology": "叶片对生，卵形至长椭圆形，全缘，金黄色革质，夏季不返绿；花圆锥花序，白色，花径0.5厘米，具淡香；核果长椭圆形，紫黑色，成熟期10-11月。",
+    "habitat": "喜高温高湿，喜光耐强光，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国华南、华东，日本",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/133/912/792"
+  },
+  {
+    "chinese_name": "金叶女贞",
+    "scientific_name": "Ligustrum × vicaryi",
+    "english_name": "Golden Vicary Privet",
+    "alias": [
+      "黄叶女贞",
+      "金叶冬青",
+      "彩叶冬青"
+    ],
+    "family": "木犀科",
+    "genus": "女贞属",
+    "description": "金叶女贞为木犀科女贞属常绿灌木，株高可达1.5米，叶色呈金黄色，是著名彩叶绿篱花卉，耐寒性强，耐修剪，适合北方庭院绿篱、色块搭配，为北方园林绿化主流品种。",
+    "history": "金叶女贞由女贞与小叶女贞杂交培育而成，原产于欧洲，20世纪80年代传入中国，现北方各地广泛栽培。",
+    "morphology": "叶片对生，椭圆形，全缘，金黄色纸质，秋季略返绿；花圆锥花序，白色，花径0.4厘米，具淡香；核果椭圆形，紫黑色，成熟期10月。",
+    "habitat": "喜温暖凉爽，喜光耐半阴，耐寒性强，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国北方各地，欧洲",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/134/912/792"
+  },
+  {
+    "chinese_name": "小叶女贞",
+    "scientific_name": "Ligustrum quihoui",
+    "english_name": "Purpleleaf Privet",
+    "alias": [
+      "小叶冬青",
+      "小白蜡",
+      "楝青"
+    ],
+    "family": "木犀科",
+    "genus": "女贞属",
+    "description": "小叶女贞为木犀科女贞属落叶或半常绿灌木，株高可达3米，叶片细小繁密，耐修剪，是著名绿篱花卉及盆景素材，抗逆性极强，为乡土园林绿化品种，可制作造型树。",
+    "history": "小叶女贞原产于中国长江流域，为乡土树种，栽培历史悠久，现全国各地广泛栽培，是园林绿化最常见的绿篱品种之一。",
+    "morphology": "叶片对生，椭圆形至披针形，全缘，深绿色纸质，叶片细小；花圆锥花序，白色，花径0.3厘米，具浓香；核果球形，紫黑色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性强，耐旱耐贫瘠，对土壤要求不严，适宜各类土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "7-8月",
+    "image_url": "https://picsum.photos/id/135/912/792"
+  },
+  {
+    "chinese_name": "大叶女贞",
+    "scientific_name": "Ligustrum lucidum",
+    "english_name": "Glossy Privet",
+    "alias": [
+      "女贞",
+      "大叶冬青",
+      "蜡树"
+    ],
+    "family": "木犀科",
+    "genus": "女贞属",
+    "description": "大叶女贞为木犀科女贞属常绿乔木，株高可达15米，叶色翠绿革质有光泽，是著名行道树及庭院乔木，抗污染能力强，耐修剪，为乡土园林绿化骨干树种，果实可入药。",
+    "history": "大叶女贞原产于中国长江流域，为乡土树种，栽培历史超2000年，现全国各地广泛栽培，是南方行道树的主力品种。",
+    "morphology": "叶片对生，卵形至长椭圆形，全缘，深绿色革质有光泽；花圆锥花序，白色，花径0.4厘米，具浓香；核果长椭圆形，紫黑色，成熟期11-12月，果实可入药。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，抗污染，对土壤要求不严",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/136/912/792"
+  },
+  {
+    "chinese_name": "红叶石楠",
+    "scientific_name": "Photinia × fraseri",
+    "english_name": "Red Tip Photinia",
+    "alias": [
+      "红罗宾石楠",
+      "红唇石楠",
+      "彩叶石楠"
+    ],
+    "family": "蔷薇科",
+    "genus": "石楠属",
+    "description": "红叶石楠为蔷薇科石楠属常绿灌木或小乔木，株高可达5米，新叶呈鲜红色且持久，老叶翠绿，是著名彩叶花卉，适合庭院绿篱、色块搭配及造型树，为园林绿化热门品种。",
+    "history": "红叶石楠由石楠与光叶石楠杂交培育而成，原产于欧洲，20世纪90年代传入中国，现全国各地广泛栽培。",
+    "morphology": "叶片互生，长椭圆形，边缘有锯齿，新叶鲜红色，老叶翠绿色革质；花伞房花序，白色，花径0.5厘米；梨果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，欧洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/137/912/792"
+  },
+  {
+    "chinese_name": "石楠",
+    "scientific_name": "Photinia serratifolia",
+    "english_name": "Chinese Photinia",
+    "alias": [
+      "红树叶",
+      "石岩树",
+      "山官木"
+    ],
+    "family": "蔷薇科",
+    "genus": "石楠属",
+    "description": "石楠为蔷薇科石楠属常绿乔木，株高可达12米，叶色翠绿革质，春季新叶淡红，秋季果实红色，是著名庭院乔木及行道树，抗逆性强，为乡土园林绿化树种。",
+    "history": "石楠原产于中国长江流域，为乡土树种，栽培历史超1000年，现各地广泛栽培，是园林绿化常见的乔木品种。",
+    "morphology": "叶片互生，长椭圆形，边缘有细锯齿，深绿色革质，春季新叶淡红色；花伞房花序，白色，花径0.5厘米，具淡香；梨果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/138/912/792"
+  },
+  {
+    "chinese_name": "火棘",
+    "scientific_name": "Pyracantha fortuneana",
+    "english_name": "Firethorn",
+    "alias": [
+      "火把果",
+      "救军粮",
+      "红子刺"
+    ],
+    "family": "蔷薇科",
+    "genus": "火棘属",
+    "description": "火棘为蔷薇科火棘属常绿灌木，株高可达3米，秋季结红色球形果实且经冬不落，花白色繁密，是著名观花观果花卉，适合庭院绿篱、盆景制作，果实可食用及入药。",
+    "history": "火棘原产于中国长江流域，为乡土树种，栽培历史悠久，现各地广泛栽培，是观果花卉的经典品种。",
+    "morphology": "枝具棘刺，绿色；叶片互生，倒卵形，边缘有锯齿，深绿色革质；花伞房花序，白色，花径0.5厘米；梨果球形，红色，成熟期10-11月，经冬不落。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/139/912/792"
+  },
+  {
+    "chinese_name": "枸骨",
+    "scientific_name": "Ilex cornuta",
+    "english_name": "Chinese Holly",
+    "alias": [
+      "鸟不宿",
+      "猫儿刺",
+      "八角刺"
+    ],
+    "family": "冬青科",
+    "genus": "冬青属",
+    "description": "枸骨为冬青科冬青属常绿灌木或小乔木，株高可达4米，叶片硬革质且具尖刺，秋季结红色果实经冬不落，是著名观叶观果花卉，适合庭院种植及盆景制作，抗逆性强。",
+    "history": "枸骨原产于中国长江流域，为乡土树种，栽培历史超1000年，现各地广泛栽培，是传统观果观叶品种。",
+    "morphology": "叶片互生，四角状长圆形，边缘具尖刺，深绿色硬革质；花伞形花序，黄绿色，花径0.4厘米；核果球形，红色，成熟期10-11月，经冬不落。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/140/912/792"
+  },
+  {
+    "chinese_name": "冬青",
+    "scientific_name": "Ilex chinensis",
+    "english_name": "Chinese Holly",
+    "alias": [
+      "红果冬青",
+      "大叶冬青",
+      "四季青"
+    ],
+    "family": "冬青科",
+    "genus": "冬青属",
+    "description": "冬青为冬青科冬青属常绿乔木，株高可达15米，叶色翠绿革质，秋季结红色果实经冬不落，是著名庭院乔木及行道树，抗污染能力强，为乡土园林绿化骨干树种，树皮可入药。",
+    "history": "冬青原产于中国长江流域，为乡土树种，栽培历史超2000年，现各地广泛栽培，是南方常绿乔木的常见品种。",
+    "morphology": "叶片互生，长椭圆形，全缘或有浅锯齿，深绿色革质；花伞形花序，淡紫色，花径0.5厘米；核果球形，红色，成熟期10-11月，经冬不落。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，抗污染，适宜疏松肥沃的微酸性土壤",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/141/912/792"
+  },
+  {
+    "chinese_name": "大叶黄杨",
+    "scientific_name": "Euonymus japonicus",
+    "english_name": "Japanese Euonymus",
+    "alias": [
+      "冬青卫矛",
+      "正木",
+      "大叶冬青"
+    ],
+    "family": "卫矛科",
+    "genus": "卫矛属",
+    "description": "大叶黄杨为卫矛科卫矛属常绿灌木或小乔木，株高可达6米，叶色翠绿革质，耐修剪，是著名绿篱花卉及造型树，抗逆性强，为园林绿化最常见的品种之一，可制作各类造型。",
+    "history": "大叶黄杨原产于中国及日本，为乡土树种，现全国各地广泛栽培，是园林绿化绿篱的主力品种。",
+    "morphology": "叶片对生，卵形至长椭圆形，全缘，深绿色革质有光泽；花聚伞花序，黄绿色，花径0.5厘米；蒴果球形，粉红色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性强，耐旱耐贫瘠，对土壤要求不严，适宜各类土壤",
+    "distribution": "中国各地，中国长江流域，日本",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/142/912/792"
+  },
+  {
+    "chinese_name": "小叶黄杨",
+    "scientific_name": "Buxus sinica",
+    "english_name": "Chinese Boxwood",
+    "alias": [
+      "瓜子黄杨",
+      "黄杨木",
+      "千年矮"
+    ],
+    "family": "黄杨科",
+    "genus": "黄杨属",
+    "description": "小叶黄杨为黄杨科黄杨属常绿灌木，株高可达2米，叶片细小繁密，质地坚硬，耐修剪，是著名盆景素材及绿篱花卉，为传统名贵盆景品种，木质坚硬可用于雕刻。",
+    "history": "小叶黄杨原产于中国长江流域，为乡土树种，栽培历史超2000年，现各地广泛栽培，是盆景制作的顶级素材。",
+    "morphology": "叶片对生，倒卵形，全缘，深绿色革质，叶片细小；花簇生，黄绿色，花径0.2厘米，无观赏价值；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，耐旱耐贫瘠，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，中国长江流域及以南",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/143/912/792"
+  },
+  {
+    "chinese_name": "天鹅兰",
+    "scientific_name": "Cycnoches chlorochilon",
+    "english_name": "Swan Orchid",
+    "alias": [
+      "巨瓣天鹅兰",
+      "绿唇天鹅兰",
+      "南美天鹅兰"
+    ],
+    "family": "兰科",
+    "genus": "天鹅兰属",
+    "description": "天鹅兰为兰科天鹅兰属多年生附生兰，株高可达60厘米，花型酷似展翅天鹅，唇瓣翠绿色，花姿优雅奇特，是兰科稀有品种，适合附木盆栽或兰棚栽培，具一定观赏收藏价值。",
+    "history": "天鹅兰原产于南美洲热带地区，21世纪初引入中国，现仅在国内大型植物园及资深兰友处有栽培，尚未普及。",
+    "morphology": "假鳞茎肥大呈棒状，浅绿色；叶片互生，长披针形，革质深绿，花后易脱落；花葶从假鳞茎抽出，伞形花序具3-8花，花径8-10厘米，花瓣白色微卷，唇瓣翠绿色，雌雄花形态略有差异；蒴果长椭圆形，褐色，成熟期少见。",
+    "habitat": "喜高温高湿，喜光耐半阴，忌强光直射，耐寒性极弱，适宜疏松透气的附生基质（水苔+松树皮+椰壳）",
+    "distribution": "中国少数植物园/兰友盆栽，南美洲巴西、秘鲁、委内瑞拉热带雨林",
+    "flowering_period": "8-10月",
+    "image_url": "https://picsum.photos/id/200/912/792"
+  },
+  {
+    "chinese_name": "玉扇",
+    "scientific_name": "Haworthia truncata",
+    "english_name": "Horse's Teeth Haworthia",
+    "alias": [
+      "截形十二卷",
+      "碧扇",
+      "玉扇锦"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "玉扇为阿福花科十二卷属多年生肉质草本，株高仅5-8厘米，叶片呈扇形排列，窗面剔透具白色纹路，是十二卷属名贵品种，适合迷你盆栽点缀桌面，多肉爱好者收藏佳品。",
+    "history": "玉扇原产于南非开普省，20世纪90年代传入中国，经人工培育出现玉扇锦、猛犸玉扇等变种，现各地多肉玩家处广泛栽培。",
+    "morphology": "叶片两列对生呈扇形，肉质截形，半透明窗面具白色线状或块状纹路，叶色翠绿至灰绿；花葶细长，总状花序，小花白色带绿纹，花径0.4-0.6厘米；蒴果球形，褐色，极少成熟。",
+    "habitat": "喜温暖干燥，耐半阴忌强光暴晒，耐寒性弱，极耐旱，适宜疏松肥沃的颗粒土（泥炭+珍珠岩+赤玉土）",
+    "distribution": "中国各地多肉盆栽，南非开普省半沙漠地区",
+    "flowering_period": "5-6月（极少开花）",
+    "image_url": "https://picsum.photos/id/201/912/792"
+  },
+  {
+    "chinese_name": "槐叶萍",
+    "scientific_name": "Salvinia natans",
+    "english_name": "Floating Fern",
+    "alias": [
+      "槐叶苹",
+      "蜈蚣萍",
+      "浮水蕨"
+    ],
+    "family": "槐叶萍科",
+    "genus": "槐叶萍属",
+    "description": "槐叶萍为槐叶萍科槐叶萍属多年生漂浮水生蕨类，植株细密呈层状，叶片形似槐叶，是著名水生观赏蕨类，适合点缀鱼缸、水景缸，可净化水质，为水景造景常用素材。",
+    "history": "槐叶萍为中国乡土水生植物，广布于各地淡水水域，人工栽培历史悠久，现成为水景造景及水草造景的热门品种。",
+    "morphology": "植株漂浮于水面，无根；茎细弱横走，褐色；叶片对生，椭圆形似槐叶，深绿色纸质，背面具褐色茸毛；孢子果簇生于茎节处，褐色，靠孢子繁殖，无花无果。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性中等，适宜淡水水域，对水质要求不严，可与鱼虾混养",
+    "distribution": "中国各地淡水水域，世界温带、热带地区广泛分布",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/202/912/792"
+  },
+  {
+    "chinese_name": "紫蝉花",
+    "scientific_name": "Allamanda blanchetii",
+    "english_name": "Purple Allamanda",
+    "alias": [
+      "紫花黄蝉",
+      "大花紫蝉",
+      "硬枝紫蝉"
+    ],
+    "family": "夹竹桃科",
+    "genus": "黄蝉属",
+    "description": "紫蝉花为夹竹桃科黄蝉属常绿直立灌木，株高可达2米，花呈深紫色喇叭状，花大色艳且花量繁密，耐热耐晒，是南方庭院、公园热门观花灌木，适合丛植或盆栽观赏。",
+    "history": "紫蝉花原产于巴西，21世纪初引入中国，现华南、西南各地广泛栽培，因花色独特成为南方园林绿化特色品种。",
+    "morphology": "叶片3-4片轮生，长椭圆形，全缘，深绿色革质有光泽；花顶生聚伞花序，花冠深紫色，花径10-12厘米，花瓣5片合生成喇叭状，喉部黄色；蓇葖果双生，长披针形，褐色，成熟期少见。",
+    "habitat": "喜高温高湿，喜光耐强光，耐寒性弱，耐旱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国华南、西南盆栽/地栽，巴西，东南亚，澳洲热带地区",
+    "flowering_period": "5-10月",
+    "image_url": "https://picsum.photos/id/203/912/792"
+  },
+  {
+    "chinese_name": "吹雪之松锦",
+    "scientific_name": "Anacampseros telephiastrum var. rubra",
+    "english_name": "Snow Rose Variegata",
+    "alias": [
+      "卡日松锦",
+      "回欢草锦",
+      "红叶吹雪"
+    ],
+    "family": "回欢草科",
+    "genus": "回欢草属",
+    "description": "吹雪之松锦为回欢草科回欢草属多年生肉质草本，株高可达10厘米，叶片莲座状排列，叶色绿粉相间带白霜，顶端红色，是网红多肉品种，适合迷你盆栽及多肉拼盘，易群生。",
+    "history": "吹雪之松锦原产于纳米比亚，21世纪初传入中国，因叶色艳丽、易养护，迅速成为多肉入门及收藏热门品种。",
+    "morphology": "茎细弱，易群生，紫红色；叶片互生呈莲座状，肉质匙形，绿粉相间具白色蜡质层，叶尖鲜红色；花葶短，单花顶生，花冠粉红色，花径1-1.5厘米，花瓣5片；蒴果球形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐半阴，耐寒性弱，耐旱，适宜疏松透气的颗粒土（泥炭+河沙+麦饭石）",
+    "distribution": "中国各地多肉盆栽，纳米比亚半沙漠地区",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/204/912/792"
+  },
+  {
+    "chinese_name": "独蒜兰",
+    "scientific_name": "Pleione bulbocodioides",
+    "english_name": "Pleione Orchid",
+    "alias": [
+      "独蒜",
+      "冰球子",
+      "山慈菇"
+    ],
+    "family": "兰科",
+    "genus": "独蒜兰属",
+    "description": "独蒜兰为兰科独蒜兰属多年生附生或地生兰，株高可达20厘米，假鳞茎形似独蒜，花型艳丽且品种繁多，是中国本土珍稀兰科植物，兼具观赏价值和药用价值，为国家二级保护植物。",
+    "history": "独蒜兰为中国乡土兰科植物，分布于西南山区，栽培历史较短，21世纪初开始人工驯化栽培，现植物园及兰友处有少量栽培。",
+    "morphology": "假鳞茎球形似独蒜，浅褐色；叶片1枚，顶生，长披针形，革质绿色，花后长出；花葶从假鳞茎抽出，单花顶生，花冠粉、紫、白等色，花径5-7厘米，唇瓣具斑纹；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃的腐殖土（腐叶土+苔藓+松树皮）",
+    "distribution": "中国西南山区（四川、云南、贵州），缅甸，越南",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/205/912/792"
+  },
+  {
+    "chinese_name": "狐尾藻",
+    "scientific_name": "Myriophyllum verticillatum",
+    "english_name": "Whorled Water Milfoil",
+    "alias": [
+      "狐尾草",
+      "聚草",
+      "轮叶狐尾藻"
+    ],
+    "family": "小二仙草科",
+    "genus": "狐尾藻属",
+    "description": "狐尾藻为小二仙草科狐尾藻属多年生沉水或浮水草本，株长可达1米，叶片呈狐尾状簇生，是著名水生观赏植物，可净化水质，适合鱼缸、水景缸造景，为鱼虾提供栖息环境。",
+    "history": "狐尾藻为中国乡土水生植物，广布于各地淡水水域，人工栽培历史悠久，现成为水景造景及生态修复的重要品种。",
+    "morphology": "茎细弱，圆柱形，紫红色；叶片4-6片轮生，丝状细裂，深绿色肉质；花单性，雌雄同株，穗状花序，小花淡紫色，花径0.2-0.3厘米；瘦果卵形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，耐阴，耐寒性中等，适宜淡水水域，对水质要求不严，可沉水或浮水生长",
+    "distribution": "中国各地淡水水域，世界温带、热带地区广泛分布",
+    "flowering_period": "7-8月",
+    "image_url": "https://picsum.photos/id/206/912/792"
+  },
+  {
+    "chinese_name": "姬星美人",
+    "scientific_name": "Sedum dasyphyllum",
+    "english_name": "Blue Tears Sedum",
+    "alias": [
+      "旋叶姬星美人",
+      "迷你景天",
+      "姬星锦"
+    ],
+    "family": "景天科",
+    "genus": "景天属",
+    "description": "姬星美人为景天科景天属多年生肉质草本，株高仅3-5厘米，叶片细小如米粒，蓝绿色具白霜，易群生成垫状，是网红多肉品种，适合多肉拼盘、铺面及迷你盆栽，养护难度极低。",
+    "history": "姬星美人原产于地中海沿岸，21世纪初传入中国，因易群生、颜值高、易养护，迅速成为多肉入门必备品种。",
+    "morphology": "茎细弱，匍匐生长，易生根；叶片互生，肉质米粒状，蓝绿色具白色蜡质层，光照充足时呈粉红色；花葶短，聚伞花序，小花白色，花径0.5-0.8厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，地中海沿岸，北非",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/207/912/792"
+  },
+  {
+    "chinese_name": "金嘴墨兰",
+    "scientific_name": "Cymbidium sinense 'Jin Zui'",
+    "english_name": "Golden Lip Black Orchid",
+    "alias": [
+      "金嘴报岁兰",
+      "墨兰金嘴",
+      "金边墨兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "金嘴墨兰为兰科兰属墨兰的名贵变种，株高可达80厘米，叶片顶端呈金黄色，花葶挺拔，花呈深紫色具浓香，是中国传统名贵兰花，为年宵花卉热门品种，适合盆栽观赏及兰棚栽培。",
+    "history": "金嘴墨兰原产于中国华南及台湾地区，栽培历史超300年，是传统墨兰名品，现各地兰友及花卉市场广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，顶端具金黄色镶边（金嘴），叶缘光滑；花葶直立，总状花序具10-20花，花冠深紫色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国华南、台湾，越南，缅甸",
+    "flowering_period": "12月-次年2月（报岁兰）",
+    "image_url": "https://picsum.photos/id/208/912/792"
+  },
+  {
+    "chinese_name": "水罂粟",
+    "scientific_name": "Hydrocleys nymphoides",
+    "english_name": "Water Poppy",
+    "alias": [
+      "水金英",
+      "黄金莲",
+      "浮水罂粟"
+    ],
+    "family": "泽泻科",
+    "genus": "水罂粟属",
+    "description": "水罂粟为泽泻科水罂粟属多年生漂浮水生草本，株高可达15厘米，叶片形似罂粟，花呈金黄色，花姿优雅，是著名水生观赏花卉，适合点缀水景缸、池塘，为南方水景造景热门品种。",
+    "history": "水罂粟原产于南美洲热带地区，21世纪初引入中国，现华南、华东各地水景园广泛栽培，因花型优美、花期长成为水景造景新宠。",
+    "morphology": "植株漂浮于水面，具细长匍匐茎；叶片圆形至卵形，全缘，浅绿色肉质，具紫色斑点；花单生顶生，花冠金黄色，花径3-4厘米，花瓣6片，具淡淡香气；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜高温高湿，喜光耐半阴，耐寒性弱，适宜淡水水域，喜静水，对水质要求不严",
+    "distribution": "中国华南、华东水景栽培，南美洲巴西、阿根廷，东南亚热带地区",
+    "flowering_period": "6-10月（南方可全年开花）",
+    "image_url": "https://picsum.photos/id/209/912/792"
+  },
+  {
+    "chinese_name": "佛珠锦",
+    "scientific_name": "Senecio rowleyanus var. variegatus",
+    "english_name": "Variegated String of Pearls",
+    "alias": [
+      "珍珠吊兰锦",
+      "绿之铃锦",
+      "佛珠变异种"
+    ],
+    "family": "菊科",
+    "genus": "千里光属",
+    "description": "佛珠锦为菊科千里光属佛珠的斑锦变种，株长可达1米，茎匍匐下垂，叶片呈珠状白绿相间，是多肉植物中名贵的垂吊品种，适合悬挂盆栽，点缀阳台、室内，观赏价值极高。",
+    "history": "佛珠锦原产于南非，21世纪初传入中国，因斑锦变异稀有，成为多肉爱好者收藏佳品，现各地多肉玩家处有少量栽培。",
+    "morphology": "茎细弱，匍匐下垂，浅绿色；叶片互生，肉质珠状，直径0.8-1厘米，白绿相间的斑锦纹路，肉质饱满；花葶短，头状花序，小花白色带紫纹，花径1-1.5厘米，具淡香；瘦果圆柱形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐半阴，忌强光直射，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+椰糠）",
+    "distribution": "中国各地多肉盆栽，南非开普省",
+    "flowering_period": "10-12月（极少开花）",
+    "image_url": "https://picsum.photos/id/210/912/792"
+  },
+  {
+    "chinese_name": "流苏贝母兰",
+    "scientific_name": "Coelogyne fimbriata",
+    "english_name": "Fringed Coelogyne",
+    "alias": [
+      "流苏兰",
+      "贝母兰",
+      "石兰"
+    ],
+    "family": "兰科",
+    "genus": "贝母兰属",
+    "description": "流苏贝母兰为兰科贝母兰属多年生附生兰，株高可达30厘米，花呈白色，唇瓣具流苏状斑纹，花姿优雅，是中国本土珍稀兰科植物，适合附石、附木栽培，为兰科观赏佳品。",
+    "history": "流苏贝母兰为中国乡土兰科植物，分布于华南、西南山区，21世纪初开始人工驯化栽培，现植物园及兰友处有少量栽培。",
+    "morphology": "假鳞茎卵球形，浅绿色；叶片2枚，顶生，长椭圆形，革质深绿；花葶从假鳞茎抽出，总状花序具3-7花，花冠白色，花径3-4厘米，唇瓣黄色具流苏状褐色斑纹；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松透气的附生基质（苔藓+树皮+火山石）",
+    "distribution": "中国华南、西南山区，缅甸，越南，老挝",
+    "flowering_period": "8-10月",
+    "image_url": "https://picsum.photos/id/211/912/792"
+  },
+  {
+    "chinese_name": "矮生睡莲",
+    "scientific_name": "Nymphaea tetragona var. pygmaea",
+    "english_name": "Dwarf Water Lily",
+    "alias": [
+      "迷你睡莲",
+      "小碗莲",
+      "矮睡莲"
+    ],
+    "family": "睡莲科",
+    "genus": "睡莲属",
+    "description": "矮生睡莲为睡莲科睡莲属睡莲的矮生变种，株高仅10-15厘米，花型小巧，花色丰富，是著名微型水生花卉，适合小型水景缸、碗栽观赏，为室内水景造景热门品种。",
+    "history": "矮生睡莲由原生睡莲人工培育而成，21世纪初开始普及，现各地花卉市场广泛栽培，成为室内水景入门品种。",
+    "morphology": "根茎短粗，匍匐生长；叶片圆形，全缘，浮于水面，浅绿色肉质，具紫色斑点；花单生顶生，浮于水面，花冠红、粉、白、黄等色，花径3-5厘米，花瓣多层；浆果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性中等，适宜淡水水域，喜静水，适宜肥沃的塘泥",
+    "distribution": "中国各地盆栽，中国长江流域，日本，韩国",
+    "flowering_period": "6-9月",
+    "image_url": "https://picsum.photos/id/212/912/792"
+  },
+  {
+    "chinese_name": "桃蛋",
+    "scientific_name": "Graptopetalum amethystinum",
+    "english_name": "Amethyst Rose",
+    "alias": [
+      "桃之卵",
+      "粉色桃蛋",
+      "亚美桃蛋"
+    ],
+    "family": "景天科",
+    "genus": "风车草属",
+    "description": "桃蛋为景天科风车草属多年生肉质草本，株高可达15厘米，叶片呈桃形，粉红色具白霜，肉质饱满，是网红多肉品种，适合盆栽观赏及多肉拼盘，易群生，颜值极高。",
+    "history": "桃蛋原产于墨西哥，21世纪初传入中国，因叶色粉嫩、造型可爱，迅速成为多肉界“网红”，现各地广泛栽培。",
+    "morphology": "茎细弱，易群生，紫红色；叶片互生呈莲座状，肉质桃形，粉红色具白色蜡质层，光照充足时呈玫红色；花葶细，聚伞花序，小花淡黄色，花径0.8-1厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+河沙+麦饭石）",
+    "distribution": "中国各地多肉盆栽，墨西哥中部",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/213/912/792"
+  },
+  {
+    "chinese_name": "纹瓣兰",
+    "scientific_name": "Cymbidium aloifolium",
+    "english_name": "Striped Cymbidium",
+    "alias": [
+      "硬叶兰",
+      "条纹兰",
+      "洋兰纹瓣"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "纹瓣兰为兰科兰属多年生附生或地生兰，株高可达50厘米，叶片硬革质，花呈淡紫色具斑纹，花量繁密，是中国本土珍稀兰科植物，为国家二级保护植物，适合附木、盆栽栽培。",
+    "history": "纹瓣兰为中国乡土兰科植物，分布于华南、西南沿海地区，栽培历史较短，现植物园及兰友处有少量人工栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，硬革质，深绿色，叶缘光滑；花葶直立，总状花序具10-20花，花冠淡紫色，花径2-3厘米，唇瓣具紫色斑纹；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃的腐殖土或附生基质",
+    "distribution": "中国华南、西南沿海，缅甸，越南，泰国，马来西亚",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/214/912/792"
+  },
+  {
+    "chinese_name": "大薸",
+    "scientific_name": "Pistia stratiotes",
+    "english_name": "Water Lettuce",
+    "alias": [
+      "水浮莲",
+      "水白菜",
+      "大叶莲"
+    ],
+    "family": "天南星科",
+    "genus": "大薸属",
+    "description": "大薸为天南星科大薸属多年生漂浮水生草本，株高可达20厘米，叶片莲座状排列似白菜，是著名水生观赏植物，可净化水质，适合大型水景缸、池塘栽培，为生态水景重要品种。",
+    "history": "大薸原产于南美洲热带地区，清末引入中国，现成为中国南方常见水生植物，广泛用于水景造景及水质净化。",
+    "morphology": "植株漂浮于水面，具细长匍匐茎，易群生；叶片莲座状排列，倒卵形，全缘，浅绿色肉质，表面具茸毛；肉穗花序，佛焰苞淡绿色，花小无观赏价值；浆果球形，绿色，成熟期8-9月。",
+    "habitat": "喜高温高湿，喜光耐强光，耐寒性极弱，适宜淡水水域，喜静水，对水质要求不严",
+    "distribution": "中国华南、华东水景栽培，南美洲，东南亚，非洲热带地区",
+    "flowering_period": "7-8月（花无观赏价值）",
+    "image_url": "https://picsum.photos/id/215/912/792"
+  },
+  {
+    "chinese_name": "劳尔",
+    "scientific_name": "Sedum clavatum",
+    "english_name": "Blue Pearl Sedum",
+    "alias": [
+      "罗琦",
+      "劳尔锦",
+      "凝脂莲"
+    ],
+    "family": "景天科",
+    "genus": "景天属",
+    "description": "劳尔为景天科景天属多年生肉质草本，株高可达20厘米，叶片呈莲座状排列，浅绿色具白霜，具浓郁奶香，是网红多肉品种，适合盆栽观赏及多肉拼盘，易群生，香气独特。",
+    "history": "劳尔原产于墨西哥，21世纪初传入中国，因具奶香、叶色清新，迅速成为多肉热门品种，经培育出现罗琦（劳尔优选种）等变种。",
+    "morphology": "茎细弱，易群生，紫红色；叶片互生呈莲座状，肉质匙形，浅绿色具白色蜡质层，光照充足时呈粉红色，具浓郁奶香；花葶细，聚伞花序，小花白色，花径0.6-0.8厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+火山石）",
+    "distribution": "中国各地多肉盆栽，墨西哥中部",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/216/912/792"
+  },
+  {
+    "chinese_name": "建兰富山奇蝶",
+    "scientific_name": "Cymbidium ensifolium 'Fu Shan Qi Die'",
+    "english_name": "Fushan Wonder Butterfly Orchid",
+    "alias": [
+      "富山奇蝶兰",
+      "建兰奇花",
+      "多瓣建兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "建兰富山奇蝶为兰科兰属建兰的名贵奇花品种，株高可达60厘米，花型呈牡丹状，多瓣多舌，花量繁密且具浓香，是中国传统名贵兰花，为建兰奇花代表品种，适合盆栽观赏。",
+    "history": "富山奇蝶原产于中国台湾地区，20世纪90年代传入大陆，现各地兰友及花卉市场广泛栽培，是建兰中最受欢迎的奇花品种。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，叶缘光滑；花葶直立，总状花序具5-10花，花冠粉白相间，花径4-5厘米，多瓣多舌呈牡丹状，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+椰壳）",
+    "distribution": "中国各地盆栽，中国台湾，福建，广东",
+    "flowering_period": "7-10月（多季开花）",
+    "image_url": "https://picsum.photos/id/217/912/792"
+  },
+  {
+    "chinese_name": "黄花菱",
+    "scientific_name": "Ludwigia sedioides",
+    "english_name": "Mosaic Plant",
+    "alias": [
+      "菱叶丁香蓼",
+      "黄花菱角",
+      "水上烟花"
+    ],
+    "family": "柳叶菜科",
+    "genus": "丁香蓼属",
+    "description": "黄花菱为柳叶菜科丁香蓼属多年生浮水草本，株高可达10厘米，叶片呈菱形排列似马赛克，花呈金黄色，花姿似烟花，是网红水生花卉，适合小型水景缸栽培，为水景造景高端品种。",
+    "history": "黄花菱原产于南美洲热带地区，21世纪10年代引入中国，因叶形独特、花型优美，迅速成为水景造景“网红”，现各地水景爱好者处广泛栽培。",
+    "morphology": "植株漂浮于水面，具细长匍匐茎；叶片菱形，对生排列呈马赛克状，深绿色肉质，秋季变红；花单生叶腋，花冠金黄色，花径1-1.5厘米，花瓣4片；蒴果圆柱形，褐色，成熟期9-10月。",
+    "habitat": "喜高温高湿，喜光耐强光，耐寒性极弱，适宜淡水水域，喜静水，对水质要求较高（弱酸水）",
+    "distribution": "中国各地水景盆栽，南美洲巴西、委内瑞拉",
+    "flowering_period": "8-10月",
+    "image_url": "https://picsum.photos/id/218/912/792"
+  },
+  {
+    "chinese_name": "橙梦露",
+    "scientific_name": "Echeveria 'Orange Monroe'",
+    "english_name": "Orange Monroe Echeveria",
+    "alias": [
+      "橙梦露锦",
+      "雪天使",
+      "橙子"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "橙梦露为景天科拟石莲花属人工杂交多肉品种，株高可达15厘米，叶片呈莲座状排列，粉红色具厚白霜，叶尖橙色，是多肉中的名贵品种，适合盆栽观赏，多肉爱好者收藏佳品。",
+    "history": "橙梦露由美国园艺家杂交培育而成，21世纪初传入中国，因叶色艳丽、霜层厚实，成为拟石莲花属热门品种，现各地广泛栽培。",
+    "morphology": "茎短粗，浅绿色；叶片互生呈莲座状，肉质匙形，粉红色具厚白色蜡质层，叶尖鲜红色，光照充足时整体呈橙色；花葶细，总状花序，小花橙红色，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+赤玉土）",
+    "distribution": "中国各地多肉盆栽，人工杂交品种（原产地美国）",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/219/912/792"
+  },
+  {
+    "chinese_name": "墨兰企黑",
+    "scientific_name": "Cymbidium sinense 'Qi Hei'",
+    "english_name": "Black Qi Cymbidium",
+    "alias": [
+      "企黑墨兰",
+      "报岁兰企黑",
+      "黑墨兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "墨兰企黑为兰科兰属墨兰的经典品种，株高可达90厘米，叶片浓绿挺拔，花葶直立，花呈深紫色具浓香，是中国传统兰花，为年宵花卉主力品种，易养护、花量多，适合盆栽观赏。",
+    "history": "墨兰企黑原产于中国华南地区，栽培历史超200年，是墨兰中最普及、最经典的品种，现各地花卉市场及兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质浓绿，挺拔直立，叶缘光滑；花葶直立，总状花序具15-25花，花冠深紫色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国华南、西南，越南，缅甸",
+    "flowering_period": "12月-次年2月（报岁兰）",
+    "image_url": "https://picsum.photos/id/220/912/792"
+  },
+  {
+    "chinese_name": "水榕",
+    "scientific_name": "Anubias barteri",
+    "english_name": "Anubias",
+    "alias": [
+      "小水榕",
+      "巴蒂水榕",
+      "水溶草"
+    ],
+    "family": "天南星科",
+    "genus": "水榕属",
+    "description": "水榕为天南星科水榕属多年生沉水或附生草本，株高可达20厘米，叶片翠绿革质，耐阴易养护，是著名水草品种，适合鱼缸、水景缸造景，可沉水或附石生长，为水草造景入门必备品种。",
+    "history": "水榕原产于非洲热带地区，20世纪90年代传入中国，因耐阴、易养护、造型优美，迅速成为水草造景主流品种。",
+    "morphology": "根茎短粗，褐色，可附石/附木生长；叶片长椭圆形，全缘，翠绿色革质，沉水或挺水生长；肉穗花序，佛焰苞淡绿色，花小无观赏价值；浆果球形，绿色，成熟期少见。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性弱，适宜淡水水域，可沉水或半挺水生长，对水质要求不严",
+    "distribution": "中国各地水草盆栽，非洲西部热带地区",
+    "flowering_period": "6-7月（花无观赏价值）",
+    "image_url": "https://picsum.photos/id/221/912/792"
+  },
+  {
+    "chinese_name": "冰梅月影",
+    "scientific_name": "Echeveria 'Ice Berry'",
+    "english_name": "Ice Berry Echeveria",
+    "alias": [
+      "冰梅",
+      "月影冰梅",
+      "拟石莲冰梅"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "冰梅月影为景天科拟石莲花属人工杂交多肉品种，株高可达10厘米，叶片呈莲座状排列，粉绿色具白霜，叶缘粉红色，具淡淡香气，是拟石莲花属热门品种，适合盆栽观赏及多肉拼盘。",
+    "history": "冰梅月影由日本园艺家杂交培育而成，21世纪初传入中国，因叶形优美、具香气，迅速成为多肉爱好者喜爱的品种。",
+    "morphology": "茎短粗，浅绿色；叶片互生呈莲座状，肉质匙形，粉绿色具白色蜡质层，叶缘粉红色，光照充足时呈玫红色，具淡淡香气；花葶细，总状花序，小花淡黄色，花径0.8-1厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+麦饭石）",
+    "distribution": "中国各地多肉盆栽，人工杂交品种（原产地日本）",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/222/912/792"
+  },
+  {
+    "chinese_name": "春兰宋梅",
+    "scientific_name": "Cymbidium goeringii 'Song Mei'",
+    "english_name": "Song Mei Spring Orchid",
+    "alias": [
+      "宋锦旋梅",
+      "春兰四大名花之首",
+      "宋梅兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "春兰宋梅为兰科兰属春兰的传统名贵品种，有“春兰四大名花之首”之称，株高可达30厘米，花型端正，瓣型完美，具浓香，是中国传统兰花珍品，适合盆栽观赏，兰友收藏佳品。",
+    "history": "宋梅原产于中国浙江，清乾隆年间由宋锦璇发现培育，栽培历史超200年，是春兰中最经典的梅瓣品种，现各地兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具细锯齿；花葶直立，单花或双花顶生，花冠粉白相间，花径3-4厘米，梅瓣型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国浙江、江苏、安徽",
+    "flowering_period": "1-3月",
+    "image_url": "https://picsum.photos/id/223/912/792"
+  },
+  {
+    "chinese_name": "红宫廷",
+    "scientific_name": "Rotala rotundifolia 'Red'",
+    "english_name": "Red Rotala",
+    "alias": [
+      "红宫廷草",
+      "圆叶红宫廷",
+      "宫廷草红变种"
+    ],
+    "family": "千屈菜科",
+    "genus": "节节菜属",
+    "description": "红宫廷为千屈菜科节节菜属宫廷草的红色变种，株高可达30厘米，茎呈红色，叶片翠绿泛红，是著名红色水草品种，适合鱼缸造景后景，可密植形成红色草甸，为水草造景热门品种。",
+    "history": "红宫廷由原生宫廷草人工培育而成，21世纪初开始普及，现各地水草爱好者处广泛栽培，是水草造景中红色系代表品种。",
+    "morphology": "茎细弱，直立生长，紫红色；叶片对生，椭圆形，全缘，翠绿色泛红，光照充足时呈鲜红色；花单生叶腋，花冠淡粉色，花径0.2-0.3厘米，花瓣4片；蒴果球形，褐色，成熟期少见。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性弱，适宜淡水水域，喜流动水，对水质要求较高（弱酸水）",
+    "distribution": "中国各地水草盆栽，人工培育变种（原产地东南亚）",
+    "flowering_period": "7-8月（水下极少开花）",
+    "image_url": "https://picsum.photos/id/224/912/792"
+  },
+  {
+    "chinese_name": "紫珍珠",
+    "scientific_name": "Echeveria 'Perle von Nürnberg'",
+    "english_name": "Pearl of Nuremberg Echeveria",
+    "alias": [
+      "纽伦堡珍珠",
+      "紫珍珠锦",
+      "粉色石莲"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "紫珍珠为景天科拟石莲花属人工杂交多肉品种，株高可达20厘米，叶片呈莲座状排列，紫粉色具白霜，是拟石莲花属经典品种，适合盆栽观赏及多肉拼盘，易养护、易群生。",
+    "history": "紫珍珠由德国园艺家杂交培育而成，20世纪90年代传入中国，因叶色紫粉相间、易养护，成为拟石莲花属入门品种，现各地广泛栽培。",
+    "morphology": "茎细弱，易群生，紫红色；叶片互生呈莲座状，肉质匙形，紫粉色具白色蜡质层，光照充足时呈深紫色；花葶细，总状花序，小花橙红色，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+河沙）",
+    "distribution": "中国各地多肉盆栽，人工杂交品种（原产地德国）",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/225/912/792"
+  },
+  {
+    "chinese_name": "蕙兰程梅",
+    "scientific_name": "Cymbidium faberi 'Cheng Mei'",
+    "english_name": "Cheng Mei Cymbidium",
+    "alias": [
+      "程梅蕙兰",
+      "蕙兰八大名花之首",
+      "程字梅"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "蕙兰程梅为兰科兰属蕙兰的传统名贵品种，有“蕙兰八大名花之首”之称，株高可达80厘米，花型端正，梅瓣型，花量繁密且具浓香，是中国传统兰花珍品，适合盆栽观赏。",
+    "history": "程梅原产于中国江苏，清乾隆年间由程姓兰农发现培育，栽培历史超200年，是蕙兰中最经典的梅瓣品种，现各地兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具粗锯齿，挺拔直立；花葶直立，总状花序具8-15花，花冠淡黄绿色，花径4-5厘米，梅瓣型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国江苏、浙江、安徽",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/226/912/792"
+  },
+  {
+    "chinese_name": "绿宫廷",
+    "scientific_name": "Rotala rotundifolia",
+    "english_name": "Green Rotala",
+    "alias": [
+      "宫廷草",
+      "圆叶节节菜",
+      "普生宫廷"
+    ],
+    "family": "千屈菜科",
+    "genus": "节节菜属",
+    "description": "绿宫廷为千屈菜科节节菜属多年生沉水草本，株高可达40厘米，茎呈绿色，叶片翠绿，是著名经典水草品种，适合鱼缸造景后景，可密植形成绿色草甸，为水草造景入门必备品种。",
+    "history": "绿宫廷原产于东南亚热带地区，20世纪80年代传入中国，因易养护、生长快，成为水草造景最普及的品种之一。",
+    "morphology": "茎细弱，直立生长，绿色；叶片对生，椭圆形，全缘，翠绿色，水下叶呈针形；花单生叶腋，花冠淡粉色，花径0.2-0.3厘米，花瓣4片；蒴果球形，褐色，成熟期少见。",
+    "habitat": "喜温暖湿润，喜光耐强光，耐寒性弱，适宜淡水水域，喜流动水，对水质要求不严",
+    "distribution": "中国各地水草盆栽，东南亚热带地区（泰国、马来西亚、印尼）",
+    "flowering_period": "7-8月（水下极少开花）",
+    "image_url": "https://picsum.photos/id/227/912/792"
+  },
+  {
+    "chinese_name": "吉娃娃",
+    "scientific_name": "Echeveria 'Chihuahuaensis'",
+    "english_name": "Chihuahua Echeveria",
+    "alias": [
+      "吉娃莲",
+      "杨贵妃",
+      "石莲花吉娃娃"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "吉娃娃为景天科拟石莲花属多年生肉质草本，株高可达15厘米，叶片呈莲座状排列，浅绿色具白霜，叶尖鲜红色，是拟石莲花属经典品种，适合盆栽观赏及多肉拼盘，易养护、颜值高。",
+    "history": "吉娃娃原产于墨西哥奇瓦瓦州，20世纪90年代传入中国，因叶尖鲜红、造型可爱，成为拟石莲花属入门热门品种，现各地广泛栽培。",
+    "morphology": "茎短粗，浅绿色；叶片互生呈莲座状，肉质匙形，浅绿色具白色蜡质层，叶尖鲜红色，光照充足时叶缘泛红；花葶细，总状花序，小花橙红色，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+赤玉土）",
+    "distribution": "中国各地多肉盆栽，墨西哥奇瓦瓦州",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/228/912/792"
+  },
+  {
+    "chinese_name": "寒兰紫秀",
+    "scientific_name": "Cymbidium kanran 'Zi Xiu'",
+    "english_name": "Purple Show Han Orchid",
+    "alias": [
+      "紫秀寒兰",
+      "寒兰名品",
+      "细叶寒兰紫秀"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "寒兰紫秀为兰科兰属寒兰的名贵品种，株高可达60厘米，叶片细狭挺拔，花呈深紫色，花姿优雅且具浓香，是中国传统兰花，耐寒性强，适合北方兰友栽培，为寒兰代表品种。",
+    "history": "紫秀寒兰原产于中国福建、浙江，栽培历史超100年，是寒兰中最普及的名品，现各地兰友处广泛栽培，尤其受北方兰友喜爱。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，细狭挺拔，革质深绿，叶缘光滑；花葶直立，总状花序具5-10花，花冠深紫色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国福建、浙江、江西",
+    "flowering_period": "10-12月",
+    "image_url": "https://picsum.photos/id/229/912/792"
+  },
+  {
+    "chinese_name": "莫斯",
+    "scientific_name": "Sphagnum palustre",
+    "english_name": "Sphagnum Moss",
+    "alias": [
+      "水藓",
+      "泥炭藓",
+      "莫斯草"
+    ],
+    "family": "泥炭藓科",
+    "genus": "泥炭藓属",
+    "description": "莫斯为泥炭藓科泥炭藓属多年生沉水或附生苔藓，植株细密呈层状，翠绿色，是著名水草及附生基质，适合鱼缸造景、兰花附生栽培，为水草造景及兰花栽培的重要素材。",
+    "history": "莫斯为全球广布的苔藓植物，人工栽培历史悠久，20世纪80年代开始成为水草造景的重要品种，现各地水草爱好者及兰友处广泛使用。",
+    "morphology": "植株矮小，细密呈层状，翠绿色，无真正的根、茎、叶分化；靠孢子繁殖，无花无果，可附石、附木、沉水生长，生长速度缓慢。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性中等，适宜淡水水域或阴湿环境，对水质要求不严",
+    "distribution": "中国各地广泛分布，世界温带、寒带地区广泛分布",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/230/912/792"
+  },
+  {
+    "chinese_name": "玉蝶",
+    "scientific_name": "Echeveria secunda var. glauca",
+    "english_name": "Blue Echeveria",
+    "alias": [
+      "石莲花",
+      "宝石花",
+      "玉蝶锦"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "玉蝶为景天科拟石莲花属多年生肉质草本，株高可达20厘米，叶片呈莲座状排列，蓝绿色具白霜，易群生成丛，是拟石莲花属经典品种，适合盆栽观赏及多肉拼盘，易养护、易群生。",
+    "history": "玉蝶原产于墨西哥，20世纪80年代传入中国，是最早引入的拟石莲花属品种之一，因易群生、造型优美，成为多肉入门经典品种。",
+    "morphology": "茎短粗，易群生，浅绿色；叶片互生呈莲座状，肉质匙形，蓝绿色具白色蜡质层，光照充足时呈淡粉色；花葶细，总状花序，小花橙红色，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+河沙）",
+    "distribution": "中国各地多肉盆栽，墨西哥，中美洲",
+    "flowering_period": "6-7月",
+    "image_url": "https://picsum.photos/id/231/912/792"
+  },
+  {
+    "chinese_name": "春剑隆昌素",
+    "scientific_name": "Cymbidium goeringii var. longibracteatum 'Long Chang Su'",
+    "english_name": "Longchang White Spring Sword Orchid",
+    "alias": [
+      "隆昌素兰",
+      "春剑素心",
+      "四川素兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "春剑隆昌素为兰科兰属春剑的名贵素心品种，株高可达40厘米，花呈纯白色，花型端正且具浓香，是中国四川传统名贵兰花，为春剑素心代表品种，适合盆栽观赏。",
+    "history": "隆昌素原产于中国四川隆昌，栽培历史超300年，是四川最著名的兰花品种，现各地兰友处广泛栽培，为素心兰花珍品。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具细锯齿；花葶直立，总状花序具3-5花，花冠纯白色，花径4-5厘米，素心型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国四川隆昌、泸州",
+    "flowering_period": "2-4月",
+    "image_url": "https://picsum.photos/id/232/912/792"
+  },
+  {
+    "chinese_name": "蜈蚣草",
+    "scientific_name": "Pteris vittata",
+    "english_name": "Chinese Brake Fern",
+    "alias": [
+      "蜈蚣蕨",
+      "长叶甘草蕨",
+      "石黄皮"
+    ],
+    "family": "凤尾蕨科",
+    "genus": "凤尾蕨属",
+    "description": "蜈蚣草为凤尾蕨科凤尾蕨属多年生陆生蕨类，株高可达60厘米，叶片呈蜈蚣状排列，是著名观叶蕨类及重金属富集植物，适合盆栽观赏及生态修复，耐阴易养护。",
+    "history": "蜈蚣草为中国乡土蕨类植物，广布于各地，人工栽培历史悠久，现成为观叶蕨类入门品种，同时因能富集砷等重金属，用于生态修复。",
+    "morphology": "根茎短粗，褐色，具鳞片；叶片簇生，倒披针形，羽状复叶，小叶线形，深绿色纸质，呈蜈蚣状排列；孢子囊群生于小叶边缘，褐色，靠孢子繁殖，无花无果。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性中等，耐旱耐贫瘠，对土壤要求不严，适宜疏松腐殖土",
+    "distribution": "中国各地广泛分布，世界温带、热带地区广泛分布",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/233/912/792"
+  },
+  {
+    "chinese_name": "初恋",
+    "scientific_name": "Echeveria 'Hatsukoi'",
+    "english_name": "First Love Echeveria",
+    "alias": [
+      "初恋景天",
+      "粉色初恋",
+      "拟石莲初恋"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "初恋为景天科拟石莲花属人工杂交多肉品种，株高可达15厘米，叶片呈莲座状排列，粉绿色至粉红色，光照充足时呈玫红色，是网红多肉品种，适合盆栽观赏及多肉拼盘，易养护。",
+    "history": "初恋由韩国园艺家杂交培育而成，21世纪初传入中国，因叶色随光照变化、颜值高，迅速成为多肉热门品种。",
+    "morphology": "茎细弱，易群生，紫红色；叶片互生呈莲座状，肉质匙形，粉绿色至粉红色，具轻微白霜，光照充足时整体呈玫红色；花葶细，总状花序，小花淡黄色，花径0.8-1厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+麦饭石）",
+    "distribution": "中国各地多肉盆栽，人工杂交品种（原产地韩国）",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/234/912/792"
+  },
+  {
+    "chinese_name": "墨兰绿云",
+    "scientific_name": "Cymbidium sinense 'Lv Yun'",
+    "english_name": "Green Cloud Black Orchid",
+    "alias": [
+      "绿云墨兰",
+      "墨兰素心",
+      "绿云报岁兰"
+    ],
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质翠绿，较宽短，叶缘光滑；花葶直立，总状花序具8-12花，花冠纯白色，花径3-4厘米，素心型，唇瓣淡绿色，具浓郁香气；蒴果长椭圆形，褐色。",
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "墨兰绿云为兰科兰属墨兰的名贵素心品种，株高可达60厘米，叶片宽短翠绿，花呈纯白色、唇瓣淡绿，花型端正且具浓香，是墨兰素心名品，为年宵花卉高端品种，适合盆栽观赏。",
+    "history": "绿云墨兰原产于中国台湾地区，20世纪90年代传入大陆，是墨兰中著名的素心品种，现各地兰友及花卉市场有栽培，价格较高。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+椰壳）",
+    "distribution": "中国各地盆栽，中国台湾，福建，广东",
+    "flowering_period": "12月-次年2月（报岁兰）",
+    "image_url": "https://picsum.photos/id/235/912/792"
+  },
+  {
+    "chinese_name": "铁线蕨",
+    "scientific_name": "Adiantum capillus-veneris",
+    "english_name": "Maidenhair Fern",
+    "alias": [
+      "铁丝草",
+      "少女发丝",
+      "铁线草"
+    ],
+    "family": "铁线蕨科",
+    "genus": "铁线蕨属",
+    "description": "铁线蕨为铁线蕨科铁线蕨属多年生陆生蕨类，株高可达30厘米，叶柄呈铁线状，叶片薄嫩翠绿，是著名观叶蕨类，耐阴易养护，适合室内盆栽观赏，为阴生观叶植物经典品种。",
+    "history": "铁线蕨为中国乡土蕨类植物，广布于各地阴湿环境，栽培历史悠久，现成为室内观叶蕨类入门品种，适合客厅、书房点缀。",
+    "morphology": "根茎短粗，褐色，具鳞片；叶柄细弱呈铁线状，紫黑色；叶片羽状复叶，小叶扇形，薄嫩翠绿纸质，边缘具浅裂；孢子囊群生于小叶边缘，褐色，靠孢子繁殖，无花无果。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性中等，忌积水，适宜疏松肥沃、排水良好的腐殖土（腐叶土+泥炭+珍珠岩）",
+    "distribution": "中国各地广泛分布，世界温带、热带地区广泛分布",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/236/912/792"
+  },
+  {
+    "chinese_name": "胧月",
+    "scientific_name": "Graptopetalum paraguayense",
+    "english_name": "Ghost Plant",
+    "alias": [
+      "石莲花胧月",
+      "宝石花",
+      "风车草"
+    ],
+    "family": "景天科",
+    "genus": "风车草属",
+    "description": "胧月为景天科风车草属多年生肉质草本，株高可达30厘米，叶片呈莲座状排列，灰蓝色具白霜，易群生、易扦插，是多肉入门最经典品种，适合盆栽观赏、多肉拼盘及户外地栽（南方）。",
+    "history": "胧月原产于墨西哥、巴拉圭，20世纪80年代传入中国，是最早引入的多肉品种之一，因易养护、易繁殖，成为多肉入门必备品种。",
+    "morphology": "茎细弱，易群生、易垂吊，紫红色；叶片互生呈莲座状，肉质匙形，灰蓝色具白色蜡质层，光照充足时呈粉红色；花葶细，聚伞花序，小花白色带紫纹，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，墨西哥，巴拉圭",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/237/912/792"
+  },
+  {
+    "chinese_name": "建兰绿梅",
+    "scientific_name": "Cymbidium ensifolium 'Lv Mei'",
+    "english_name": "Green Plum Jian Orchid",
+    "alias": [
+      "绿梅建兰",
+      "建兰素心梅瓣",
+      "绿梅兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "建兰绿梅为兰科兰属建兰的名贵梅瓣品种，株高可达50厘米，花型呈梅瓣状，花冠淡绿色，花姿优雅且具浓香，多季开花，是建兰名品，适合盆栽观赏，易养护、花量多。",
+    "history": "绿梅建兰原产于中国福建，20世纪90年代开始人工培育，现各地兰友及花卉市场广泛栽培，是建兰中受欢迎的梅瓣品种。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，叶缘光滑；花葶直立，总状花序具5-8花，花冠淡绿色，花径3-4厘米，梅瓣型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国福建、广东、广西",
+    "flowering_period": "6-10月（多季开花）",
+    "image_url": "https://picsum.photos/id/238/912/792"
+  },
+  {
+    "chinese_name": "波士顿蕨",
+    "scientific_name": "Nephrolepis exaltata 'Bostoniensis'",
+    "english_name": "Boston Fern",
+    "alias": [
+      "波斯顿蕨",
+      "高肾蕨",
+      "波士顿肾蕨"
+    ],
+    "family": "肾蕨科",
+    "genus": "肾蕨属",
+    "description": "波士顿蕨为肾蕨科肾蕨属肾蕨的栽培变种，株高可达50厘米，叶片呈羽状复叶，翠绿蓬松，是著名观叶蕨类，耐阴易养护，适合室内盆栽、悬挂观赏，为室内观叶植物热门品种。",
+    "history": "波士顿蕨原产于美国波士顿，由原生肾蕨变异培育而成，20世纪90年代传入中国，现各地花卉市场广泛栽培，成为室内观叶蕨类主流品种。",
+    "morphology": "根茎短粗，褐色，具匍匐茎；叶片簇生，羽状复叶，小叶线形，翠绿色纸质，蓬松下垂；无孢子囊群（人工培育变种，不结孢子），靠分株繁殖，无花无果。",
+    "habitat": "喜温暖湿润，耐阴忌强光，耐寒性弱，忌积水，适宜疏松肥沃、排水良好的腐殖土（腐叶土+泥炭+珍珠岩）",
+    "distribution": "中国各地盆栽，人工培育变种（原产地美国波士顿）",
+    "flowering_period": "无花，靠分株繁殖",
+    "image_url": "https://picsum.photos/id/239/912/792"
+  },
+  {
+    "chinese_name": "冬美人",
+    "scientific_name": "xGraptophytum 'Supreme'",
+    "english_name": "Winter Beauty",
+    "alias": [
+      "东美人",
+      "软座",
+      "景天冬美人"
+    ],
+    "family": "景天科",
+    "genus": "风车石莲属",
+    "description": "冬美人为景天科风车石莲属人工杂交多肉品种，株高可达30厘米，叶片呈莲座状排列，蓝绿色具白霜，耐寒性强，易群生、易养护，是多肉入门经典品种，适合盆栽观赏及户外地栽（南方）。",
+    "history": "冬美人由风车草属与拟石莲花属杂交而成，21世纪初传入中国，因耐寒性强、易养护，成为南北各地均适合栽培的多肉品种。",
+    "morphology": "茎细弱，易群生、易垂吊，紫红色；叶片互生呈莲座状，肉质匙形，蓝绿色具白色蜡质层，光照充足时呈粉红色；花葶细，聚伞花序，小花橙红色，花径1-1.5厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性强，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，人工杂交品种",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/240/912/792"
+  },
+  {
+    "chinese_name": "墨兰金边",
+    "scientific_name": "Cymbidium sinense 'Jin Bian'",
+    "english_name": "Golden Edge Black Orchid",
+    "alias": [
+      "金边墨兰",
+      "墨兰锦",
+      "金边报岁兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "墨兰金边为兰科兰属墨兰的斑锦变种，株高可达80厘米，叶片边缘具金黄色镶边，花呈深紫色具浓香，是墨兰名贵变种，兼具观叶和观花价值，为年宵花卉高端品种。",
+    "history": "金边墨兰为墨兰自然变异品种，原产于中国华南地区，栽培历史超100年，因叶片具金边、观赏价值高，成为墨兰中名贵品种。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具金黄色镶边，挺拔直立；花葶直立，总状花序具10-20花，花冠深紫色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+椰壳）",
+    "distribution": "中国各地盆栽，中国华南、西南，越南，缅甸",
+    "flowering_period": "12月-次年2月（报岁兰）",
+    "image_url": "https://picsum.photos/id/241/912/792"
+  },
+  {
+    "chinese_name": "鸟巢蕨",
+    "scientific_name": "Asplenium nidus",
+    "english_name": "Bird's Nest Fern",
+    "alias": [
+      "巢蕨",
+      "山苏花",
+      "鸟巢山苏"
+    ],
+    "family": "铁角蕨科",
+    "genus": "铁角蕨属",
+    "description": "鸟巢蕨为铁角蕨科铁角蕨属多年生附生蕨类，株高可达1米，叶片呈鸟巢状簇生，翠绿革质，是著名观叶蕨类，适合室内盆栽、附木栽培，为北欧风家居装饰热门品种。",
+    "history": "鸟巢蕨原产于热带亚洲及大洋洲，20世纪90年代传入中国，现各地花卉市场广泛栽培，成为室内观叶蕨类主流品种。",
+    "morphology": "根茎短粗，褐色，附生生长呈鸟巢状；叶片簇生，宽带形，全缘，翠绿色革质，无裂叶；孢子囊群生于叶片背面，褐色，靠孢子繁殖，无花无果。",
+    "habitat": "喜高温高湿，耐阴忌强光，耐寒性弱，忌积水，适宜疏松透气的附生基质（苔藓+树皮+椰壳）",
+    "distribution": "中国各地盆栽，热带亚洲（东南亚），大洋洲，非洲热带地区",
+    "flowering_period": "无花，靠孢子繁殖",
+    "image_url": "https://picsum.photos/id/242/912/792"
+  },
+  {
+    "chinese_name": "白牡丹",
+    "scientific_name": "xGraptoveria 'Titubans'",
+    "english_name": "White Peony Succulent",
+    "alias": [
+      "白牡丹景天",
+      "风车石莲白牡丹",
+      "多肉白牡丹"
+    ],
+    "family": "景天科",
+    "genus": "风车石莲属",
+    "description": "白牡丹为景天科风车石莲属人工杂交多肉品种，株高可达20厘米，叶片呈莲座状排列，白绿色具厚白霜，易群生、易扦插，是多肉入门最普及品种，适合盆栽观赏、多肉拼盘，养护难度极低。",
+    "history": "白牡丹由风车草属与拟石莲花属杂交而成，21世纪初传入中国，因颜值高、易养护、易繁殖，成为多肉市场最普及的品种。",
+    "morphology": "茎细弱，易群生，浅绿色；叶片互生呈莲座状，肉质匙形，白绿色具厚白色蜡质层，光照充足时叶尖粉红色；花葶细，聚伞花序，小花淡黄色，花径0.8-1厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，人工杂交品种",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/243/912/792"
+  },
+  {
+    "chinese_name": "建兰墨宝",
+    "scientific_name": "Cymbidium ensifolium 'Mo Bao'",
+    "english_name": "Mo Bao Jian Orchid",
+    "alias": [
+      "墨宝建兰",
+      "建兰色花名品",
+      "墨宝兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "建兰墨宝为兰科兰属建兰的名贵色花品种，株高可达60厘米，花呈深紫色近黑色，花型端正且具浓香，多季开花，是建兰色花代表品种，适合盆栽观赏，花量多、易养护。",
+    "history": "墨宝建兰原产于中国台湾地区，21世纪初传入大陆，是建兰中著名的深色花品种，现各地兰友及花卉市场广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，叶缘光滑；花葶直立，总状花序具6-10花，花冠深紫色近黑色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国台湾，福建，广东",
+    "flowering_period": "7-10月（多季开花）",
+    "image_url": "https://picsum.photos/id/244/912/792"
+  },
+  {
+    "chinese_name": "鹿角海棠",
+    "scientific_name": "Ceropegia woodii subs. woodii",
+    "english_name": "String of Hearts",
+    "alias": [
+      "熏波菊",
+      "鹿角掌",
+      "多肉鹿角"
+    ],
+    "family": "番杏科",
+    "genus": "鹿角海棠属",
+    "description": "鹿角海棠为番杏科鹿角海棠属多年生肉质草本，株高可达30厘米，叶片呈鹿角状对生，翠绿色肉质，易群生、易垂吊，是网红多肉品种，适合盆栽观赏、悬挂盆栽，易养护。",
+    "history": "鹿角海棠原产于南非，21世纪初传入中国，因叶形独特、易养护，成为多肉热门品种，现各地广泛栽培。",
+    "morphology": "茎细弱，易群生、易垂吊，紫红色；叶片对生，肉质鹿角状，三棱形，翠绿色，光照充足时呈粉红色；花葶短，单花顶生，花冠黄色，花径2-3厘米，花瓣5片；蒴果球形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+河沙）",
+    "distribution": "中国各地多肉盆栽，南非开普省",
+    "flowering_period": "8-9月",
+    "image_url": "https://picsum.photos/id/245/912/792"
+  },
+  {
+    "chinese_name": "春兰万字",
+    "scientific_name": "Cymbidium goeringii 'Wan Zi'",
+    "english_name": "Wan Zi Spring Orchid",
+    "alias": [
+      "万字兰",
+      "春兰四大名花之一",
+      "鸳湖第一梅"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "春兰万字为兰科兰属春兰的传统名贵品种，位列“春兰四大名花”，株高可达30厘米，花型端正，梅瓣型，具浓香，是中国传统兰花珍品，适合盆栽观赏，兰友收藏佳品。",
+    "history": "万字原产于中国浙江，清道光年间发现培育，栽培历史超150年，是春兰中经典的梅瓣品种，现各地兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具细锯齿，较宽短；花葶直立，单花顶生，花冠淡黄绿色，花径3-4厘米，梅瓣型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国浙江、江苏、上海",
+    "flowering_period": "1-3月",
+    "image_url": "https://picsum.photos/id/246/912/792"
+  },
+  {
+    "chinese_name": "佛珠",
+    "scientific_name": "Senecio rowleyanus",
+    "english_name": "String of Pearls",
+    "alias": [
+      "珍珠吊兰",
+      "绿之铃",
+      "佛珠景天"
+    ],
+    "family": "菊科",
+    "genus": "千里光属",
+    "description": "佛珠为菊科千里光属多年生肉质草本，株长可达1米，茎匍匐下垂，叶片呈珠状翠绿，是经典垂吊多肉品种，适合悬挂盆栽，点缀阳台、室内，易养护、易群生。",
+    "history": "佛珠原产于南非，20世纪90年代传入中国，因叶形独特、垂吊效果好，成为多肉经典垂吊品种，现各地广泛栽培。",
+    "morphology": "茎细弱，匍匐下垂，浅绿色；叶片互生，肉质珠状，直径0.8-1厘米，翠绿色，肉质饱满；花葶短，头状花序，小花白色带紫纹，花径1-1.5厘米，具淡香；瘦果圆柱形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐半阴，忌强光直射，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+椰糠）",
+    "distribution": "中国各地多肉盆栽，南非开普省",
+    "flowering_period": "10-12月（极少开花）",
+    "image_url": "https://picsum.photos/id/247/912/792"
+  },
+  {
+    "chinese_name": "蕙兰大一品",
+    "scientific_name": "Cymbidium faberi 'Da Yi Pin'",
+    "english_name": "Da Yi Pin Cymbidium",
+    "alias": [
+      "大一品蕙兰",
+      "蕙兰八大名花之一",
+      "上品蕙兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "蕙兰大一品为兰科兰属蕙兰的传统名贵品种，位列“蕙兰八大名花”，株高可达90厘米，花型端正，荷瓣型，花量繁密且具浓香，是中国传统兰花珍品，适合盆栽观赏。",
+    "history": "大一品原产于中国浙江，清乾隆年间发现培育，栽培历史超200年，是蕙兰中经典的荷瓣品种，现各地兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具粗锯齿，挺拔直立；花葶直立，总状花序具10-15花，花冠淡黄绿色，花径4-5厘米，荷瓣型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国浙江、江苏、安徽",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/248/912/792"
+  },
+  {
+    "chinese_name": "情人泪",
+    "scientific_name": "Senecio herreanus",
+    "english_name": "String of Tears",
+    "alias": [
+      "情人泪吊兰",
+      "绿之铃变种",
+      "泪珠景天"
+    ],
+    "family": "菊科",
+    "genus": "千里光属",
+    "description": "情人泪为菊科千里光属多年生肉质草本，是佛珠的近缘品种，株长可达1米，茎匍匐下垂，叶片呈泪珠状，翠绿色肉质，垂吊效果极佳，是网红垂吊多肉品种，适合悬挂盆栽。",
+    "history": "情人泪原产于南非，21世纪初传入中国，因叶形似泪珠、垂吊效果好，成为多肉热门垂吊品种，现各地广泛栽培。",
+    "morphology": "茎细弱，匍匐下垂，浅绿色；叶片互生，肉质泪珠状，一端尖一端圆，翠绿色，光照充足时呈粉红色；花葶短，头状花序，小花白色带紫纹，花径1-1.5厘米，具淡香；瘦果圆柱形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐半阴，忌强光直射，耐寒性弱，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+椰糠）",
+    "distribution": "中国各地多肉盆栽，南非开普省",
+    "flowering_period": "10-12月（极少开花）",
+    "image_url": "https://picsum.photos/id/249/912/792"
+  },
+  {
+    "chinese_name": "寒兰细叶",
+    "scientific_name": "Cymbidium kanran var. gracillimum",
+    "english_name": "Slender Leaf Han Orchid",
+    "alias": [
+      "细叶寒兰",
+      "寒兰原变种",
+      "细叶兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "寒兰细叶为兰科兰属寒兰的原变种，株高可达70厘米，叶片细狭挺拔，花姿优雅，花色丰富且具浓香，耐寒性强，是中国传统兰花，适合北方兰友栽培，为寒兰最普及品种。",
+    "history": "细叶寒兰为中国乡土兰花，分布于长江流域及以南各地，栽培历史悠久，现各地兰友处广泛栽培，尤其受北方兰友喜爱。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，细狭挺拔，革质深绿，叶缘光滑，叶宽仅0.5-1厘米；花葶直立，总状花序具6-12花，花冠白、粉、紫、黄等色，花径3-4厘米，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性强，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国长江流域及以南各地",
+    "flowering_period": "10-12月",
+    "image_url": "https://picsum.photos/id/250/912/792"
+  },
+  {
+    "chinese_name": "紫米粒",
+    "scientific_name": "Portulaca gilliesii",
+    "english_name": "Purple Rice Portulaca",
+    "alias": [
+      "紫米饭",
+      "米粒花",
+      "紫珍珠米粒"
+    ],
+    "family": "马齿苋科",
+    "genus": "马齿苋属",
+    "description": "紫米粒为马齿苋科马齿苋属多年生肉质草本，株高仅5-10厘米，叶片呈米粒状，紫红色，易群生成垫状，是网红多肉品种，适合多肉拼盘、铺面及迷你盆栽，易养护、易繁殖。",
+    "history": "紫米粒原产于南美洲，21世纪初传入中国，因叶色艳丽、易群生，成为多肉热门品种，现各地广泛栽培。",
+    "morphology": "茎细弱，匍匐生长，易群生，紫红色；叶片互生，肉质米粒状，紫红色，光照充足时呈深紫色；花葶短，单花顶生，花冠粉红色，花径1-1.5厘米，花瓣5片；蒴果球形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，南美洲阿根廷、巴西",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/251/912/792"
+  },
+  {
+    "chinese_name": "春剑西蜀道光",
+    "scientific_name": "Cymbidium goeringii var. longibracteatum 'Xi Shu Dao Guang'",
+    "english_name": "Xishu Daoguang Spring Sword Orchid",
+    "alias": [
+      "西蜀道光兰",
+      "春剑素心名品",
+      "四川道光兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "春剑西蜀道光为兰科兰属春剑的名贵素心品种，株高可达50厘米，花呈纯白色，花型端正且具浓香，是四川传统名贵兰花，为春剑素心代表品种，适合盆栽观赏。",
+    "history": "西蜀道光原产于中国四川西部，栽培历史超200年，是四川最著名的春剑素心品种，现各地兰友处广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，边缘具细锯齿，挺拔直立；花葶直立，总状花序具3-6花，花冠纯白色，花径4-5厘米，素心型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜凉爽湿润，喜光耐半阴，耐寒性中等，忌积水，适宜疏松肥沃的腐殖土（腐叶土+松树皮+苔藓）",
+    "distribution": "中国各地盆栽，中国四川西部、云南北部",
+    "flowering_period": "2-4月",
+    "image_url": "https://picsum.photos/id/252/912/792"
+  },
+  {
+    "chinese_name": "墨兰企剑白墨",
+    "scientific_name": "Cymbidium sinense 'Qi Jian Bai Mo'",
+    "english_name": "White Mo Black Orchid",
+    "alias": [
+      "企剑白墨兰",
+      "墨兰素心名品",
+      "白墨报岁兰"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "墨兰企剑白墨为兰科兰属墨兰的名贵素心品种，株高可达1米，叶片挺拔直立，花呈纯白色，花量繁密且具浓香，是墨兰素心经典品种，为年宵花卉热门品种，适合盆栽观赏。",
+    "history": "企剑白墨原产于中国广东，栽培历史超150年，是墨兰中最经典的素心品种，现各地兰友及花卉市场广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，挺拔直立，叶缘光滑；花葶直立，总状花序具20-30花，花冠纯白色，花径3-4厘米，素心型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+椰壳）",
+    "distribution": "中国各地盆栽，中国广东、广西、福建",
+    "flowering_period": "12月-次年2月（报岁兰）",
+    "image_url": "https://picsum.photos/id/254/912/792"
+  },
+  {
+    "chinese_name": "千佛手",
+    "scientific_name": "xSedeveria 'Harry Butterfield'",
+    "english_name": "Harry Butterfield Succulent",
+    "alias": [
+      "菊丸",
+      "王玉珠帘",
+      "景天千佛手"
+    ],
+    "family": "景天科",
+    "genus": "景天石莲属",
+    "description": "千佛手为景天科景天石莲属人工杂交多肉品种，株高可达20厘米，叶片呈莲座状排列，翠绿色，开花时花瓣层层展开，形似佛手，是网红多肉品种，适合盆栽观赏，易养护、易群生。",
+    "history": "千佛手由景天属与拟石莲花属杂交而成，21世纪初传入中国，因花型独特、易养护，成为多肉热门品种，现各地广泛栽培。",
+    "morphology": "茎细弱，易群生，浅绿色；叶片互生呈莲座状，肉质匙形，翠绿色，光照充足时呈粉红色；花葶细，聚伞花序，小花黄色，花瓣层层展开形似佛手，花径1-1.5厘米；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性中等，极耐旱，适宜疏松透气的颗粒土（泥炭+珍珠岩+河沙）",
+    "distribution": "中国各地多肉盆栽，人工杂交品种",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/255/912/792"
+  },
+  {
+    "chinese_name": "建兰龙岩素",
+    "scientific_name": "Cymbidium ensifolium 'Long Yan Su'",
+    "english_name": "Longyan White Jian Orchid",
+    "alias": [
+      "龙岩素兰",
+      "建兰素心经典",
+      "龙岩素心"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "建兰龙岩素为兰科兰属建兰的传统素心品种，株高可达60厘米，花呈纯白色，花量繁密且具浓香，多季开花，是建兰中最普及的素心品种，易养护、适应性强，适合盆栽观赏。",
+    "history": "龙岩素原产于中国福建龙岩，栽培历史超300年，是建兰中最经典、最普及的素心品种，现各地兰友及花卉市场广泛栽培。",
+    "morphology": "假鳞茎卵球形，褐色；叶片剑形，革质深绿，叶缘光滑；花葶直立，总状花序具8-15花，花冠纯白色，花径3-4厘米，素心型，具浓郁香气；蒴果长椭圆形，褐色。",
+    "habitat": "喜温暖湿润，喜光耐半阴，忌强光直射，耐寒性中等，适宜疏松肥沃的腐殖土（腐叶土+松树皮+珍珠岩）",
+    "distribution": "中国各地盆栽，中国福建龙岩、漳州",
+    "flowering_period": "6-10月（多季开花）",
+    "image_url": "https://picsum.photos/id/256/912/792"
+  },
+  {
+    "chinese_name": "姬秋丽",
+    "scientific_name": "xGraptopetalum 'Mirinae'",
+    "english_name": "Mirinae Succulent",
+    "alias": [
+      "迷你秋丽",
+      "姬秋丽锦",
+      "粉色姬秋丽"
+    ],
+    "family": "景天科",
+    "genus": "风车草属",
+    "description": "姬秋丽为景天科风车草属人工杂交多肉品种，株高仅5-10厘米，叶片呈米粒状，粉绿色，易群生成垫状，是迷你网红多肉品种，适合多肉拼盘、铺面及迷你盆栽，养护难度极低。",
+    "history": "姬秋丽由韩国园艺家杂交培育而成，21世纪初传入中国，因体型迷你、易群生，成为多肉热门品种，现各地广泛栽培。",
+    "morphology": "茎细弱，匍匐生长，易群生，紫红色；叶片互生，肉质米粒状，粉绿色具轻微白霜，光照充足时呈玫红色；花葶短，聚伞花序，小花白色，花径0.5-0.8厘米，花瓣5片；蓇葖果星形，褐色。",
+    "habitat": "喜温暖干燥，喜光耐强光，耐寒性弱，极耐旱，耐贫瘠，对土壤要求不严，适宜疏松沙质土壤",
+    "distribution": "中国各地多肉盆栽，人工杂交品种（原产地韩国）",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/257/912/792"
+  },
+  {
+    "chinese_name": "牡丹",
+    "scientific_name": "Paeonia suffruticosa",
+    "english_name": "Peony",
+    "alias": [
+      "富贵花",
+      "洛阳花",
+      "木芍药"
+    ],
+    "family": "毛茛科",
+    "genus": "芍药属",
+    "description": "牡丹为毛茛科芍药属落叶灌木，株高可达2米，花大色艳、花型丰富，素有“花中之王”的美誉，是中国传统名花，兼具观赏与药用价值。",
+    "history": "牡丹原产于中国西部秦岭和大巴山一带，栽培历史超1500年，唐代始盛于洛阳，宋代普及各地，现广泛栽培于世界多国。",
+    "morphology": "叶片二回三出复叶，卵形至披针形，绿色，纸质；花单生枝顶，花色有红、粉、白、紫、黄等，花径10-30厘米，花瓣5至重瓣；果实为蓇葖果，长圆形，黄绿色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，耐寒，忌高温高湿，适宜疏松肥沃、排水良好的中性沙质土壤",
+    "distribution": "中国黄河流域、长江流域，日本、韩国，欧洲、北美洲部分地区",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/152/912/792"
+  },
+  {
+    "chinese_name": "月季",
+    "scientific_name": "Rosa chinensis",
+    "english_name": "Chinese Rose",
+    "alias": [
+      "月月红",
+      "四季花",
+      "胜春"
+    ],
+    "family": "蔷薇科",
+    "genus": "蔷薇属",
+    "description": "月季为蔷薇科蔷薇属常绿或半常绿灌木，株高可达1-2米，花期长、花型多样，素有“花中皇后”之称，是世界著名观赏花卉，部分品种可提取香精。",
+    "history": "月季原产于中国，栽培历史超2000年，汉代已有记载，18世纪传入欧洲并培育出大量杂交品种，现全球广泛栽培。",
+    "morphology": "叶片羽状复叶，小叶3-5片，卵形，边缘有锯齿，深绿色，革质；花生于枝顶，花色丰富，花径4-10厘米，花瓣5至重瓣；果实为蔷薇果，球形，红色，成熟期9-11月。",
+    "habitat": "喜阳光充足，耐寒耐旱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，世界温带、亚热带地区",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/141/912/792"
+  },
+  {
+    "chinese_name": "玫瑰",
+    "scientific_name": "Rosa rugosa",
+    "english_name": "Rose",
+    "alias": [
+      "刺玫花",
+      "徘徊花",
+      "笔头花"
+    ],
+    "family": "蔷薇科",
+    "genus": "蔷薇属",
+    "description": "玫瑰为蔷薇科蔷薇属落叶灌木，株高可达2米，茎干多刺，花具浓郁香气，是著名观赏花卉，也是重要的香精、花茶原料，兼具药用价值。",
+    "history": "玫瑰原产于中国华北、日本和朝鲜，栽培历史超1000年，唐代已广泛种植，19世纪传入欧洲，现全球栽培。",
+    "morphology": "叶片羽状复叶，小叶5-9片，椭圆形，边缘有钝锯齿，表面皱缩，深绿色，纸质；花单生或数朵簇生，花色红、粉、白等，花径5-8厘米，花瓣5-9片；果实为蔷薇果，扁球形，红色，成熟期8-9月。",
+    "habitat": "喜阳光充足，耐寒耐旱，忌积水，适宜疏松肥沃的微酸性沙质土壤",
+    "distribution": "中国华北、西北，日本、朝鲜，欧洲、北美洲",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/106/912/792"
+  },
+  {
+    "chinese_name": "菊花",
+    "scientific_name": "Chrysanthemum morifolium",
+    "english_name": "Chrysanthemum",
+    "alias": [
+      "秋菊",
+      "节华",
+      "金英"
+    ],
+    "family": "菊科",
+    "genus": "菊属",
+    "description": "菊花为菊科菊属多年生草本植物，株高可达0.6-1.5米，花型繁多、花色丰富，是中国十大名花之一，兼具观赏、药用和食用价值。",
+    "history": "菊花原产于中国，栽培历史超3000年，周代已有记载，唐代成为观赏花卉，宋代培育出大量品种，现全球广泛栽培。",
+    "morphology": "叶片互生，卵形至披针形，边缘有缺刻和锯齿，绿色，纸质；花头状花序，单生或簇生，花色有白、黄、红、紫等，花径2-20厘米；瘦果倒卵形，褐色，成熟期10-11月。",
+    "habitat": "喜凉爽通风，耐寒，忌积涝，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，世界温带、亚热带地区",
+    "flowering_period": "9-11月",
+    "image_url": "https://picsum.photos/id/116/912/792"
+  },
+  {
+    "chinese_name": "荷花",
+    "scientific_name": "Nelumbo nucifera",
+    "english_name": "Lotus Flower",
+    "alias": [
+      "莲花",
+      "菡萏",
+      "芙蕖"
+    ],
+    "family": "莲科",
+    "genus": "莲属",
+    "description": "荷花为莲科莲属多年生水生草本植物，株高可达1.5-2米，花叶俱美，是中国十大名花之一，象征高洁，莲藕、莲子可食用，全株可药用。",
+    "history": "荷花原产于中国南部，栽培历史超7000年，新石器时代已有遗存，周代成为观赏花卉，现全球热带、亚热带地区栽培。",
+    "morphology": "叶片圆形，盾状，直径25-90厘米，表面深绿色，背面淡绿色，革质；花生于花梗顶端，单生，花色白、粉、红等，花径10-25厘米，花瓣多数；坚果椭圆形，灰褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，适宜静水池塘，水深0.3-1.2米，富含有机质的淤泥",
+    "distribution": "中国黄河、长江、珠江流域，日本、印度，东南亚、大洋洲",
+    "flowering_period": "6-9月",
+    "image_url": "https://picsum.photos/id/134/912/792"
+  },
+  {
+    "chinese_name": "桂花",
+    "scientific_name": "Osmanthus fragrans",
+    "english_name": "Sweet Osmanthus",
+    "alias": [
+      "岩桂",
+      "木犀",
+      "九里香"
+    ],
+    "family": "木犀科",
+    "genus": "木犀属",
+    "description": "桂花为木犀科木犀属常绿乔木或灌木，株高可达10米，花小而香，是中国十大名花之一，中秋赏桂为传统习俗，花可做花茶、糕点，兼具药用价值。",
+    "history": "桂花原产于中国西南地区，栽培历史超2500年，战国时期已有记载，唐代始盛，现中国各地及世界多国栽培。",
+    "morphology": "叶片对生，长椭圆形，边缘有细锯齿，深绿色，革质；花簇生叶腋，花色黄白、金黄、橙红等，花径0.6-1厘米，花瓣4片；果实为核果，椭圆形，紫黑色，成熟期次年3-4月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国长江流域及以南地区，日本、韩国，欧洲、北美洲部分地区",
+    "flowering_period": "9-10月",
+    "image_url": "https://picsum.photos/id/122/912/792"
+  },
+  {
+    "chinese_name": "兰花",
+    "scientific_name": "Cymbidium ssp.",
+    "english_name": "Orchid",
+    "alias": [
+      "兰草",
+      "幽兰",
+      "国香"
+    ],
+    "family": "兰科",
+    "genus": "兰属",
+    "description": "兰花为兰科兰属多年生草本植物，株高可达0.3-1米，叶姿优美，花香清幽，是中国十大名花之一，象征高雅，为传统名贵观赏花卉。",
+    "history": "兰花原产于中国，栽培历史超2000年，春秋时期已有记载，宋代成为文人雅士挚爱，现全球热带、亚热带地区栽培。",
+    "morphology": "叶片丛生，带状或剑形，革质，绿色或深绿色；花生于花葶顶端，总状花序，花色白、粉、黄、紫等，花径3-8厘米，花瓣6片；蒴果长椭圆形，褐色，成熟期8-10月。",
+    "habitat": "喜阴湿通风，忌强光直射，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国长江流域及以南地区，东南亚，澳洲，非洲南部",
+    "flowering_period": "1-3月（春兰）、6-8月（建兰）",
+    "image_url": "https://picsum.photos/id/145/912/792"
+  },
+  {
+    "chinese_name": "梅花",
+    "scientific_name": "Prunus mume",
+    "english_name": "Plum Blossom",
+    "alias": [
+      "春梅",
+      "干枝梅",
+      "酸梅"
+    ],
+    "family": "蔷薇科",
+    "genus": "李属",
+    "description": "梅花为蔷薇科李属落叶小乔木或灌木，株高可达5米，先花后叶，花色清雅，是中国十大名花之首，象征坚韧，果可食用、制酱，花可药用。",
+    "history": "梅花原产于中国长江流域，栽培历史超3000年，商代已有记载，宋代成为主流观赏花卉，现中国各地及日本、韩国栽培。",
+    "morphology": "叶片卵形或椭圆形，边缘有细锯齿，绿色，纸质；花单生或2朵簇生，花色白、粉、红等，花径2-3厘米，花瓣5片；果实近球形，黄色或绿白色，成熟期6-7月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，忌积水，适宜疏松肥沃的微酸性土壤",
+    "distribution": "中国长江流域、黄河流域，日本、韩国，欧洲部分地区",
+    "flowering_period": "1-3月",
+    "image_url": "https://picsum.photos/id/119/912/792"
+  },
+  {
+    "chinese_name": "水仙",
+    "scientific_name": "Narcissus tazetta var. chinensis",
+    "english_name": "Chinese Narcissus",
+    "alias": [
+      "凌波仙子",
+      "金盏银台",
+      "姚女花"
+    ],
+    "family": "石蒜科",
+    "genus": "水仙属",
+    "description": "水仙为石蒜科水仙属多年生球根草本植物，株高可达0.3-0.5米，花叶秀丽，花香淡雅，是中国传统年宵花卉，象征吉祥，鳞茎有毒，可药用。",
+    "history": "水仙原产于中国福建漳州，栽培历史超1300年，唐代已有记载，宋代成为年宵花卉，现中国各地及世界多国栽培。",
+    "morphology": "叶片扁平带状，长30-50厘米，浅绿色，肉质；花葶从叶丛中抽出，伞形花序，花白色，副花冠黄色，花径3-5厘米，花瓣6片；蒴果室背开裂，种子多数，成熟期5-6月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，适宜疏松肥沃、排水良好的微酸性沙质土壤，可水培",
+    "distribution": "中国福建、浙江、上海，日本、韩国，欧洲、北美洲",
+    "flowering_period": "1-2月",
+    "image_url": "https://picsum.photos/id/102/912/792"
+  },
+  {
+    "chinese_name": "山茶",
+    "scientific_name": "Camellia japonica",
+    "english_name": "Camellia",
+    "alias": [
+      "山茶花",
+      "曼陀罗树",
+      "耐冬"
+    ],
+    "family": "山茶科",
+    "genus": "山茶属",
+    "description": "山茶为山茶科山茶属常绿灌木或小乔木，株高可达10米，花大色艳，花期长，是中国传统名花，兼具观赏与药用价值，种子可榨油。",
+    "history": "山茶原产于中国长江流域及以南地区，栽培历史超1500年，唐代已有记载，宋代培育出多个品种，现全球亚热带地区栽培。",
+    "morphology": "叶片革质，互生，椭圆形，边缘有细锯齿，深绿色，有光泽；花单生或2-3朵簇生，花色红、粉、白等，花径5-10厘米，花瓣5至重瓣；蒴果球形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国长江流域及以南地区，日本、韩国，欧洲、北美洲部分地区",
+    "flowering_period": "1-4月",
+    "image_url": "https://picsum.photos/id/164/912/792"
+  },
+  {
+    "chinese_name": "杜鹃",
+    "scientific_name": "Rhododendron simsii",
+    "english_name": "Azalea",
+    "alias": [
+      "映山红",
+      "山石榴",
+      "艳山红"
+    ],
+    "family": "杜鹃花科",
+    "genus": "杜鹃属",
+    "description": "杜鹃为杜鹃花科杜鹃属落叶或半常绿灌木，株高可达2米，花繁色艳，花期长，是中国十大名花之一，为著名观赏花卉，部分品种可药用。",
+    "history": "杜鹃原产于中国长江流域及以南地区，栽培历史超1000年，唐代已有记载，明代培育出多个品种，现全球温带、亚热带地区栽培。",
+    "morphology": "叶片薄革质，卵形或披针形，边缘有细锯齿，浅绿色；花2-6朵簇生枝顶，花色红、粉、白、紫等，花径3-5厘米，花冠漏斗形；蒴果卵球形，褐色，成熟期10月。",
+    "habitat": "喜凉爽湿润，耐半阴，忌高温干旱，适宜疏松肥沃、排水良好的酸性腐殖土",
+    "distribution": "中国长江流域及以南地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/158/912/792"
+  },
+  {
+    "chinese_name": "栀子",
+    "scientific_name": "Gardenia jasminoides",
+    "english_name": "Cape Jasmine",
+    "alias": [
+      "黄栀子",
+      "山栀",
+      "玉荷花"
+    ],
+    "family": "茜草科",
+    "genus": "栀子属",
+    "description": "栀子为茜草科栀子属常绿灌木，株高可达1.5米，叶色翠绿，花洁白芳香，是著名观赏花卉，果实可做黄色染料，全株可药用。",
+    "history": "栀子原产于中国长江流域，栽培历史超2000年，汉代已有记载，唐代成为观赏花卉，现中国各地及世界多国栽培。",
+    "morphology": "叶片对生，革质，长椭圆形，表面深绿色有光泽，背面淡绿色；花单生枝顶或叶腋，白色，花径3-5厘米，花冠高脚碟形；果实卵形，黄色或橙红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，忌碱性土壤，适宜疏松肥沃的酸性沙质土壤",
+    "distribution": "中国长江流域及以南地区，日本、韩国，东南亚、大洋洲",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/128/912/792"
+  },
+  {
+    "chinese_name": "茉莉",
+    "scientific_name": "Jasminum sambac",
+    "english_name": "Arabian Jasmine",
+    "alias": [
+      "茉莉花",
+      "抹丽",
+      "玉麝"
+    ],
+    "family": "木犀科",
+    "genus": "素馨属",
+    "description": "茉莉为木犀科素馨属常绿灌木或藤本，株高可达1-3米，花洁白芳香，是著名观赏花卉，花可提取香精、制作茉莉花茶，兼具药用价值。",
+    "history": "茉莉原产于印度、巴基斯坦，汉代传入中国，栽培历史超2000年，唐代始盛，现中国南方及世界热带、亚热带地区栽培。",
+    "morphology": "叶片对生，薄革质，卵形或椭圆形，绿色；花顶生或腋生，聚伞花序，白色，花径2-3厘米，花瓣5-9片；浆果球形，紫黑色，成熟期7-9月。",
+    "habitat": "喜高温高湿，喜光，不耐寒，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国华南、西南地区，印度、巴基斯坦，东南亚、非洲",
+    "flowering_period": "5-11月",
+    "image_url": "https://picsum.photos/id/148/912/792"
+  },
+  {
+    "chinese_name": "海棠",
+    "scientific_name": "Malus spectabilis",
+    "english_name": "Chinese Flowering Crabapple",
+    "alias": [
+      "海棠花",
+      "解语花",
+      "海红"
+    ],
+    "family": "蔷薇科",
+    "genus": "苹果属",
+    "description": "海棠为蔷薇科苹果属落叶小乔木，株高可达8米，花繁叶茂，花色清雅，是中国传统名花，素有“花中神仙”之称，为著名观赏树种。",
+    "history": "海棠原产于中国华北、华东地区，栽培历史超2000年，汉代已有记载，宋代成为主流观赏花卉，现中国各地及日本、韩国栽培。",
+    "morphology": "叶片椭圆形，边缘有细锯齿，绿色，纸质；花4-6朵簇生，伞形花序，花色粉白、粉红，花径4-5厘米，花瓣5片；果实近球形，黄色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，忌积水，适宜疏松肥沃的微酸性土壤",
+    "distribution": "中国华北、华东、华中地区，日本、韩国，欧洲部分地区",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/131/912/792"
+  },
+  {
+    "chinese_name": "紫荆",
+    "scientific_name": "Cercis chinensis",
+    "english_name": "Chinese Redbud",
+    "alias": [
+      "满条红",
+      "紫珠",
+      "裸枝树"
+    ],
+    "family": "豆科",
+    "genus": "紫荆属",
+    "description": "紫荆为豆科紫荆属落叶乔木或灌木，株高可达10米，花簇生老枝，花色紫红，是著名观赏树种，树皮、木材可药用，种子可榨油。",
+    "history": "紫荆原产于中国黄河流域及以南地区，栽培历史超1500年，唐代已有记载，现中国各地及世界温带地区栽培。",
+    "morphology": "叶片近圆形，基部心形，边缘全缘，绿色，纸质；花先叶开放，数朵簇生老枝，紫红色，花径1.5-2厘米，花瓣5片；荚果扁平，长椭圆形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，适宜疏松肥沃、排水良好的中性沙质土壤",
+    "distribution": "中国黄河流域及以南地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "3-4月",
+    "image_url": "https://picsum.photos/id/108/912/792"
+  },
+  {
+    "chinese_name": "紫薇",
+    "scientific_name": "Lagerstroemia indica",
+    "english_name": "Crape Myrtle",
+    "alias": [
+      "百日红",
+      "满堂红",
+      "痒痒树"
+    ],
+    "family": "千屈菜科",
+    "genus": "紫薇属",
+    "description": "紫薇为千屈菜科紫薇属落叶灌木或小乔木，株高可达7米，花期长，花繁色艳，是著名观赏树种，树皮、叶可药用，木材可做家具。",
+    "history": "紫薇原产于中国长江流域及以南地区，栽培历史超1500年，唐代已有记载，宋代成为观赏花卉，现全球温带、亚热带地区栽培。",
+    "morphology": "叶片互生或对生，椭圆形，边缘全缘，绿色，纸质；花顶生圆锥花序，花色红、粉、白、紫等，花径3-4厘米，花瓣6片，皱缩；蒴果球形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国长江流域及以南地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "6-9月",
+    "image_url": "https://picsum.photos/id/168/912/792"
+  },
+  {
+    "chinese_name": "丁香",
+    "scientific_name": "Syringa oblata",
+    "english_name": "Lilac",
+    "alias": [
+      "紫丁香",
+      "百结",
+      "情客"
+    ],
+    "family": "木犀科",
+    "genus": "丁香属",
+    "description": "丁香为木犀科丁香属落叶灌木或小乔木，株高可达5米，花簇生，香气浓郁，是著名观赏花卉，花可提取香精，嫩叶可代茶，兼具药用价值。",
+    "history": "丁香原产于中国华北地区，栽培历史超1000年，唐代已有记载，现中国各地及世界温带地区栽培。",
+    "morphology": "叶片对生，心形或卵形，边缘全缘，绿色，纸质；花顶生圆锥花序，花色紫、粉、白等，花径1-1.5厘米，花冠漏斗形；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较强，忌积水，适宜疏松肥沃的中性沙质土壤",
+    "distribution": "中国华北、东北、西北地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/125/912/792"
+  },
+  {
+    "chinese_name": "紫藤",
+    "scientific_name": "Wisteria sinensis",
+    "english_name": "Chinese Wisteria",
+    "alias": [
+      "藤萝",
+      "朱藤",
+      "黄环"
+    ],
+    "family": "豆科",
+    "genus": "紫藤属",
+    "description": "紫藤为豆科紫藤属落叶木质藤本，株长可达10-20米，花穗下垂，花色淡雅，香气浓郁，是著名藤本观赏花卉，花可食用，茎皮、花可药用。",
+    "history": "紫藤原产于中国黄河流域及以南地区，栽培历史超1500年，唐代已有记载，现中国各地及世界温带地区栽培。",
+    "morphology": "叶片羽状复叶，小叶7-13片，卵形，边缘全缘，绿色，纸质；花总状花序下垂，长15-30厘米，紫色或淡紫色，花径2-3厘米；荚果扁平，长条形，褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，耐寒性较强，忌积水，适宜疏松肥沃的中性沙质土壤",
+    "distribution": "中国黄河流域及以南地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "4-5月",
+    "image_url": "https://picsum.photos/id/155/912/792"
+  },
+  {
+    "chinese_name": "凌霄",
+    "scientific_name": "Campsis grandiflora",
+    "english_name": "Chinese Trumpet Creeper",
+    "alias": [
+      "紫葳",
+      "女葳花",
+      "倒挂金钟"
+    ],
+    "family": "紫葳科",
+    "genus": "凌霄属",
+    "description": "凌霄为紫葳科凌霄属落叶木质藤本，株长可达10米，花形奇特，花色艳丽，是著名藤本观赏花卉，花、根可药用，为垂直绿化优良树种。",
+    "history": "凌霄原产于中国黄河流域及以南地区，栽培历史超1000年，唐代已有记载，现中国各地及世界温带地区栽培。",
+    "morphology": "叶片羽状复叶，小叶7-9片，卵形，边缘有粗锯齿，绿色，纸质；花顶生圆锥花序，漏斗形，鲜红色或橙红色，花径5-8厘米；蒴果长椭圆形，黄褐色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐寒性较弱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国黄河流域及以南地区，日本、韩国，欧洲、北美洲",
+    "flowering_period": "6-9月",
+    "image_url": "https://picsum.photos/id/142/912/792"
+  },
+  {
+    "chinese_name": "牡丹吊兰",
+    "scientific_name": "Mesembryanthemum cordifolium",
+    "english_name": "Heartleaf Ice Plant",
+    "alias": [
+      "心叶日中花",
+      "露草",
+      "花蔓草"
+    ],
+    "family": "番杏科",
+    "genus": "日中花属",
+    "description": "牡丹吊兰为番杏科日中花属多年生常绿草本植物，株高可达0.3米，匍匐生长，花叶俱美，是著名盆栽观赏花卉，嫩茎叶可食用。",
+    "history": "牡丹吊兰原产于非洲南部，20世纪传入中国，现中国各地广泛栽培，为常见盆栽、垂吊花卉。",
+    "morphology": "叶片肉质，对生，心形，表面深绿色，背面淡紫色，肉质；花单生叶腋，粉红色，花径3-4厘米，花瓣多数；蒴果肉质，成熟后开裂，种子细小，成熟期7-8月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐旱，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，非洲南部，澳洲，欧洲部分地区",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/112/912/792"
+  },
+  {
+    "chinese_name": "绿萝",
+    "scientific_name": "Epipremnum aureum",
+    "english_name": "Devil's Ivy",
+    "alias": [
+      "黄金葛",
+      "魔鬼藤",
+      "黄金藤"
+    ],
+    "family": "天南星科",
+    "genus": "麒麟叶属",
+    "description": "绿萝为天南星科麒麟叶属多年生常绿藤本植物，株长可达数米，叶色翠绿，斑纹美观，是著名室内观叶花卉，具有较强的空气净化能力。",
+    "history": "绿萝原产于所罗门群岛，20世纪中期传入中国，现全球热带、亚热带地区广泛栽培，为最常见的室内观赏植物。",
+    "morphology": "叶片革质，心形，全缘，表面深绿色，有黄色或白色斑纹，革质；佛焰苞花序，黄绿色，花小，不显眼；浆果球形，红色，成熟期少见（室内极少开花）。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐旱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地，所罗门群岛，东南亚，澳洲",
+    "flowering_period": "极少开花（自然环境6-8月）",
+    "image_url": "https://picsum.photos/id/105/912/792"
+  },
+  {
+    "chinese_name": "吊兰",
+    "scientific_name": "Chlorophytum comosum",
+    "english_name": "Spider Plant",
+    "alias": [
+      "挂兰",
+      "钓兰",
+      "兰草"
+    ],
+    "family": "百合科",
+    "genus": "吊兰属",
+    "description": "吊兰为百合科吊兰属多年生常绿草本植物，株高可达0.3米，叶姿优美，匍匐茎下垂，是著名室内观叶花卉，具有较强的空气净化能力。",
+    "history": "吊兰原产于非洲南部，19世纪传入中国，现中国各地广泛栽培，为常见室内盆栽花卉。",
+    "morphology": "叶片基生，扁平带状，长30-60厘米，浅绿色，边缘全缘或有黄白色条纹；花葶细长，总状花序，白色，花径1-1.5厘米，花瓣6片；蒴果三棱状球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，耐旱，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，非洲南部，欧洲、北美洲，澳洲",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/137/912/792"
+  },
+  {
+    "chinese_name": "君子兰",
+    "scientific_name": "Clivia miniata",
+    "english_name": "Kaffir Lily",
+    "alias": [
+      "大花君子兰",
+      "剑叶石蒜",
+      "达木兰"
+    ],
+    "family": "石蒜科",
+    "genus": "君子兰属",
+    "description": "君子兰为石蒜科君子兰属多年生常绿草本植物，株高可达0.5米，叶姿挺拔，花大色艳，是著名室内观赏花卉，象征吉祥，为中国长春市花。",
+    "history": "君子兰原产于南非南部，20世纪初传入中国，现中国各地广泛栽培，为名贵盆栽花卉。",
+    "morphology": "叶片革质，宽带状，对生，深绿色，有光泽；花葶从叶丛中抽出，伞形花序，花色橙红、大红，花径3-5厘米，花瓣6片；浆果球形，红色，成熟期10-11月。",
+    "habitat": "喜温暖湿润，耐半阴，忌强光直射，耐寒性较弱，适宜疏松肥沃、排水良好的腐殖土",
+    "distribution": "中国各地，南非，欧洲、北美洲，澳洲",
+    "flowering_period": "1-4月",
+    "image_url": "https://picsum.photos/id/162/912/792"
+  },
+  {
+    "chinese_name": "发财树",
+    "scientific_name": "Pachira aquatica",
+    "english_name": "Money Tree",
+    "alias": [
+      "瓜栗",
+      "马拉巴栗",
+      "中美木棉"
+    ],
+    "family": "木棉科",
+    "genus": "瓜栗属",
+    "description": "发财树为木棉科瓜栗属常绿小乔木，株高可达5米，干形奇特，叶色翠绿，是著名室内观赏树木，象征招财进宝，为常见办公、家居盆栽。",
+    "history": "发财树原产于中美洲热带地区，20世纪80年代传入中国，现中国各地广泛栽培，为最受欢迎的风水植物之一。",
+    "morphology": "叶片掌状复叶，小叶5-9片，长椭圆形，边缘全缘，深绿色，革质；花单生枝顶，淡黄色，花径15-20厘米，花瓣披针形；蒴果长椭圆形，黄褐色，成熟期9-10月。",
+    "habitat": "喜温暖湿润，喜光，耐半阴，耐旱，忌积水，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥、圭亚那，中美洲、南美洲",
+    "flowering_period": "5-11月（室内极少开花）",
+    "image_url": "https://picsum.photos/id/121/912/792"
+  },
+  {
+    "chinese_name": "富贵竹",
+    "scientific_name": "Dracaena sanderiana",
+    "english_name": "Lucky Bamboo",
+    "alias": [
+      "万寿竹",
+      "开运竹",
+      "丝带树"
+    ],
+    "family": "龙舌兰科",
+    "genus": "龙血树属",
+    "description": "富贵竹为龙舌兰科龙血树属多年生常绿小乔木，株高可达2米，茎干挺拔，叶色翠绿，是著名室内观赏花卉，象征富贵吉祥，可水培或土培。",
+    "history": "富贵竹原产于非洲西部，20世纪70年代传入中国，现中国各地广泛栽培，为常见风水植物、年宵花卉。",
+    "morphology": "叶片互生或近对生，长披针形，边缘全缘，深绿色，革质；花伞形花序，白色，花小，具香气，花径1-2厘米；浆果球形，黑色，成熟期8-9月（室内极少开花）。",
+    "habitat": "喜温暖湿润，耐阴，忌强光直射，耐寒性较弱，适宜疏松肥沃的腐殖土，可水培于清水或营养液",
+    "distribution": "中国各地，非洲西部，东南亚，欧洲部分地区",
+    "flowering_period": "6-8月（自然环境）",
+    "image_url": "https://picsum.photos/id/147/912/792"
+  },
+  {
+    "chinese_name": "仙客来",
+    "scientific_name": "Cyclamen persicum",
+    "english_name": "Cyclamen",
+    "alias": [
+      "兔耳花",
+      "一品冠",
+      "萝卜海棠"
+    ],
+    "family": "报春花科",
+    "genus": "仙客来属",
+    "description": "仙客来为报春花科仙客来属多年生球根草本植物，株高可达0.3米，花形奇特，花色艳丽，是著名年宵花卉，为常见室内盆栽观赏花卉。",
+    "history": "仙客来原产于地中海沿岸，19世纪传入中国，现中国各地广泛栽培，为冬季主流观赏花卉。",
+    "morphology": "叶片肉质，心形，边缘有细锯齿，表面深绿色有白色斑纹，背面紫红色；花单生，下垂，花色红、粉、白、紫等，花径3-5厘米，花瓣反卷；蒴果球形，褐色，成熟期5-6月。",
+    "habitat": "喜凉爽湿润，喜光，耐半阴，忌高温高湿，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，地中海沿岸，欧洲、北美洲，澳洲",
+    "flowering_period": "10月-次年4月",
+    "image_url": "https://picsum.photos/id/115/912/792"
+  },
+  {
+    "chinese_name": "风信子",
+    "scientific_name": "Hyacinthus orientalis",
+    "english_name": "Hyacinth",
+    "alias": [
+      "洋水仙",
+      "五色水仙",
+      "风信花"
+    ],
+    "family": "百合科",
+    "genus": "风信子属",
+    "description": "风信子为百合科风信子属多年生球根草本植物，株高可达0.3米，花穗挺拔，花色丰富，香气浓郁，是著名年宵花卉，可水培或土培。",
+    "history": "风信子原产于地中海东部沿岸，16世纪传入欧洲，20世纪传入中国，现中国各地广泛栽培。",
+    "morphology": "叶片基生，扁平带状，长15-30厘米，浅绿色，肉质；花葶从叶丛中抽出，总状花序，花色红、粉、白、紫、蓝等，花径1-2厘米，花冠漏斗形；蒴果球形，褐色，成熟期6-7月。",
+    "habitat": "喜凉爽湿润，喜光，耐寒性较强，适宜疏松肥沃、排水良好的微酸性沙质土壤，可水培",
+    "distribution": "中国各地，地中海东部，欧洲、北美洲，日本",
+    "flowering_period": "2-4月",
+    "image_url": "https://picsum.photos/id/109/912/792"
+  },
+  {
+    "chinese_name": "郁金香",
+    "scientific_name": "Tulipa gesneriana",
+    "english_name": "Tulip",
+    "alias": [
+      "洋荷花",
+      "草麝香",
+      "郁香"
+    ],
+    "family": "百合科",
+    "genus": "郁金香属",
+    "description": "郁金香为百合科郁金香属多年生球根草本植物，株高可达0.5米，花型优美，花色丰富，是世界著名观赏花卉，为荷兰国花，春季花坛主栽品种。",
+    "history": "郁金香原产于地中海沿岸、中亚地区，16世纪传入荷兰，成为国花，20世纪传入中国，现中国各地广泛栽培。",
+    "morphology": "叶片基生，3-5片，长披针形，边缘全缘，浅绿色，纸质；花单生茎顶，花色红、粉、白、黄、紫等，花径5-8厘米，花被片6片；蒴果球形，褐色，成熟期6月。",
+    "habitat": "喜凉爽干燥，喜光，耐寒性较强，忌高温高湿，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，地中海沿岸，中亚，欧洲、北美洲",
+    "flowering_period": "3-5月",
+    "image_url": "https://picsum.photos/id/139/912/792"
+  },
+  {
+    "chinese_name": "百合",
+    "scientific_name": "Lilium brownii var. viridulum",
+    "english_name": "Lily",
+    "alias": [
+      "强瞿",
+      "山丹",
+      "摩罗"
+    ],
+    "family": "百合科",
+    "genus": "百合属",
+    "description": "百合为百合科百合属多年生球根草本植物，株高可达1.5米，花大色艳，香气浓郁，是著名观赏花卉，鳞茎可食用、药用，象征百年好合。",
+    "history": "百合原产于中国，栽培历史超2000年，汉代已有记载，现中国各地及世界多国栽培。",
+    "morphology": "叶片互生，披针形，边缘全缘，绿色，纸质；花单生或数朵簇生，花色白、粉、黄、红等，花径10-15厘米，花被片6片，反卷；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜凉爽湿润，喜光，耐半阴，忌积水，适宜疏松肥沃、排水良好的微酸性腐殖土",
+    "distribution": "中国各地，日本、韩国，欧洲、北美洲，澳洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/151/912/792"
+  },
+  {
+    "chinese_name": "康乃馨",
+    "scientific_name": "Dianthus caryophyllus",
+    "english_name": "Carnation",
+    "alias": [
+      "香石竹",
+      "狮头石竹",
+      "大花石竹"
+    ],
+    "family": "石竹科",
+    "genus": "石竹属",
+    "description": "康乃馨为石竹科石竹属多年生草本植物，株高可达0.8米，花型优美，香气浓郁，是世界著名观赏花卉，象征母爱，为母亲节代表花卉。",
+    "history": "康乃馨原产于地中海沿岸，19世纪传入中国，现中国各地广泛栽培，为重要切花品种。",
+    "morphology": "叶片对生，线形，边缘全缘，灰绿色，革质；花单生或数朵簇生，花色红、粉、白、黄等，花径5-8厘米，花瓣多数，边缘有锯齿；蒴果长椭圆形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖凉爽，喜光，耐寒性较强，忌高温高湿，适宜疏松肥沃、排水良好的微碱性沙质土壤",
+    "distribution": "中国各地，地中海沿岸，欧洲、北美洲，日本",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/165/912/792"
+  },
+  {
+    "chinese_name": "满天星",
+    "scientific_name": "Gypsophila paniculata",
+    "english_name": "Baby's Breath",
+    "alias": [
+      "霞草",
+      "锥花丝石竹",
+      "满天星石竹"
+    ],
+    "family": "石竹科",
+    "genus": "丝石竹属",
+    "description": "满天星为石竹科丝石竹属多年生草本植物，株高可达1米，花小而繁，花型蓬松，是世界著名切花配花，为花艺创作不可或缺的品种。",
+    "history": "满天星原产于欧洲、亚洲北部，20世纪传入中国，现中国各地广泛栽培，为重要切花品种。",
+    "morphology": "叶片对生，披针形，边缘全缘，灰绿色，纸质；花顶生圆锥花序，白色或粉色，花径0.5-1厘米，花瓣5片；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜凉爽干燥，喜光，耐寒性较强，耐旱，适宜疏松肥沃、排水良好的微碱性沙质土壤",
+    "distribution": "中国各地，欧洲、亚洲北部，北美洲",
+    "flowering_period": "6-8月",
+    "image_url": "https://picsum.photos/id/127/912/792"
+  },
+  {
+    "chinese_name": "勿忘我",
+    "scientific_name": "Myosotis sylvatica",
+    "english_name": "Forget-me-not",
+    "alias": [
+      "星辰花",
+      "补血草",
+      "不凋花"
+    ],
+    "family": "紫草科",
+    "genus": "勿忘草属",
+    "description": "勿忘我为紫草科勿忘草属多年生草本植物，株高可达0.5米，花小而美，花色淡雅，是著名切花、盆栽花卉，象征永恒的爱，为花艺常用品种。",
+    "history": "勿忘我原产于欧洲、亚洲温带地区，20世纪传入中国，现中国各地广泛栽培。",
+    "morphology": "叶片互生，披针形，边缘全缘，绿色，纸质；花顶生聚伞花序，蓝色、粉色或白色，花径1-1.5厘米，花冠漏斗形；蒴果球形，褐色，成熟期7-8月。",
+    "habitat": "喜凉爽湿润，喜光，耐半阴，耐寒性较强，适宜疏松肥沃、排水良好的微酸性土壤",
+    "distribution": "中国各地，欧洲、亚洲温带，北美洲",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/149/912/792"
+  },
+  {
+    "chinese_name": "向日葵",
+    "scientific_name": "Helianthus annuus",
+    "english_name": "Sunflower",
+    "alias": [
+      "朝阳花",
+      "转日莲",
+      "向阳花"
+    ],
+    "family": "菊科",
+    "genus": "向日葵属",
+    "description": "向日葵为菊科向日葵属一年生草本植物，株高可达3米，花盘随太阳转动，是著名观赏花卉，种子可食用、榨油，为重要经济作物。",
+    "history": "向日葵原产于南美洲，16世纪传入欧洲，17世纪传入中国，现全球温带、热带地区广泛栽培。",
+    "morphology": "叶片互生，心形，边缘有粗锯齿，绿色，纸质；花头状花序，单生茎顶，花盘直径10-30厘米，舌状花黄色，管状花棕色；瘦果倒卵形，灰色或黑色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，南美洲，全球温带、热带地区",
+    "flowering_period": "7-9月",
+    "image_url": "https://picsum.photos/id/118/912/792"
+  },
+  {
+    "chinese_name": "波斯菊",
+    "scientific_name": "Cosmos bipinnatus",
+    "english_name": "Cosmos",
+    "alias": [
+      "秋英",
+      "大波斯菊",
+      "格桑花"
+    ],
+    "family": "菊科",
+    "genus": "秋英属",
+    "description": "波斯菊为菊科秋英属一年生或多年生草本植物，株高可达2米，花型优美，花色淡雅，是著名观赏花卉，为花坛、花境主栽品种，象征幸福。",
+    "history": "波斯菊原产于墨西哥，19世纪传入中国，现中国各地广泛栽培，为常见庭院、路边花卉。",
+    "morphology": "叶片二回羽状深裂，线形，绿色，纸质；花头状花序，单生茎顶，花色粉、白、紫等，花径5-8厘米，舌状花8片；瘦果黑紫色，长椭圆形，成熟期9-10月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐旱，耐贫瘠，适宜疏松肥沃、排水良好的沙质土壤",
+    "distribution": "中国各地，墨西哥，全球温带、亚热带地区",
+    "flowering_period": "6-10月",
+    "image_url": "https://picsum.photos/id/104/912/792"
+  },
+  {
+    "chinese_name": "矮牵牛",
+    "scientific_name": "Petunia hybrida",
+    "english_name": "Petunia",
+    "alias": [
+      "碧冬茄",
+      "番薯花",
+      "矮喇叭花"
+    ],
+    "family": "茄科",
+    "genus": "碧冬茄属",
+    "description": "矮牵牛为茄科碧冬茄属一年生或多年生草本植物，株高可达0.6米，花型丰富，花色艳丽，花期长，是著名观赏花卉，为花坛、盆栽主栽品种。",
+    "history": "矮牵牛原产于南美洲，19世纪传入欧洲，20世纪传入中国，现中国各地广泛栽培。",
+    "morphology": "叶片互生或对生，卵形，边缘全缘，绿色，纸质；花单生叶腋，花色红、粉、白、紫等，花径5-8厘米，花冠漏斗形；蒴果球形，褐色，成熟期8-9月。",
+    "habitat": "喜温暖干燥，喜光，耐半阴，耐旱，适宜疏松肥沃、排水良好的微酸性沙质土壤",
+    "distribution": "中国各地，南美洲，全球温带、亚热带地区",
+    "flowering_period": "4-10月",
+    "image_url": "https://picsum.photos/id/161/912/792"
+  },
+  {
+    "chinese_name": "龟背竹",
+    "scientific_name": "Monstera deliciosa",
+    "english_name": "Swiss Cheese Plant",
+    "alias": [
+      "野生龟背竹",
+      "地龟背竹"
+    ],
+    "family": "天南星科",
+    "genus": "龟背竹属",
+    "description": "龟背竹属于天南星科龟背竹属，是一种常绿藤本植物。具有独特的纹理，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "龟背竹栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "龟背竹株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/77/912/792"
+  },
+  {
+    "chinese_name": "猪笼草",
+    "scientific_name": "Nepenthes mirabilis",
+    "english_name": "Pitcher Plant",
+    "alias": [
+      "野生猪笼草",
+      "地猪笼草"
+    ],
+    "family": "猪笼草科",
+    "genus": "猪笼草属",
+    "description": "猪笼草属于猪笼草科猪笼草属，是一种食虫植物植物。具有优美的冠形，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "猪笼草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "猪笼草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/280/912/792"
+  },
+  {
+    "chinese_name": "龙眼",
+    "scientific_name": "Dimocarpus longan",
+    "english_name": "Longan",
+    "alias": [
+      "野生龙眼",
+      "地龙眼"
+    ],
+    "family": "无患子科",
+    "genus": "龙眼属",
+    "description": "龙眼属于无患子科龙眼属，是一种乔木植物。具有清新的芳香，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "龙眼栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "龙眼株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/194/912/792"
+  },
+  {
+    "chinese_name": "珍珠吊兰",
+    "scientific_name": "Senecio rowleyanus",
+    "english_name": "String of Pearls",
+    "alias": [
+      "野生珍珠吊兰",
+      "地珍珠吊兰"
+    ],
+    "family": "菊科",
+    "genus": "千里光属",
+    "description": "珍珠吊兰属于菊科千里光属，是一种多肉植物。具有清新的芳香，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "珍珠吊兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "珍珠吊兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/359/912/792"
+  },
+  {
+    "chinese_name": "合果芋",
+    "scientific_name": "Syngonium podophyllum",
+    "english_name": "Arrowhead Plant",
+    "alias": [
+      "野生合果芋",
+      "地合果芋"
+    ],
+    "family": "天南星科",
+    "genus": "合果芋属",
+    "description": "合果芋属于天南星科合果芋属，是一种藤本植物。具有独特的纹理，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "合果芋栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "合果芋株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "具有攀援性，喜半湿。多生长在阴湿的山谷或墙垣。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/34/912/792"
+  },
+  {
+    "chinese_name": "乙女心",
+    "scientific_name": "Sedum pachyphyllum",
+    "english_name": "Many Fingers",
+    "alias": [
+      "野生乙女心",
+      "地乙女心"
+    ],
+    "family": "景天科",
+    "genus": "景天属",
+    "description": "乙女心属于景天科景天属，是一种多肉植物。具有清新的芳香，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "乙女心栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "乙女心株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/317/912/792"
+  },
+  {
+    "chinese_name": "生石花",
+    "scientific_name": "Lithops ssp.",
+    "english_name": "Living Stone",
+    "alias": [
+      "野生生石花",
+      "地生石花"
+    ],
+    "family": "番杏科",
+    "genus": "生石花属",
+    "description": "生石花属于番杏科生石花属，是一种多肉植物。具有优美的冠形，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "生石花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "生石花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/320/912/792"
+  },
+  {
+    "chinese_name": "白桦",
+    "scientific_name": "Betula platyphylla",
+    "english_name": "White Birch",
+    "alias": [
+      "野生白桦",
+      "地白桦"
+    ],
+    "family": "桦木科",
+    "genus": "桦木属",
+    "description": "白桦属于桦木科桦木属，是一种乔木植物。具有清新的芳香，在科普研究中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "白桦栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "白桦株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/271/912/792"
+  },
+  {
+    "chinese_name": "虎皮兰",
+    "scientific_name": "Sansevieria trifasciata",
+    "english_name": "Snake Plant",
+    "alias": [
+      "野生虎皮兰",
+      "地虎皮兰"
+    ],
+    "family": "天门冬科",
+    "genus": "虎尾兰属",
+    "description": "虎皮兰属于天门冬科虎尾兰属，是一种肉质草本植物。具有独特的纹理，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "虎皮兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "虎皮兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/286/912/792"
+  },
+  {
+    "chinese_name": "观音莲",
+    "scientific_name": "Sempervivum tectorum",
+    "english_name": "Houseleek",
+    "alias": [
+      "野生观音莲",
+      "地观音莲"
+    ],
+    "family": "景天科",
+    "genus": "长生草属",
+    "description": "观音莲属于景天科长生草属，是一种多肉植物。具有独特的纹理，在环境美化中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "观音莲栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "观音莲株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/238/912/792"
+  },
+  {
+    "chinese_name": "香樟",
+    "scientific_name": "Cinnamomum camphora",
+    "english_name": "Camphor Tree",
+    "alias": [
+      "野生香樟",
+      "地香樟"
+    ],
+    "family": "樟科",
+    "genus": "樟属",
+    "description": "香樟属于樟科樟属，是一种乔木植物。具有清新的芳香，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "香樟栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "香樟株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/6/912/792"
+  },
+  {
+    "chinese_name": "爬山虎",
+    "scientific_name": "Parthenocissus tricuspidata",
+    "english_name": "Boston Ivy",
+    "alias": [
+      "野生爬山虎",
+      "地爬山虎"
+    ],
+    "family": "葡萄科",
+    "genus": "地锦属",
+    "description": "爬山虎属于葡萄科地锦属，是一种落叶藤本植物。具有优美的冠形，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "爬山虎栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "爬山虎株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/55/912/792"
+  },
+  {
+    "chinese_name": "万象",
+    "scientific_name": "Haworthia maughanii",
+    "english_name": "Maughanii",
+    "alias": [
+      "野生万象",
+      "地万象"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "万象属于阿福花科十二卷属，是一种多肉植物。具有艳丽的花色，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "万象栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "万象株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/468/912/792"
+  },
+  {
+    "chinese_name": "银杏",
+    "scientific_name": "Ginkgo biloba",
+    "english_name": "Ginkgo",
+    "alias": [
+      "野生银杏",
+      "地银杏"
+    ],
+    "family": "银杏科",
+    "genus": "银杏属",
+    "description": "银杏属于银杏科银杏属，是一种乔木植物。具有优美的冠形，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "银杏栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "银杏株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/132/912/792"
+  },
+  {
+    "chinese_name": "花月夜",
+    "scientific_name": "Echeveria pulidonis",
+    "english_name": "Echeveria",
+    "alias": [
+      "野生花月夜",
+      "地花月夜"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "花月夜属于景天科拟石莲花属，是一种多肉植物。具有独特的纹理，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "花月夜栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "花月夜株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/241/912/792"
+  },
+  {
+    "chinese_name": "无患子",
+    "scientific_name": "Sapindus mukorossi",
+    "english_name": "Soapberry",
+    "alias": [
+      "野生无患子",
+      "地无患子"
+    ],
+    "family": "无患子科",
+    "genus": "无患子属",
+    "description": "无患子属于无患子科无患子属，是一种乔木植物。具有独特的纹理，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "无患子栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "无患子株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/425/912/792"
+  },
+  {
+    "chinese_name": "玉簪",
+    "scientific_name": "Hosta plantaginea",
+    "english_name": "Plantain Lily",
+    "alias": [
+      "野生玉簪",
+      "地玉簪"
+    ],
+    "family": "天门冬科",
+    "genus": "玉簪属",
+    "description": "玉簪属于天门冬科玉簪属，是一种草本植物。具有艳丽的花色，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "玉簪栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "玉簪株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/33/912/792"
+  },
+  {
+    "chinese_name": "水杉",
+    "scientific_name": "Metasequoia glyptostroboides",
+    "english_name": "Dawn Redwood",
+    "alias": [
+      "野生水杉",
+      "地水杉"
+    ],
+    "family": "柏科",
+    "genus": "水杉属",
+    "description": "水杉属于柏科水杉属，是一种乔木植物。具有清新的芳香，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "水杉栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "水杉株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/497/912/792"
+  },
+  {
+    "chinese_name": "非洲堇",
+    "scientific_name": "Saintpaulia ionantha",
+    "english_name": "African Violet",
+    "alias": [
+      "野生非洲堇",
+      "地非洲堇"
+    ],
+    "family": "苦苣苔科",
+    "genus": "非洲堇属",
+    "description": "非洲堇属于苦苣苔科非洲堇属，是一种草本植物。具有清新的芳香，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "非洲堇栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "非洲堇株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/166/912/792"
+  },
+  {
+    "chinese_name": "李树",
+    "scientific_name": "Prunus salicina",
+    "english_name": "Plum Tree",
+    "alias": [
+      "野生李树",
+      "地李树"
+    ],
+    "family": "蔷薇科",
+    "genus": "李属",
+    "description": "李树属于蔷薇科李属，是一种乔木植物。具有独特的纹理，在环境美化中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "李树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "李树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/405/912/792"
+  },
+  {
+    "chinese_name": "火祭",
+    "scientific_name": "Crassula capitella",
+    "english_name": "Campfire Plant",
+    "alias": [
+      "野生火祭",
+      "地火祭"
+    ],
+    "family": "景天科",
+    "genus": "青锁龙属",
+    "description": "火祭属于景天科青锁龙属，是一种多肉植物。具有独特的纹理，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "火祭栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "火祭株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/208/912/792"
+  },
+  {
+    "chinese_name": "凤凰木",
+    "scientific_name": "Delonix regia",
+    "english_name": "Flame Tree",
+    "alias": [
+      "野生凤凰木",
+      "地凤凰木"
+    ],
+    "family": "豆科",
+    "genus": "凤凰木属",
+    "description": "凤凰木属于豆科凤凰木属，是一种乔木植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "凤凰木栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "凤凰木株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/215/912/792"
+  },
+  {
+    "chinese_name": "虎刺梅",
+    "scientific_name": "Euphorbia milii",
+    "english_name": "Crown of Thorns",
+    "alias": [
+      "野生虎刺梅",
+      "地虎刺梅"
+    ],
+    "family": "大戟科",
+    "genus": "大戟属",
+    "description": "虎刺梅属于大戟科大戟属，是一种灌木植物。具有艳丽的花色，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "虎刺梅栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "虎刺梅株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/343/912/792"
+  },
+  {
+    "chinese_name": "连翘",
+    "scientific_name": "Forsythia suspensa",
+    "english_name": "Forsythia",
+    "alias": [
+      "野生连翘",
+      "地连翘"
+    ],
+    "family": "木犀科",
+    "genus": "连翘属",
+    "description": "连翘属于木犀科连翘属，是一种灌木植物。具有清新的芳香，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "连翘栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "连翘株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/359/912/792"
+  },
+  {
+    "chinese_name": "杏树",
+    "scientific_name": "Prunus armeniaca",
+    "english_name": "Apricot Tree",
+    "alias": [
+      "野生杏树",
+      "地杏树"
+    ],
+    "family": "蔷薇科",
+    "genus": "杏属",
+    "description": "杏树属于蔷薇科杏属，是一种乔木植物。具有清新的芳香，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "杏树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "杏树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/79/912/792"
+  },
+  {
+    "chinese_name": "罗勒",
+    "scientific_name": "Ocimum basilicum",
+    "english_name": "Basil",
+    "alias": [
+      "野生罗勒",
+      "地罗勒"
+    ],
+    "family": "唇形科",
+    "genus": "罗勒属",
+    "description": "罗勒属于唇形科罗勒属，是一种草本植物。具有清新的芳香，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "罗勒栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "罗勒株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/163/912/792"
+  },
+  {
+    "chinese_name": "芍药",
+    "scientific_name": "Paeonia lactiflora",
+    "english_name": "Peony",
+    "alias": [
+      "野生芍药",
+      "地芍药"
+    ],
+    "family": "毛茛科",
+    "genus": "芍药属",
+    "description": "芍药属于毛茛科芍药属，是一种草本植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "芍药栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "芍药株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/317/912/792"
+  },
+  {
+    "chinese_name": "变叶木",
+    "scientific_name": "Codiaeum variegatum",
+    "english_name": "Croton",
+    "alias": [
+      "野生变叶木",
+      "地变叶木"
+    ],
+    "family": "大戟科",
+    "genus": "变叶木属",
+    "description": "变叶木属于大戟科变叶木属，是一种灌木植物。具有独特的纹理，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "变叶木栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "变叶木株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/215/912/792"
+  },
+  {
+    "chinese_name": "栾树",
+    "scientific_name": "Koelreuteria paniculata",
+    "english_name": "Goldenrain Tree",
+    "alias": [
+      "野生栾树",
+      "地栾树"
+    ],
+    "family": "无患子科",
+    "genus": "栾树属",
+    "description": "栾树属于无患子科栾树属，是一种乔木植物。具有独特的纹理，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "栾树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "栾树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/259/912/792"
+  },
+  {
+    "chinese_name": "广玉兰",
+    "scientific_name": "Magnolia grandiflora",
+    "english_name": "Southern Magnolia",
+    "alias": [
+      "野生广玉兰",
+      "地广玉兰"
+    ],
+    "family": "木兰科",
+    "genus": "木兰属",
+    "description": "广玉兰属于木兰科木兰属，是一种乔木植物。具有独特的纹理，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "广玉兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "广玉兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/15/912/792"
+  },
+  {
+    "chinese_name": "袖珍椰子",
+    "scientific_name": "Chamaedorea elegans",
+    "english_name": "Parlor Palm",
+    "alias": [
+      "野生袖珍椰子",
+      "地袖珍椰子"
+    ],
+    "family": "棕榈科",
+    "genus": "茶马椰子属",
+    "description": "袖珍椰子属于棕榈科茶马椰子属，是一种乔木植物。具有优美的冠形，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "袖珍椰子栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "袖珍椰子株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/204/912/792"
+  },
+  {
+    "chinese_name": "鹅掌楸",
+    "scientific_name": "Liriodendron chinense",
+    "english_name": "Chinese Tulip Tree",
+    "alias": [
+      "野生鹅掌楸",
+      "地鹅掌楸"
+    ],
+    "family": "木兰科",
+    "genus": "鹅掌楸属",
+    "description": "鹅掌楸属于木兰科鹅掌楸属，是一种乔木植物。具有艳丽的花色，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "鹅掌楸栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "鹅掌楸株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/103/912/792"
+  },
+  {
+    "chinese_name": "石榴",
+    "scientific_name": "Punica granatum",
+    "english_name": "Pomegranate",
+    "alias": [
+      "野生石榴",
+      "地石榴"
+    ],
+    "family": "石榴科",
+    "genus": "石榴属",
+    "description": "石榴属于石榴科石榴属，是一种灌木植物。具有优美的冠形，在科普研究中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "石榴栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "石榴株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/431/912/792"
+  },
+  {
+    "chinese_name": "白兰",
+    "scientific_name": "Michelia alba",
+    "english_name": "White Sandalwood",
+    "alias": [
+      "野生白兰",
+      "地白兰"
+    ],
+    "family": "木兰科",
+    "genus": "含笑属",
+    "description": "白兰属于木兰科含笑属，是一种乔木植物。具有优美的冠形，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "白兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "白兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/402/912/792"
+  },
+  {
+    "chinese_name": "飞燕草",
+    "scientific_name": "Consolida ajacis",
+    "english_name": "Larkspur",
+    "alias": [
+      "野生飞燕草",
+      "地飞燕草"
+    ],
+    "family": "毛茛科",
+    "genus": "飞燕草属",
+    "description": "飞燕草属于毛茛科飞燕草属，是一种草本植物。具有独特的纹理，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "飞燕草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "飞燕草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/342/912/792"
+  },
+  {
+    "chinese_name": "海桐",
+    "scientific_name": "Pittosporum tobira",
+    "english_name": "Japanese Cheesewood",
+    "alias": [
+      "野生海桐",
+      "地海桐"
+    ],
+    "family": "海桐花科",
+    "genus": "海桐花属",
+    "description": "海桐属于海桐花科海桐花属，是一种灌木植物。具有优美的冠形，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "海桐栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "海桐株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/167/912/792"
+  },
+  {
+    "chinese_name": "葡萄",
+    "scientific_name": "Vitis vinifera",
+    "english_name": "Grape",
+    "alias": [
+      "野生葡萄",
+      "地葡萄"
+    ],
+    "family": "葡萄科",
+    "genus": "葡萄属",
+    "description": "葡萄属于葡萄科葡萄属，是一种落叶藤本植物。具有优美的冠形，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "葡萄栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "葡萄株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/416/912/792"
+  },
+  {
+    "chinese_name": "捕蝇草",
+    "scientific_name": "Dionaea muscipula",
+    "english_name": "Venus Flytrap",
+    "alias": [
+      "野生捕蝇草",
+      "地捕蝇草"
+    ],
+    "family": "茅膏菜科",
+    "genus": "捕蝇草属",
+    "description": "捕蝇草属于茅膏菜科捕蝇草属，是一种食虫植物植物。具有清新的芳香，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "捕蝇草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "捕蝇草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/305/912/792"
+  },
+  {
+    "chinese_name": "令箭荷花",
+    "scientific_name": "Disocactus ackermannii",
+    "english_name": "Orchid Cactus",
+    "alias": [
+      "野生令箭荷花",
+      "地令箭荷花"
+    ],
+    "family": "仙人掌科",
+    "genus": "令箭荷花属",
+    "description": "令箭荷花属于仙人掌科令箭荷花属，是一种多肉植物。具有艳丽的花色，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "令箭荷花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "令箭荷花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/12/912/792"
+  },
+  {
+    "chinese_name": "朴树",
+    "scientific_name": "Celtis sinensis",
+    "english_name": "Chinese Hackberry",
+    "alias": [
+      "野生朴树",
+      "地朴树"
+    ],
+    "family": "大麻科",
+    "genus": "朴属",
+    "description": "朴树属于大麻科朴属，是一种乔木植物。具有艳丽的花色，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "朴树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "朴树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/484/912/792"
+  },
+  {
+    "chinese_name": "猕猴桃",
+    "scientific_name": "Actinidia chinensis",
+    "english_name": "Kiwi Fruit",
+    "alias": [
+      "野生猕猴桃",
+      "地猕猴桃"
+    ],
+    "family": "猕猴桃科",
+    "genus": "猕猴桃属",
+    "description": "猕猴桃属于猕猴桃科猕猴桃属，是一种落叶藤本植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "猕猴桃栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "猕猴桃株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/409/912/792"
+  },
+  {
+    "chinese_name": "橡皮树",
+    "scientific_name": "Ficus elastica",
+    "english_name": "Rubber Plant",
+    "alias": [
+      "野生橡皮树",
+      "地橡皮树"
+    ],
+    "family": "桑科",
+    "genus": "榕属",
+    "description": "橡皮树属于桑科榕属，是一种乔木植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "橡皮树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "橡皮树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/37/912/792"
+  },
+  {
+    "chinese_name": "昙花",
+    "scientific_name": "Epiphyllum oxypetalum",
+    "english_name": "Queen of the Night",
+    "alias": [
+      "野生昙花",
+      "地昙花"
+    ],
+    "family": "仙人掌科",
+    "genus": "昙花属",
+    "description": "昙花属于仙人掌科昙花属，是一种多肉植物。具有清新的芳香，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "昙花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "昙花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/239/912/792"
+  },
+  {
+    "chinese_name": "孔雀竹芋",
+    "scientific_name": "Goeppertia makoyana",
+    "english_name": "Peacock Plant",
+    "alias": [
+      "野生孔雀竹芋",
+      "地孔雀竹芋"
+    ],
+    "family": "竹芋科",
+    "genus": "肖竹芋属",
+    "description": "孔雀竹芋属于竹芋科肖竹芋属，是一种草本植物。具有艳丽的花色，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "孔雀竹芋栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "孔雀竹芋株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/492/912/792"
+  },
+  {
+    "chinese_name": "芒果",
+    "scientific_name": "Mangifera indica",
+    "english_name": "Mango",
+    "alias": [
+      "野生芒果",
+      "地芒果"
+    ],
+    "family": "漆树科",
+    "genus": "芒果属",
+    "description": "芒果属于漆树科芒果属，是一种乔木植物。具有优美的冠形，在科普研究中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "芒果栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "芒果株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/402/912/792"
+  },
+  {
+    "chinese_name": "口红吊兰",
+    "scientific_name": "Aeschynanthus pulcher",
+    "english_name": "Lipstick Plant",
+    "alias": [
+      "野生口红吊兰",
+      "地口红吊兰"
+    ],
+    "family": "苦苣苔科",
+    "genus": "芒毛苣苔属",
+    "description": "口红吊兰属于苦苣苔科芒毛苣苔属，是一种草本植物。具有优美的冠形，在科普研究中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "口红吊兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "口红吊兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/331/912/792"
+  },
+  {
+    "chinese_name": "睡莲",
+    "scientific_name": "Nymphaea tetragona",
+    "english_name": "Water Lily",
+    "alias": [
+      "野生睡莲",
+      "地睡莲"
+    ],
+    "family": "睡莲科",
+    "genus": "睡莲属",
+    "description": "睡莲属于睡莲科睡莲属，是一种水生植物植物。具有独特的纹理，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "睡莲栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "睡莲株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性强，分布广泛。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/359/912/792"
+  },
+  {
+    "chinese_name": "玉露",
+    "scientific_name": "Haworthia cooperi",
+    "english_name": "Star Window Plant",
+    "alias": [
+      "野生玉露",
+      "地玉露"
+    ],
+    "family": "阿福花科",
+    "genus": "十二卷属",
+    "description": "玉露属于阿福花科十二卷属，是一种多肉植物。具有独特的纹理，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "玉露栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "玉露株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/1/912/792"
+  },
+  {
+    "chinese_name": "鸡冠花",
+    "scientific_name": "Celosia cristata",
+    "english_name": "Cockscomb",
+    "alias": [
+      "野生鸡冠花",
+      "地鸡冠花"
+    ],
+    "family": "苋科",
+    "genus": "青葙属",
+    "description": "鸡冠花属于苋科青葙属，是一种草本植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "鸡冠花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "鸡冠花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/141/912/792"
+  },
+  {
+    "chinese_name": "瑞香",
+    "scientific_name": "Daphne odora",
+    "english_name": "Winter Daphne",
+    "alias": [
+      "野生瑞香",
+      "地瑞香"
+    ],
+    "family": "瑞香科",
+    "genus": "瑞香属",
+    "description": "瑞香属于瑞香科瑞香属，是一种灌木植物。具有清新的芳香，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "瑞香栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "瑞香株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/272/912/792"
+  },
+  {
+    "chinese_name": "樱花",
+    "scientific_name": "Prunus ssp.",
+    "english_name": "Cherry Blossom",
+    "alias": [
+      "野生樱花",
+      "地樱花"
+    ],
+    "family": "蔷薇科",
+    "genus": "樱属",
+    "description": "樱花属于蔷薇科樱属，是一种乔木植物。具有艳丽的花色，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "樱花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "樱花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/149/912/792"
+  },
+  {
+    "chinese_name": "含笑",
+    "scientific_name": "Michelia figo",
+    "english_name": "Banana Shrub",
+    "alias": [
+      "野生含笑",
+      "地含笑"
+    ],
+    "family": "木兰科",
+    "genus": "含笑属",
+    "description": "含笑属于木兰科含笑属，是一种灌木植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "含笑栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "含笑株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/77/912/792"
+  },
+  {
+    "chinese_name": "梨树",
+    "scientific_name": "Pyrus bretschneideri",
+    "english_name": "Pear Tree",
+    "alias": [
+      "野生梨树",
+      "地梨树"
+    ],
+    "family": "蔷薇科",
+    "genus": "梨属",
+    "description": "梨树属于蔷薇科梨属，是一种乔木植物。具有清新的芳香，在环境美化中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "梨树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "梨树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/403/912/792"
+  },
+  {
+    "chinese_name": "金钱蒲",
+    "scientific_name": "Acorus gramineus",
+    "english_name": "Grass-leaf Sweet Flag",
+    "alias": [
+      "野生金钱蒲",
+      "地金钱蒲"
+    ],
+    "family": "菖蒲科",
+    "genus": "菖蒲属",
+    "description": "金钱蒲属于菖蒲科菖蒲属，是一种草本植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "金钱蒲栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "金钱蒲株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/332/912/792"
+  },
+  {
+    "chinese_name": "石斛兰",
+    "scientific_name": "Dendrobium nobile",
+    "english_name": "Dendrobium Orchid",
+    "alias": [
+      "野生石斛兰",
+      "地石斛兰"
+    ],
+    "family": "兰科",
+    "genus": "石斛属",
+    "description": "石斛兰属于兰科石斛属，是一种附生兰花植物。具有优美的冠形，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "石斛兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "石斛兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜高湿度、通风良好的半阴环境，多附生在树干上。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/26/912/792"
+  },
+  {
+    "chinese_name": "落地生根",
+    "scientific_name": "Kalanchoe pinnata",
+    "english_name": "Air Plant",
+    "alias": [
+      "野生落地生根",
+      "地落地生根"
+    ],
+    "family": "景天科",
+    "genus": "伽蓝菜属",
+    "description": "落地生根属于景天科伽蓝菜属，是一种多肉植物。具有清新的芳香，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "落地生根栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "落地生根株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/356/912/792"
+  },
+  {
+    "chinese_name": "火炬树",
+    "scientific_name": "Rhus typhina",
+    "english_name": "Staghorn Sumac",
+    "alias": [
+      "野生火炬树",
+      "地火炬树"
+    ],
+    "family": "漆树科",
+    "genus": "盐肤木属",
+    "description": "火炬树属于漆树科盐肤木属，是一种灌木植物。具有清新的芳香，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "火炬树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "火炬树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/487/912/792"
+  },
+  {
+    "chinese_name": "露薇花",
+    "scientific_name": "Lewisia cotyledon",
+    "english_name": "Lewisia",
+    "alias": [
+      "野生露薇花",
+      "地露薇花"
+    ],
+    "family": "水源草科",
+    "genus": "露薇花属",
+    "description": "露薇花属于水源草科露薇花属，是一种多肉植物。具有艳丽的花色，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "露薇花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "露薇花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/247/912/792"
+  },
+  {
+    "chinese_name": "山地玫瑰",
+    "scientific_name": "Aeonium aureum",
+    "english_name": "Greenovia",
+    "alias": [
+      "野生山地玫瑰",
+      "地山地玫瑰"
+    ],
+    "family": "景天科",
+    "genus": "莲花掌属",
+    "description": "山地玫瑰属于景天科莲花掌属，是一种多肉植物。具有独特的纹理，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "山地玫瑰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "山地玫瑰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/144/912/792"
+  },
+  {
+    "chinese_name": "量天尺",
+    "scientific_name": "Hylocereus undatus",
+    "english_name": "Dragon Fruit Cactus",
+    "alias": [
+      "野生量天尺",
+      "地量天尺"
+    ],
+    "family": "仙人掌科",
+    "genus": "量天尺属",
+    "description": "量天尺属于仙人掌科量天尺属，是一种多肉植物。具有清新的芳香，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "量天尺栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "量天尺株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/450/912/792"
+  },
+  {
+    "chinese_name": "石竹",
+    "scientific_name": "Dianthus chinensis",
+    "english_name": "China Pink",
+    "alias": [
+      "野生石竹",
+      "地石竹"
+    ],
+    "family": "石竹科",
+    "genus": "石竹属",
+    "description": "石竹属于石竹科石竹属，是一种草本植物。具有艳丽的花色，在科普研究中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "石竹栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "石竹株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/102/912/792"
+  },
+  {
+    "chinese_name": "枇杷",
+    "scientific_name": "Eriobotrya japonica",
+    "english_name": "Loquat",
+    "alias": [
+      "野生枇杷",
+      "地枇杷"
+    ],
+    "family": "蔷薇科",
+    "genus": "枇杷属",
+    "description": "枇杷属于蔷薇科枇杷属，是一种乔木植物。具有清新的芳香，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "枇杷栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "枇杷株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/31/912/792"
+  },
+  {
+    "chinese_name": "苹果树",
+    "scientific_name": "Malus domestica",
+    "english_name": "Apple Tree",
+    "alias": [
+      "野生苹果树",
+      "地苹果树"
+    ],
+    "family": "蔷薇科",
+    "genus": "苹果属",
+    "description": "苹果树属于蔷薇科苹果属，是一种乔木植物。具有艳丽的花色，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "苹果树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "苹果树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/296/912/792"
+  },
+  {
+    "chinese_name": "悬铃木",
+    "scientific_name": "Platanus acerifolia",
+    "english_name": "London Plane",
+    "alias": [
+      "野生悬铃木",
+      "地悬铃木"
+    ],
+    "family": "悬铃木科",
+    "genus": "悬铃木属",
+    "description": "悬铃木属于悬铃木科悬铃木属，是一种乔木植物。具有清新的芳香，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "悬铃木栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "悬铃木株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/124/912/792"
+  },
+  {
+    "chinese_name": "长寿花",
+    "scientific_name": "Kalanchoe blossfeldiana",
+    "english_name": "Christmas Kalanchoe",
+    "alias": [
+      "野生长寿花",
+      "地长寿花"
+    ],
+    "family": "景天科",
+    "genus": "伽蓝菜属",
+    "description": "长寿花属于景天科伽蓝菜属，是一种多肉植物。具有清新的芳香，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "长寿花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "长寿花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/355/912/792"
+  },
+  {
+    "chinese_name": "荔枝",
+    "scientific_name": "Litchi chinensis",
+    "english_name": "Lychee",
+    "alias": [
+      "野生荔枝",
+      "地荔枝"
+    ],
+    "family": "无患子科",
+    "genus": "荔枝属",
+    "description": "荔枝属于无患子科荔枝属，是一种乔木植物。具有清新的芳香，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "荔枝栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "荔枝株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/301/912/792"
+  },
+  {
+    "chinese_name": "一叶兰",
+    "scientific_name": "Aspidistra elatior",
+    "english_name": "Cast Iron Plant",
+    "alias": [
+      "野生一叶兰",
+      "地一叶兰"
+    ],
+    "family": "天门冬科",
+    "genus": "蜘蛛抱蛋属",
+    "description": "一叶兰属于天门冬科蜘蛛抱蛋属，是一种草本植物。具有独特的纹理，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "一叶兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "一叶兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/124/912/792"
+  },
+  {
+    "chinese_name": "文竹",
+    "scientific_name": "Asparagus setaceus",
+    "english_name": "Asparagus Fern",
+    "alias": [
+      "野生文竹",
+      "地文竹"
+    ],
+    "family": "天门冬科",
+    "genus": "天门冬属",
+    "description": "文竹属于天门冬科天门冬属，是一种草本植物。具有艳丽的花色，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "文竹栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "文竹株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/160/912/792"
+  },
+  {
+    "chinese_name": "栀子花",
+    "scientific_name": "Gardenia jasminoides",
+    "english_name": "Gardenia",
+    "alias": [
+      "野生栀子花",
+      "地栀子花"
+    ],
+    "family": "茜草科",
+    "genus": "栀子属",
+    "description": "栀子花属于茜草科栀子属，是一种灌木植物。具有优美的冠形，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "栀子花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "栀子花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-8月",
+    "image_url": "https://picsum.photos/id/469/912/792"
+  },
+  {
+    "chinese_name": "蜀葵",
+    "scientific_name": "Althaea rosea",
+    "english_name": "Hollyhock",
+    "alias": [
+      "野生蜀葵",
+      "地蜀葵"
+    ],
+    "family": "锦葵科",
+    "genus": "蜀葵属",
+    "description": "蜀葵属于锦葵科蜀葵属，是一种草本植物。具有独特的纹理，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "蜀葵栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "蜀葵株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-8月",
+    "image_url": "https://picsum.photos/id/250/912/792"
+  },
+  {
+    "chinese_name": "金琥",
+    "scientific_name": "Echinocactus grusonii",
+    "english_name": "Golden Barrel Cactus",
+    "alias": [
+      "野生金琥",
+      "地金琥"
+    ],
+    "family": "仙人掌科",
+    "genus": "金琥属",
+    "description": "金琥属于仙人掌科金琥属，是一种多肉植物。具有独特的纹理，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "金琥栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "金琥株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/125/912/792"
+  },
+  {
+    "chinese_name": "藏红花",
+    "scientific_name": "Crocus sativus",
+    "english_name": "Saffron",
+    "alias": [
+      "野生藏红花",
+      "地藏红花"
+    ],
+    "family": "鸢尾科",
+    "genus": "番红花属",
+    "description": "藏红花属于鸢尾科番红花属，是一种草本植物。具有清新的芳香，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "藏红花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "藏红花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/386/912/792"
+  },
+  {
+    "chinese_name": "天竺葵",
+    "scientific_name": "Pelargonium hortorum",
+    "english_name": "Geranium",
+    "alias": [
+      "野生天竺葵",
+      "地天竺葵"
+    ],
+    "family": "牻牛儿苗科",
+    "genus": "天竺葵属",
+    "description": "天竺葵属于牻牛儿苗科天竺葵属，是一种草本植物。具有优美的冠形，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "天竺葵栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "天竺葵株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/423/912/792"
+  },
+  {
+    "chinese_name": "太阳花",
+    "scientific_name": "Portulaca grandiflora",
+    "english_name": "Moss Rose",
+    "alias": [
+      "野生太阳花",
+      "地太阳花"
+    ],
+    "family": "马齿苋科",
+    "genus": "马齿苋属",
+    "description": "太阳花属于马齿苋科马齿苋属，是一种草本植物。具有独特的纹理，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "太阳花栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "太阳花株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/141/912/792"
+  },
+  {
+    "chinese_name": "文心兰",
+    "scientific_name": "Oncidium ssp.",
+    "english_name": "Dancing Lady Orchid",
+    "alias": [
+      "野生文心兰",
+      "地文心兰"
+    ],
+    "family": "兰科",
+    "genus": "文心兰属",
+    "description": "文心兰属于兰科文心兰属，是一种附生兰花植物。具有独特的纹理，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "文心兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "文心兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜高湿度、通风良好的半阴环境，多附生在树干上。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/74/912/792"
+  },
+  {
+    "chinese_name": "雪松",
+    "scientific_name": "Cedrus deodara",
+    "english_name": "Himalayan Cedar",
+    "alias": [
+      "野生雪松",
+      "地雪松"
+    ],
+    "family": "松科",
+    "genus": "雪松属",
+    "description": "雪松属于松科雪松属，是一种乔木植物。具有清新的芳香，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "雪松栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "雪松株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/136/912/792"
+  },
+  {
+    "chinese_name": "金鱼草",
+    "scientific_name": "Antirrhinum majus",
+    "english_name": "Snapdragon",
+    "alias": [
+      "野生金鱼草",
+      "地金鱼草"
+    ],
+    "family": "车前科",
+    "genus": "金鱼草属",
+    "description": "金鱼草属于车前科金鱼草属，是一种草本植物。具有清新的芳香，在观赏与生态中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "金鱼草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "金鱼草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/298/912/792"
+  },
+  {
+    "chinese_name": "滴水观音",
+    "scientific_name": "Alocasia macrorrhizos",
+    "english_name": "Giant Taro",
+    "alias": [
+      "野生滴水观音",
+      "地滴水观音"
+    ],
+    "family": "天南星科",
+    "genus": "海芋属",
+    "description": "滴水观音属于天南星科海芋属，是一种草本植物。具有清新的芳香，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "滴水观音栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "滴水观音株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/259/912/792"
+  },
+  {
+    "chinese_name": "四季海棠",
+    "scientific_name": "Begonia semperflorens",
+    "english_name": "Wax Begonia",
+    "alias": [
+      "野生四季海棠",
+      "地四季海棠"
+    ],
+    "family": "海棠科",
+    "genus": "秋海棠属",
+    "description": "四季海棠属于海棠科秋海棠属，是一种草本植物。具有独特的纹理，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "四季海棠栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "四季海棠株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/475/912/792"
+  },
+  {
+    "chinese_name": "腊梅",
+    "scientific_name": "Chimonanthus praecox",
+    "english_name": "Wintersweet",
+    "alias": [
+      "野生腊梅",
+      "地腊梅"
+    ],
+    "family": "蜡梅科",
+    "genus": "蜡梅属",
+    "description": "腊梅属于蜡梅科蜡梅属，是一种灌木植物。具有优美的冠形，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "腊梅栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "腊梅株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/398/912/792"
+  },
+  {
+    "chinese_name": "无花果",
+    "scientific_name": "Ficus carica",
+    "english_name": "Fig Tree",
+    "alias": [
+      "野生无花果",
+      "地无花果"
+    ],
+    "family": "桑科",
+    "genus": "榕属",
+    "description": "无花果属于桑科榕属，是一种灌木植物。具有清新的芳香，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "无花果栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "无花果株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/309/912/792"
+  },
+  {
+    "chinese_name": "含羞草",
+    "scientific_name": "Mimosa pudica",
+    "english_name": "Sensitive Plant",
+    "alias": [
+      "野生含羞草",
+      "地含羞草"
+    ],
+    "family": "豆科",
+    "genus": "含羞草属",
+    "description": "含羞草属于豆科含羞草属，是一种草本植物。具有清新的芳香，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "含羞草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "含羞草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/65/912/792"
+  },
+  {
+    "chinese_name": "红豆杉",
+    "scientific_name": "Taxus wallichiana",
+    "english_name": "Chinese Yew",
+    "alias": [
+      "野生红豆杉",
+      "地红豆杉"
+    ],
+    "family": "红豆杉科",
+    "genus": "红豆杉属",
+    "description": "红豆杉属于红豆杉科红豆杉属，是一种乔木植物。具有艳丽的花色，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "红豆杉栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "红豆杉株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/494/912/792"
+  },
+  {
+    "chinese_name": "椰子",
+    "scientific_name": "Cocos nucifera",
+    "english_name": "Coconut",
+    "alias": [
+      "野生椰子",
+      "地椰子"
+    ],
+    "family": "棕榈科",
+    "genus": "椰子属",
+    "description": "椰子属于棕榈科椰子属，是一种乔木植物。具有艳丽的花色，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "椰子栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "椰子株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/498/912/792"
+  },
+  {
+    "chinese_name": "网纹草",
+    "scientific_name": "Fittonia albivenis",
+    "english_name": "Nerve Plant",
+    "alias": [
+      "野生网纹草",
+      "地网纹草"
+    ],
+    "family": "爵床科",
+    "genus": "网纹草属",
+    "description": "网纹草属于爵床科网纹草属，是一种草本植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "网纹草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "网纹草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/289/912/792"
+  },
+  {
+    "chinese_name": "特玉莲",
+    "scientific_name": "Echeveria runyonii 'Topsy Turvy'",
+    "english_name": "Echeveria",
+    "alias": [
+      "野生特玉莲",
+      "地特玉莲"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "特玉莲属于景天科拟石莲花属，是一种多肉植物。具有独特的纹理，在环境美化中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "特玉莲栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "特玉莲株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/416/912/792"
+  },
+  {
+    "chinese_name": "子持莲华",
+    "scientific_name": "Orostachys iwarenge",
+    "english_name": "Orostachys",
+    "alias": [
+      "野生子持莲华",
+      "地子持莲华"
+    ],
+    "family": "景天科",
+    "genus": "瓦松属",
+    "description": "子持莲华属于景天科瓦松属，是一种多肉植物。具有独特的纹理，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "子持莲华栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "子持莲华株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/376/912/792"
+  },
+  {
+    "chinese_name": "薄雪万年草",
+    "scientific_name": "Sedum hispanicum",
+    "english_name": "Spanish Stonecrop",
+    "alias": [
+      "野生薄雪万年草",
+      "地薄雪万年草"
+    ],
+    "family": "景天科",
+    "genus": "景天属",
+    "description": "薄雪万年草属于景天科景天属，是一种多肉植物。具有独特的纹理，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "薄雪万年草栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "薄雪万年草株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/4/912/792"
+  },
+  {
+    "chinese_name": "散尾葵",
+    "scientific_name": "Dypsis lutescens",
+    "english_name": "Areca Palm",
+    "alias": [
+      "野生散尾葵",
+      "地散尾葵"
+    ],
+    "family": "棕榈科",
+    "genus": "散尾葵属",
+    "description": "散尾葵属于棕榈科散尾葵属，是一种乔木植物。具有艳丽的花色，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "散尾葵栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "散尾葵株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/429/912/792"
+  },
+  {
+    "chinese_name": "鹅掌柴",
+    "scientific_name": "Heptapleurum arboricola",
+    "english_name": "Dwarf Umbrella Tree",
+    "alias": [
+      "野生鹅掌柴",
+      "地鹅掌柴"
+    ],
+    "family": "五加科",
+    "genus": "鹅掌柴属",
+    "description": "鹅掌柴属于五加科鹅掌柴属，是一种灌木植物。具有优美的冠形，在观赏与生态中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "鹅掌柴栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "鹅掌柴株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/39/912/792"
+  },
+  {
+    "chinese_name": "蝴蝶兰",
+    "scientific_name": "Phalaenopsis aphrodite",
+    "english_name": "Moth Orchid",
+    "alias": [
+      "野生蝴蝶兰",
+      "地蝴蝶兰"
+    ],
+    "family": "兰科",
+    "genus": "蝴蝶兰属",
+    "description": "蝴蝶兰属于兰科蝴蝶兰属，是一种附生兰花植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "蝴蝶兰栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "蝴蝶兰株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜高湿度、通风良好的半阴环境，多附生在树干上。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/458/912/792"
+  },
+  {
+    "chinese_name": "白檀",
+    "scientific_name": "Echinopsis chamaecereus",
+    "english_name": "Peanut Cactus",
+    "alias": [
+      "野生白檀",
+      "地白檀"
+    ],
+    "family": "仙人掌科",
+    "genus": "仙人球属",
+    "description": "白檀属于仙人掌科仙人球属，是一种多肉植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "白檀栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "白檀株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/292/912/792"
+  },
+  {
+    "chinese_name": "桃树",
+    "scientific_name": "Prunus persica",
+    "english_name": "Peach Tree",
+    "alias": [
+      "野生桃树",
+      "地桃树"
+    ],
+    "family": "蔷薇科",
+    "genus": "桃属",
+    "description": "桃树属于蔷薇科桃属，是一种乔木植物。具有独特的纹理，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "桃树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "桃树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/299/912/792"
+  },
+  {
+    "chinese_name": "垂柳",
+    "scientific_name": "Salix babylonica",
+    "english_name": "Weeping Willow",
+    "alias": [
+      "野生垂柳",
+      "地垂柳"
+    ],
+    "family": "杨柳科",
+    "genus": "柳属",
+    "description": "垂柳属于杨柳科柳属，是一种乔木植物。具有优美的冠形，在科普研究中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "垂柳栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "垂柳株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/96/912/792"
+  },
+  {
+    "chinese_name": "合欢",
+    "scientific_name": "Albizia julibrissin",
+    "english_name": "Silk Tree",
+    "alias": [
+      "野生合欢",
+      "地合欢"
+    ],
+    "family": "豆科",
+    "genus": "合欢属",
+    "description": "合欢属于豆科合欢属，是一种乔木植物。具有优美的冠形，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "合欢栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "合欢株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/255/912/792"
+  },
+  {
+    "chinese_name": "扶桑",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "english_name": "Hibiscus",
+    "alias": [
+      "野生扶桑",
+      "地扶桑"
+    ],
+    "family": "锦葵科",
+    "genus": "木槿属",
+    "description": "扶桑属于锦葵科木槿属，是一种灌木植物。具有优美的冠形，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "扶桑栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "扶桑株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "适应性广，在疏松肥沃的土壤中生长良好，常见于路边或林缘。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/60/912/792"
+  },
+  {
+    "chinese_name": "仙人珠",
+    "scientific_name": "Rhipsalis baccifera",
+    "english_name": "Mistletoe Cactus",
+    "alias": [
+      "野生仙人珠",
+      "地仙人珠"
+    ],
+    "family": "仙人掌科",
+    "genus": "丝苇属",
+    "description": "仙人珠属于仙人掌科丝苇属，是一种多肉植物。具有清新的芳香，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "仙人珠栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "仙人珠株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-6月",
+    "image_url": "https://picsum.photos/id/283/912/792"
+  },
+  {
+    "chinese_name": "金钱树",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "english_name": "ZZ Plant",
+    "alias": [
+      "野生金钱树",
+      "地金钱树"
+    ],
+    "family": "天南星科",
+    "genus": "雪铁芋属",
+    "description": "金钱树属于天南星科雪铁芋属，是一种草本植物。具有清新的芳香，在药用与科研中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "金钱树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "金钱树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/139/912/792"
+  },
+  {
+    "chinese_name": "构树",
+    "scientific_name": "Broussonetia papyrifera",
+    "english_name": "Paper Mulberry",
+    "alias": [
+      "野生构树",
+      "地构树"
+    ],
+    "family": "桑科",
+    "genus": "构属",
+    "description": "构树属于桑科构属，是一种乔木植物。具有艳丽的花色，在药用与科研中具有极高的价值。其迷人的视觉效果表现使其备受喜爱。",
+    "history": "构树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "构树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-8月",
+    "image_url": "https://picsum.photos/id/188/912/792"
+  },
+  {
+    "chinese_name": "虹之玉",
+    "scientific_name": "Sedum rubrotinctum",
+    "english_name": "Jelly Bean Plant",
+    "alias": [
+      "野生虹之玉",
+      "地虹之玉"
+    ],
+    "family": "景天科",
+    "genus": "景天属",
+    "description": "虹之玉属于景天科景天属，是一种多肉植物。具有清新的芳香，在药用与科研中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "虹之玉栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "虹之玉株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-6月",
+    "image_url": "https://picsum.photos/id/214/912/792"
+  },
+  {
+    "chinese_name": "吸财树",
+    "scientific_name": "Crassula ovata 'Gollum'",
+    "english_name": "Gollum Jade",
+    "alias": [
+      "野生吸财树",
+      "地吸财树"
+    ],
+    "family": "景天科",
+    "genus": "青锁龙属",
+    "description": "吸财树属于景天科青锁龙属，是一种多肉植物。具有优美的冠形，在观赏与生态中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "吸财树栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "吸财树株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-6月",
+    "image_url": "https://picsum.photos/id/103/912/792"
+  },
+  {
+    "chinese_name": "女贞",
+    "scientific_name": "Ligustrum lucidum",
+    "english_name": "Glossy Privet",
+    "alias": [
+      "野生女贞",
+      "地女贞"
+    ],
+    "family": "木犀科",
+    "genus": "女贞属",
+    "description": "女贞属于木犀科女贞属，是一种乔木植物。具有优美的冠形，在科普研究中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "女贞栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "女贞株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜阳光充足的环境，耐旱性强，多生长在山坡或旷野。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "4-7月",
+    "image_url": "https://picsum.photos/id/490/912/792"
+  },
+  {
+    "chinese_name": "马蔺",
+    "scientific_name": "Iris lactea",
+    "english_name": "Chinese Iris",
+    "alias": [
+      "野生马蔺",
+      "地马蔺"
+    ],
+    "family": "鸢尾科",
+    "genus": "鸢尾属",
+    "description": "马蔺属于鸢尾科鸢尾属，是一种草本植物。具有独特的纹理，在环境美化中具有极高的价值。其卓越的适应力表现使其备受喜爱。",
+    "history": "马蔺栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "马蔺株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "喜温暖湿润气候，多见于草丛、溪边或家庭盆栽。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "3-7月",
+    "image_url": "https://picsum.photos/id/268/912/792"
+  },
+  {
+    "chinese_name": "静夜",
+    "scientific_name": "Echeveria derenbergii",
+    "english_name": "Painted Lady",
+    "alias": [
+      "野生静夜",
+      "地静夜"
+    ],
+    "family": "景天科",
+    "genus": "拟石莲花属",
+    "description": "静夜属于景天科拟石莲花属，是一种多肉植物。具有独特的纹理，在环境美化中具有极高的价值。其稳定的抗逆性表现使其备受喜爱。",
+    "history": "静夜栽培历史悠久，在多部自然典籍中均有记载。",
+    "morphology": "静夜株态优美，叶色丰富，花果期具有显著的观赏特征。",
+    "habitat": "极度耐旱，忌积水，喜排水良好的沙质土壤。",
+    "distribution": "主产于中国及亚洲部分地区，现全球各地均有广泛引种栽培。",
+    "flowering_period": "5-7月",
+    "image_url": "https://picsum.photos/id/294/912/792"
+  }
+]

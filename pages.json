@@ -43,6 +43,41 @@
 				"navigationStyle": "custom",
 				"navigationBarTitleText": "识别结果"
 			}
+		},
+		{
+			"path": "pages/plant-detail/plant-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "植物详情"
+			}
+		},
+		{
+			"path": "pages/product-detail/product-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/checkin/checkin",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "每日签到"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "订单详情"
+			}
 		}
 	],
 	"globalStyle": {

@@ -84,7 +84,7 @@
 				tempAvatarUrl: '',
 				nickname: '',
 				// 强制使用局域网 IP 以提高连接成功率
-				baseUrl: 'http://192.168.110.204:9000' 
+				baseUrl: 'http://192.168.110.203:9000' 
 			};
 		},
 		computed: {

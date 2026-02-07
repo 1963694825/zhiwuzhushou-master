@@ -21,7 +21,7 @@
 
 				<!-- 快捷入口网格 -->
 				<view class="quick-grid">
-					<view class="grid-item" v-for="(item, index) in quickEntries" :key="index">
+					<view class="grid-item" v-for="(item, index) in quickEntries" :key="index" @tap="handleQuickEntry(item)">
 						<view class="icon-wrap shadow-sm">
 							<uni-icons :type="item.icon" size="24" color="#666"></uni-icons>
 						</view>
@@ -42,13 +42,13 @@
 			<view class="card-section">
 				<view class="card-header">
 					<text class="card-title">我的订单</text>
-					<view class="more-link">
+					<view class="more-link" @tap="goToOrders(-1)">
 						<text>全部订单</text>
 						<uni-icons type="right" size="14" color="#999"></uni-icons>
 					</view>
 				</view>
 				<view class="order-stats">
-					<view class="stat-item" v-for="(item, index) in orderStats" :key="index">
+					<view class="stat-item" v-for="(item, index) in orderStats" :key="index" @tap="goToOrders(item.status)">
 						<view class="icon-pos">
 							<uni-icons :type="item.icon" size="28" :color="item.color"></uni-icons>
 							<view class="badge" v-if="item.count > 0">{{ item.count }}</view>
@@ -107,15 +107,15 @@
 				quickEntries: [
 					{ label: '常购清单', icon: 'shop' },
 					{ label: '商品收藏', icon: 'heart' },
-					{ label: '常用品种', icon: 'list' }, // 原 Package 图标对应 list
-					{ label: '店铺收藏', icon: 'home' }  // 原 Store 图标对应 home
+					{ label: '店铺收藏', icon: 'star' },
+					{ label: '签到', icon: 'calendar' }
 				],
 				orderStats: [
-					{ label: "待付款", icon: "wallet", count: 0, color: "#f97316" },
-					{ label: "待收货", icon: "cart", count: 0, color: "#3b82f6" },
-					{ label: "待发货", icon: "paperplane", count: 0, color: "#22c55e" },
-					{ label: "待评价", icon: "chat", count: 0, color: "#a855f7" },
-					{ label: "售后", icon: "info", count: 0, color: "#ef4444" }
+					{ label: "待付款", icon: "wallet", count: 0, color: "#f97316", status: 0 },
+					{ label: "待发货", icon: "paperplane", count: 0, color: "#3b82f6", status: 1 },
+					{ label: "待收货", icon: "cart", count: 0, color: "#22c55e", status: 2 },
+					{ label: "待评价", icon: "chat", count: 0, color: "#a855f7", status: 3 },
+					{ label: "售后", icon: "info", count: 0, color: "#ef4444", status: 6 }
 				],
 				serviceTools: [
 					{ label: "我的钱包", icon: "wallet-filled", color: "#3b82f6" },
@@ -149,9 +149,42 @@
 					this.isLogin = false;
 					this.userInfo = {};
 				}
+				
+				// 加载订单统计
+				this.loadOrderStats();
+			},
+			
+			loadOrderStats() {
+				// 导入订单管理器
+				const orderManager = require('@/utils/orderManager.js').default;
+				const stats = orderManager.getOrderStats();
+				this.orderStats[0].count = stats.unpaid;
+				this.orderStats[1].count = stats.paid;
+				this.orderStats[2].count = stats.shipped;
+				this.orderStats[3].count = stats.received;
+				this.orderStats[4].count = stats.refunding;
+			},
+			
+			goToOrders(status) {
+				uni.navigateTo({
+					url: `/pages/orders/orders${status >= 0 ? '?status=' + status : ''}`
+				});
 			},
 			handleContact() {
 				uni.showToast({ title: '连接客服中...', icon: 'none' });
+			},
+			handleQuickEntry(item) {
+				console.log('点击快捷入口:', item.label);
+				if (item.label === '签到') {
+					uni.navigateTo({
+						url: '/pages/checkin/checkin'
+					});
+				} else {
+					uni.showToast({
+						title: `${item.label}功能开发中`,
+						icon: 'none'
+					});
+				}
 			},
 			handleUserClick() {
 				if (!this.isLogin) {

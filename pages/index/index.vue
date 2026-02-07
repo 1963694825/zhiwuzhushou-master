@@ -6,13 +6,10 @@
 		<!-- 页面内容，留出导航栏高度 -->
 		<view class="content" :style="{ paddingTop: navBarHeight + 'px' }">
 			<!-- Logo和标题区域 -->
-			<view class="header-section">
-				<view class="logo-box">
-					<image src="/static/1.png" mode="aspectFit" class="logo-img"></image>
-				</view>
-				<text class="title">植物百科</text>
-				<text class="subtitle">探索大自然的奥秘</text>
-			</view>
+		<view class="header-section">
+			<text class="title">极元·植物百科</text>
+			<text class="subtitle">探索大自然的奥秘</text>
+		</view>
 
 			<!-- 搜索区 (如果导航栏没有搜索，或者作为页面的主要入口) -->
 			<!-- 根据 Figma 源码及通常小程序逻辑，首页中间也有个搜索入口 -->
@@ -103,7 +100,7 @@
 					}
 				],
 				searchKeyword: '',
-				baseUrl: 'http://192.168.110.204:9000'
+				baseUrl: 'http://192.168.110.203:9000'
 			};
 		},
 		onLoad() {
@@ -204,24 +201,6 @@
 			flex-direction: column;
 			align-items: center;
 			padding: 60rpx 0 40rpx;
-
-			.logo-box {
-				width: 320rpx;
-				height: 120rpx;
-				background: transparent;
-				border: 2rpx solid #e5e7eb;
-				border-radius: 16rpx;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				margin-bottom: 30rpx;
-				overflow: hidden;
-
-				.logo-img {
-					width: 90%;
-					height: 90%;
-				}
-			}
 
 			.title {
 				font-size: 42rpx;

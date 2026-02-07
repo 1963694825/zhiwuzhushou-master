@@ -8,6 +8,7 @@ const path = require('path');
 const fs = require('fs');
 const https = require('https');
 const querystring = require('querystring');
+const mysql = require('mysql2/promise');
 require('dotenv').config();
 
 // [FIX] 解决 "Client network socket disconnected" 错误
@@ -17,6 +18,17 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+// 创建 MySQL 连接池
+const pool = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
+    database: 'plant_assistant',
+    charset: 'utf8mb4',
+    waitForConnections: true,
+    connectionLimit: 10
+});
 
 const PORT = process.env.PORT || 3000;
 
@@ -123,6 +135,118 @@ app.post('/api/user/update', async (req, res) => {
 // 全局缓存 Token
 let cachedToken = null;
 let tokenExpireTime = 0;
+
+// 百度翻译函数
+async function translateText(text, from = 'en', to = 'zh') {
+    if (!text) return text;
+
+    const appid = process.env.BAIDU_TRANSLATE_APPID;
+    const key = process.env.BAIDU_TRANSLATE_KEY;
+
+    // 如果未配置翻译 API，直接返回原文
+    if (!appid || !key || appid === '你的翻译APPID') {
+        console.log('未配置翻译 API，返回原文');
+        return text;
+    }
+
+    const salt = Date.now();
+    const crypto = require('crypto');
+    const sign = crypto.createHash('md5').update(appid + text + salt + key).digest('hex');
+
+    const params = querystring.stringify({
+        q: text,
+        from: 'en',
+        to: 'zh',
+        appid: appid,
+        salt: salt,
+        sign: sign
+    });
+
+    return new Promise((resolve, reject) => {
+        const options = {
+            hostname: 'fanyi-api.baidu.com',
+            path: `/api/trans/vip/translate?${params}`,
+            method: 'GET',
+            family: 4
+        };
+
+        const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', (chunk) => data += chunk);
+            res.on('end', () => {
+                try {
+                    const json = JSON.parse(data);
+                    if (json.trans_result && json.trans_result[0]) {
+                        resolve(json.trans_result[0].dst);
+                    } else {
+                        console.error('翻译失败:', json);
+                        resolve(text); // 翻译失败返回原文
+                    }
+                } catch (e) {
+                    console.error('翻译响应解析失败:', e);
+                    resolve(text);
+                }
+            });
+        });
+
+        req.on('error', (e) => {
+            console.error('翻译请求失败:', e);
+            resolve(text); // 出错返回原文
+        });
+
+        req.end();
+    });
+}
+
+// GBIF 物种查询函数：通过中文名查询学名
+async function getScientificNameFromChinese(chineseName) {
+    if (!chineseName) return null;
+
+    console.log(`正在通过 GBIF 查询: ${chineseName}`);
+
+    return new Promise((resolve, reject) => {
+        const options = {
+            hostname: 'api.gbif.org',
+            path: `/v1/species/search?q=${encodeURIComponent(chineseName)}&language=zh&limit=1`,
+            method: 'GET',
+            family: 4
+        };
+
+        const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', (chunk) => data += chunk);
+            res.on('end', () => {
+                try {
+                    const json = JSON.parse(data);
+                    if (json.results && json.results.length > 0) {
+                        const scientificName = json.results[0].scientificName;
+                        console.log(`GBIF 查询成功: ${chineseName} -> ${scientificName}`);
+                        resolve(scientificName);
+                    } else {
+                        console.log(`GBIF 未找到: ${chineseName}`);
+                        resolve(null);
+                    }
+                } catch (e) {
+                    console.error('GBIF 响应解析失败:', e);
+                    resolve(null);
+                }
+            });
+        });
+
+        req.on('error', (e) => {
+            console.error('GBIF 请求失败:', e);
+            resolve(null);
+        });
+
+        req.setTimeout(5000, () => {
+            console.log('GBIF 请求超时');
+            req.destroy();
+            resolve(null);
+        });
+
+        req.end();
+    });
+}
 
 // 获取百度 AI Access Token (带缓存)
 async function getBaiduAccessToken() {
@@ -308,89 +432,151 @@ app.post('/api/identify/plant', upload.single('image'), async (req, res) => {
     }
 });
 
-// Trefle 植物搜索接口 (代理转发)
+// 本地数据库植物搜索接口
 app.get('/api/plants/search', async (req, res) => {
-    const query = req.query.q;
-    const token = process.env.TREFLE_API_TOKEN;
+    const { q, page = 1 } = req.query;
+    const limit = 1000;
+    const offset = (page - 1) * limit;
 
-    if (!query) {
+    if (!q) {
         return res.status(400).json({ code: 400, message: '缺少搜索关键词' });
     }
 
-    if (!token || token === '你的TREFLE_TOKEN') {
-        // 如果未配置 Token，返回演示数据
-        console.log('未配置 Trefle Token，返回本地演示搜索结果');
-        const mockResults = [
-            {
-                common_name: "Mock " + query + " (演示)",
-                scientific_name: "Mock Scientific Name",
-                image_url: "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=800&q=80",
-                family: "Mock Family"
-            },
-            {
-                common_name: "Wild " + query,
-                scientific_name: "Wildus Plantae",
-                image_url: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80",
-                family: "Wild Family"
+    console.log(`正在搜索本地数据库: ${q}`);
+
+    try {
+        const searchPattern = `%${q}%`;
+
+        // 1. 先查找匹配关键词的植物，以此获取 family_id
+        const [matchRows] = await pool.execute(
+            `SELECT family_id, family FROM plants 
+             WHERE chinese_name LIKE ? 
+                OR scientific_name LIKE ?
+                OR english_name LIKE ?
+             LIMIT 1`,
+            [searchPattern, searchPattern, searchPattern]
+        );
+
+        let finalRows = [];
+
+        if (matchRows.length > 0) {
+            const familyId = matchRows[0].family_id;
+            const familyName = matchRows[0].family;
+
+            console.log(`初步匹配到植物，所属科: ${familyName} (ID: ${familyId})`);
+
+            if (familyId) {
+                const [allInFamily] = await pool.execute(
+                    `SELECT * FROM plants WHERE family_id = ?`,
+                    [familyId]
+                );
+                finalRows = allInFamily;
+            } else {
+                // 如果没有 family_id（兼容性考虑），则仅返回关键词搜索结果
+                const [basicRows] = await pool.execute(
+                    `SELECT * FROM plants 
+                     WHERE chinese_name LIKE ? 
+                        OR scientific_name LIKE ?
+                        OR english_name LIKE ?
+                     LIMIT 100`,
+                    [searchPattern, searchPattern, searchPattern]
+                );
+                finalRows = basicRows;
             }
-        ];
-        return res.json({
+        } else {
+            console.log("未匹配到任何植物名称");
+        }
+
+        // 3. 结果排序逻辑
+        // 优先级：完全匹配 > 包含匹配 > 同科其他
+        finalRows.sort((a, b) => {
+            const aName = a.chinese_name || "";
+            const bName = b.chinese_name || "";
+
+            // 完全匹配排最前
+            if (aName === q && bName !== q) return -1;
+            if (bName === q && aName !== q) return 1;
+
+            // 包含匹配排次之
+            const aMatch = aName.includes(q);
+            const bMatch = bName.includes(q);
+            if (aMatch && !bMatch) return -1;
+            if (bMatch && !aMatch) return 1;
+
+            return 0;
+        });
+
+        // 4. 分页处理 (内存分页)
+        const paginatedRows = finalRows.slice(offset, offset + limit);
+
+        console.log(`本地数据库搜索成功，最终返回 ${paginatedRows.length} 条记录`);
+
+        const plants = paginatedRows.map(plant => ({
+            id: plant.id,
+            common_name: plant.chinese_name,
+            common_name_zh: plant.chinese_name,
+            scientific_name: plant.scientific_name,
+            family: plant.family,
+            image_url: plant.image_url,
+            slug: plant.id,
+            description: plant.description
+        }));
+
+        res.json({
             code: 200,
-            message: '演示数据(主要Token未配置)',
-            data: mockResults
+            data: plants,
+            total: finalRows.length
         });
+
+    } catch (error) {
+        console.error('数据库搜索错误:', error);
+        res.status(500).json({ code: 500, message: error.message });
     }
+});
 
-    const logMsg = `\n[${new Date().toISOString()}] Search: ${query}, Token: ${token ? token.substring(0, 4) : 'Null'}\n`;
-    fs.appendFileSync('debug.log', logMsg);
+// 本地数据库植物详情接口
+app.get('/api/plants/detail/:slug', async (req, res) => {
+    const { slug } = req.params;
 
-    console.log(`正在搜索 Trefle: ${query}`);
-    console.log(`Token Prefix: ${token ? token.substring(0, 4) + '****' : 'None'}`);
+    console.log(`正在获取本地数据库详情: ${slug}`);
 
-    const options = {
-        hostname: 'trefle.io',
-        path: `/api/v1/plants/search?token=${token}&q=${encodeURIComponent(query)}`,
-        method: 'GET',
-        family: 4
-    };
+    try {
+        const [rows] = await pool.execute(
+            'SELECT * FROM plants WHERE id = ?',
+            [slug]
+        );
 
-    const externalReq = https.request(options, (externalRes) => {
-        let data = '';
-        externalRes.on('data', (chunk) => data += chunk);
-        externalRes.on('end', () => {
-            console.log(`Trefle Status: ${externalRes.statusCode}`);
-            try {
-                const json = JSON.parse(data);
+        if (rows.length === 0) {
+            return res.status(404).json({ code: 404, message: '未找到植物' });
+        }
 
-                // [DEBUG] 如果状态码不对或有 error 字段，打印详细日志
-                if (externalRes.statusCode !== 200 || json.error) {
-                    console.error('Trefle API Error Response:', data);
-                    return res.status(externalRes.statusCode).json({
-                        code: externalRes.statusCode,
-                        message: json.message || 'Trefle API Error',
-                        error: json
-                    });
-                }
-
-                console.log(`Trefle 搜索成功，找到 ${json.data ? json.data.length : 0} 条结果`);
-                res.json({
-                    code: 200,
-                    data: json.data || []
-                });
-            } catch (e) {
-                console.error('Trefle 响应解析失败:', e);
-                console.error('原始响应数据:', data);
-                res.status(500).json({ code: 500, message: '第三方数据异常' });
+        const plant = rows[0];
+        res.json({
+            code: 200,
+            data: {
+                id: plant.id,
+                common_name: plant.chinese_name,
+                common_name_zh: plant.chinese_name,
+                scientific_name: plant.scientific_name,
+                english_name: plant.english_name,
+                alias: plant.alias,
+                family: plant.family,
+                genus: plant.genus,
+                description: plant.description,
+                history: plant.history,
+                morphology: plant.morphology,
+                habitat: plant.habitat,
+                distribution: plant.distribution,
+                observations_zh: plant.description,
+                flowering_period: plant.flowering_period,
+                image_url: plant.image_url
             }
         });
-    });
 
-    externalReq.on('error', (e) => {
-        console.error('Trefle 请求失败:', e);
-        res.status(500).json({ code: 500, message: '搜索服务暂时不可用' });
-    });
-
-    externalReq.end();
+    } catch (error) {
+        console.error('数据库详情错误:', error);
+        res.status(500).json({ code: 500, message: error.message });
+    }
 });
 
 // 启动服务，显式绑定 0.0.0.0 以确保 IPv4 兼容性

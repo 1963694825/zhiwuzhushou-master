@@ -1,81 +1,303 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>植物助手 API 测试台</title>
+    <title>Perenual API 测试页面</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f5f5f7; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        h1 { margin-top: 0; color: #1d1d1f; }
-        .input-group { margin-bottom: 15px; }
-        label { display: block; margin-bottom: 5px; font-weight: 500; color: #86868b; }
-        input { width: 100%; padding: 10px; border: 1px solid #d2d2d7; border-radius: 8px; font-size: 16px; box-sizing: border-box; }
-        button { background-color: #0071e3; color: white; border: none; padding: 10px 20px; border-radius: 8px; font-size: 16px; cursor: pointer; transition: background 0.2s; }
-        button:hover { background-color: #0077ed; }
-        button:disabled { background-color: #a1a1a6; cursor: not-allowed; }
-        #log { background: #1d1d1f; color: #39ff14; padding: 15px; border-radius: 8px; font-family: 'Menlo', 'Consolas', monospace; white-space: pre-wrap; word-break: break-all; min-height: 200px; max-height: 500px; overflow-y: auto; font-size: 13px; }
-        .status-ok { color: #28cd41; font-weight: bold; }
-        .status-err { color: #ff3b30; font-weight: bold; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            font-size: 16px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #22c55e;
+        }
+
+        .search-box button {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            transform: translateY(-2px);
+        }
+
+        .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .plant-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .plant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: #22c55e;
+        }
+
+        .plant-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f3f4f6;
+        }
+
+        .plant-card .info {
+            padding: 20px;
+        }
+
+        .plant-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #1f2937;
+        }
+
+        .plant-card .latin {
+            font-size: 14px;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+
+        .plant-card .meta {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .plant-card .tag {
+            padding: 4px 12px;
+            background: #f3f4f6;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #4b5563;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6b7280;
+            font-size: 18px;
+        }
+
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stats {
+            background: #f9fafb;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stats .count {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1f2937;
+        }
     </style>
 </head>
-<body>
-    <h1>🌿 植物助手 API 测试台</h1>
-    
-    <div class="card">
-        <div class="input-group">
-            <label>后端接口地址 (Server URL)</label>
-            <input type="text" id="serverUrl" value="http://localhost:9000/api/plants/search" placeholder="例如 http://localhost:9000/api/plants/search">
-        </div>
-        <div class="input-group">
-            <label>搜索关键词 (Query)</label>
-            <input type="text" id="query" value="rose" placeholder="输入植物英文名，如 bamboo">
-        </div>
-        <button onclick="testApi()" id="btn">🚀 发起测试</button>
-    </div>
 
-    <div class="card">
-        <label>调试日志 (Response Log)</label>
-        <div id="log">等待测试...</div>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌿 Perenual API 测试页面</h1>
+            <p>测试植物搜索功能 - 支持中英文搜索</p>
+        </div>
+
+        <div class="content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="输入植物名称（中文或英文），例如：玫瑰、rose、竹子..." value="rose" />
+                <button onclick="searchPlants()">🔍 搜索</button>
+            </div>
+
+            <div id="error"></div>
+            <div id="stats"></div>
+            <div id="loading"></div>
+            <div id="results" class="results"></div>
+        </div>
     </div>
 
     <script>
-        async function testApi() {
-            const btn = document.getElementById('btn');
-            const log = document.getElementById('log');
-            const serverUrl = document.getElementById('serverUrl').value;
-            const query = document.getElementById('query').value;
+        // 回车搜索
+        document.getElementById('searchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                searchPlants();
+            }
+        });
 
-            btn.disabled = true;
-            btn.innerText = '⏳ 请求中...';
-            log.innerText = `[${new Date().toLocaleTimeString()}] 准备请求: ${serverUrl}?q=${query} ...\n`;
+        async function searchPlants() {
+            const query = document.getElementById('searchInput').value.trim();
+
+            if (!query) {
+                showError('请输入搜索关键词');
+                return;
+            }
+
+            showLoading();
+            clearError();
+            clearResults();
 
             try {
-                const startTime = Date.now();
-                const res = await fetch(`${serverUrl}?q=${query}`);
-                const duration = Date.now() - startTime;
-                
-                log.innerText += `[${new Date().toLocaleTimeString()}] 状态码: ${res.status} (${res.statusText})\n`;
-                log.innerText += `[INFO] 耗时: ${duration}ms\n\n`;
+                const response = await fetch(`http://localhost:9000/api/plants/search?q=${encodeURIComponent(query)}`);
+                const data = await response.json();
 
-                const data = await res.json();
-                
-                if (res.ok) {
-                    log.innerHTML += `<span class="status-ok">✅ 请求成功!</span>\n`;
-                    log.innerText += `收到数据: ${JSON.stringify(data, null, 2)}`;
+                hideLoading();
+
+                if (data.code === 200 && data.data) {
+                    displayResults(data.data);
+                    showStats(data.data.length);
                 } else {
-                    log.innerHTML += `<span class="status-err">❌ 请求失败 (Server Error)</span>\n`;
-                    log.innerText += `Error详情: ${JSON.stringify(data, null, 2)}`;
+                    showError(data.message || '搜索失败');
                 }
-
-            } catch (err) {
-                log.innerHTML += `<span class="status-err">💔 网络错误 (Network Error)</span>\n`;
-                log.innerText += `\n原因分析:\n1. 后端服务没启动？\n2. 跨域(CORS)没配置？\n3. URL写错了？\n\n完整错误: ${err.message}`;
-            } finally {
-                btn.disabled = false;
-                btn.innerText = '🚀 发起测试';
+            } catch (error) {
+                hideLoading();
+                showError('网络错误: ' + error.message + ' (请确保后端服务已启动)');
+                console.error('搜索错误:', error);
             }
         }
+
+        function displayResults(plants) {
+            const resultsDiv = document.getElementById('results');
+
+            if (plants.length === 0) {
+                resultsDiv.innerHTML = '<div class="loading">未找到相关植物</div>';
+                return;
+            }
+
+            resultsDiv.innerHTML = plants.map(plant => {
+                const scientificName = Array.isArray(plant.scientific_name)
+                    ? plant.scientific_name[0]
+                    : plant.scientific_name;
+
+                return `
+                    <div class="plant-card">
+                        <img src="${plant.image_url || 'https://via.placeholder.com/300x200?text=No+Image'}" 
+                             alt="${plant.common_name || scientificName}"
+                             onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
+                        <div class="info">
+                            <h3>${plant.common_name_zh || plant.common_name || '未知植物'}</h3>
+                            <div class="latin">${scientificName || 'Unknown'}</div>
+                            <div class="meta">
+                                ${plant.id ? `<span class="tag">ID: ${plant.id}</span>` : ''}
+                                ${plant.cycle ? `<span class="tag">🔄 ${plant.cycle}</span>` : ''}
+                                ${plant.watering ? `<span class="tag">💧 ${plant.watering}</span>` : ''}
+                                ${plant.family ? `<span class="tag">🌳 ${plant.family}</span>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showStats(count) {
+            const statsDiv = document.getElementById('stats');
+            statsDiv.innerHTML = `
+                <div class="count">✅ 找到 ${count} 个结果</div>
+                <div style="color: #6b7280;">API: Perenual</div>
+            `;
+        }
+
+        function showLoading() {
+            document.getElementById('loading').innerHTML = '<div class="loading">🔄 搜索中...</div>';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').innerHTML = '';
+        }
+
+        function showError(message) {
+            document.getElementById('error').innerHTML = `<div class="error">❌ ${message}</div>`;
+        }
+
+        function clearError() {
+            document.getElementById('error').innerHTML = '';
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('stats').innerHTML = '';
+        }
+
+        // 页面加载时自动搜索
+        window.onload = function () {
+            searchPlants();
+        };
     </script>
 </body>
+
 </html>
