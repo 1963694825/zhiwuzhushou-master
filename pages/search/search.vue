@@ -50,7 +50,7 @@
 				category: '搜索结果',
 				varieties: [],
 				isLoading: false,
-				baseUrl: 'http://192.168.110.203:9000',
+				baseUrl: 'http://192.168.1.4:9000',
 				currentPage: 1,
 				hasMore: true
 			};

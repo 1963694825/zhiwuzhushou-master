@@ -166,7 +166,7 @@
 				isFilterPanelOpen: false,
 				overlayViewMode: 'primary', // 'primary' or 'secondary'
 				searchKeyword: '',
-				baseUrl: 'http://192.168.110.203:9000'
+				baseUrl: 'http://192.168.1.4:9000'
 			};
 		},
 		computed: {
@@ -433,7 +433,7 @@
 							background-color: #f0fdf4;
 							color: #16a34a;
 							font-weight: 600;
-							border: 1rpx solid #dcfce7;
+							border: 1px solid #dcfce7;
 						}
 					}
 				}

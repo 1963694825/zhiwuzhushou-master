@@ -47,7 +47,7 @@
 				articleId: null,
 				article: {},
 				isLoading: true,
-				baseUrl: 'http://192.168.110.203:9000'
+				baseUrl: 'http://192.168.1.4:9000'
 			};
 		},
 		computed: {

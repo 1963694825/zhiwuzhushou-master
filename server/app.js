@@ -11,25 +11,9 @@ const querystring = require('querystring');
 const mysql = require('mysql2/promise');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 
-// [FIX] 解决 "Client network socket disconnected" 错误
-// 允许 Node.js 接受自签名或代理软件拦截的 HTTPS 证书
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-
-// 创建 MySQL 连接池
-const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'plant_assistant',
-    charset: 'utf8mb4',
-    waitForConnections: true,
-    connectionLimit: 10
-});
 
 const PORT = process.env.PORT || 3000;
 
@@ -137,117 +121,7 @@ app.post('/api/user/update', async (req, res) => {
 let cachedToken = null;
 let tokenExpireTime = 0;
 
-// 百度翻译函数
-async function translateText(text, from = 'en', to = 'zh') {
-    if (!text) return text;
 
-    const appid = process.env.BAIDU_TRANSLATE_APPID;
-    const key = process.env.BAIDU_TRANSLATE_KEY;
-
-    // 如果未配置翻译 API，直接返回原文
-    if (!appid || !key || appid === '你的翻译APPID') {
-        console.log('未配置翻译 API，返回原文');
-        return text;
-    }
-
-    const salt = Date.now();
-    const crypto = require('crypto');
-    const sign = crypto.createHash('md5').update(appid + text + salt + key).digest('hex');
-
-    const params = querystring.stringify({
-        q: text,
-        from: 'en',
-        to: 'zh',
-        appid: appid,
-        salt: salt,
-        sign: sign
-    });
-
-    return new Promise((resolve, reject) => {
-        const options = {
-            hostname: 'fanyi-api.baidu.com',
-            path: `/api/trans/vip/translate?${params}`,
-            method: 'GET',
-            family: 4
-        };
-
-        const req = https.request(options, (res) => {
-            let data = '';
-            res.on('data', (chunk) => data += chunk);
-            res.on('end', () => {
-                try {
-                    const json = JSON.parse(data);
-                    if (json.trans_result && json.trans_result[0]) {
-                        resolve(json.trans_result[0].dst);
-                    } else {
-                        console.error('翻译失败:', json);
-                        resolve(text); // 翻译失败返回原文
-                    }
-                } catch (e) {
-                    console.error('翻译响应解析失败:', e);
-                    resolve(text);
-                }
-            });
-        });
-
-        req.on('error', (e) => {
-            console.error('翻译请求失败:', e);
-            resolve(text); // 出错返回原文
-        });
-
-        req.end();
-    });
-}
-
-// GBIF 物种查询函数：通过中文名查询学名
-async function getScientificNameFromChinese(chineseName) {
-    if (!chineseName) return null;
-
-    console.log(`正在通过 GBIF 查询: ${chineseName}`);
-
-    return new Promise((resolve, reject) => {
-        const options = {
-            hostname: 'api.gbif.org',
-            path: `/v1/species/search?q=${encodeURIComponent(chineseName)}&language=zh&limit=1`,
-            method: 'GET',
-            family: 4
-        };
-
-        const req = https.request(options, (res) => {
-            let data = '';
-            res.on('data', (chunk) => data += chunk);
-            res.on('end', () => {
-                try {
-                    const json = JSON.parse(data);
-                    if (json.results && json.results.length > 0) {
-                        const scientificName = json.results[0].scientificName;
-                        console.log(`GBIF 查询成功: ${chineseName} -> ${scientificName}`);
-                        resolve(scientificName);
-                    } else {
-                        console.log(`GBIF 未找到: ${chineseName}`);
-                        resolve(null);
-                    }
-                } catch (e) {
-                    console.error('GBIF 响应解析失败:', e);
-                    resolve(null);
-                }
-            });
-        });
-
-        req.on('error', (e) => {
-            console.error('GBIF 请求失败:', e);
-            resolve(null);
-        });
-
-        req.setTimeout(5000, () => {
-            console.log('GBIF 请求超时');
-            req.destroy();
-            resolve(null);
-        });
-
-        req.end();
-    });
-}
 
 // 获取百度 AI Access Token (带缓存)
 async function getBaiduAccessToken() {
@@ -449,7 +323,7 @@ app.get('/api/plants/search', async (req, res) => {
         const searchPattern = `%${q}%`;
 
         // 1. 先查找匹配关键词的植物，以此获取 family_id
-        const [matchRows] = await pool.execute(
+        const [matchRows] = await db.query(
             `SELECT family_id, family FROM plants 
              WHERE chinese_name LIKE ? 
                 OR scientific_name LIKE ?
@@ -467,14 +341,14 @@ app.get('/api/plants/search', async (req, res) => {
             console.log(`初步匹配到植物，所属科: ${familyName} (ID: ${familyId})`);
 
             if (familyId) {
-                const [allInFamily] = await pool.execute(
+                const [allInFamily] = await db.query(
                     `SELECT * FROM plants WHERE family_id = ?`,
                     [familyId]
                 );
                 finalRows = allInFamily;
             } else {
                 // 如果没有 family_id（兼容性考虑），则仅返回关键词搜索结果
-                const [basicRows] = await pool.execute(
+                const [basicRows] = await db.query(
                     `SELECT * FROM plants 
                      WHERE chinese_name LIKE ? 
                         OR scientific_name LIKE ?
@@ -596,7 +470,7 @@ app.get('/api/knowledge/primaries', async (req, res) => {
 app.get('/api/knowledge/secondaries/:primary_id', async (req, res) => {
     const { primary_id } = req.params;
     try {
-        const [rows] = await pool.execute(
+        const [rows] = await db.query(
             'SELECT * FROM knowledge_secondary_categories WHERE primary_id = ? ORDER BY sort_order',
             [primary_id]
         );
@@ -633,7 +507,7 @@ app.get('/api/knowledge/species', async (req, res) => {
 
         query += ' ORDER BY sort_order';
 
-        const [rows] = await pool.execute(query, params);
+        const [rows] = await db.query(query, params);
         res.json({ code: 200, data: rows });
     } catch (error) {
         console.error('获取品种列表失败:', error);
@@ -651,7 +525,7 @@ app.get('/api/knowledge/search', async (req, res) => {
 
     try {
         const query = 'SELECT * FROM knowledge_species WHERE name LIKE ? ORDER BY sort_order';
-        const [rows] = await pool.execute(query, [`%${keyword}%`]);
+        const [rows] = await db.query(query, [`%${keyword}%`]);
         res.json({ code: 200, data: rows });
     } catch (error) {
         console.error('搜索品种失败:', error);
@@ -663,7 +537,7 @@ app.get('/api/knowledge/search', async (req, res) => {
 app.get('/api/knowledge/articles/:species_id', async (req, res) => {
     const { species_id } = req.params;
     try {
-        const [rows] = await pool.execute(
+        const [rows] = await db.query(
             `SELECT a.* FROM knowledge_articles a
              JOIN knowledge_article_species_mapping m ON a.id = m.article_id
              WHERE m.species_id = ?
@@ -680,7 +554,7 @@ app.get('/api/knowledge/articles/:species_id', async (req, res) => {
 app.get('/api/knowledge/article/:id', async (req, res) => {
     const { id } = req.params;
     try {
-        const [rows] = await pool.execute(
+        const [rows] = await db.query(
             'SELECT * FROM knowledge_articles WHERE id = ?',
             [id]
         );

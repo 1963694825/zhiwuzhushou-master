@@ -62,7 +62,7 @@
 			<view class="card-section customer-service">
 				<view class="card-title">客服热线 (09:00-18:00)</view>
 				<view class="service-body">
-					<view class="phone-box">
+					<view class="phone-box" @tap="makePhoneCall('15398675476')">
 						<view class="phone-icon">
 							<text>📞</text>
 						</view>
@@ -139,6 +139,17 @@
 			this.navBarHeight = systemInfo.statusBarHeight + 44;
 		},
 		methods: {
+			makePhoneCall(phoneNumber) {
+				uni.makePhoneCall({
+					phoneNumber: phoneNumber,
+					success: () => {
+						console.log('拨打成功');
+					},
+					fail: (err) => {
+						console.error('拨打失败:', err);
+					}
+				});
+			},
 			checkLoginStatus() {
 				const token = uni.getStorageSync('token');
 				const userInfo = uni.getStorageSync('userInfo');
